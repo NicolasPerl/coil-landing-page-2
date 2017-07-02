@@ -26,29 +26,29 @@
 
 
   <body>
-    <!--<div class="row">-->
       <div class="col-lg-12">
-        <div class="loginButtons">
-        <!--Figure out how to make button link up-->
-            <button type="button" id="loginButton" class="btn btn-outline-primary">Login</button>
-            <button type="button" id="signupButton" class="btn btn-outline-primary">Sign in</button>
-        </div>
         <div class="homepage-hero-module">
             <div class="video-container">
+                <div class="loginButtons">
+                    <img src="images/landing-page-logo.png" id="landing-page-logo" alt="coil logo">
+                    <!--Figure out how to make button link up-->
+                    <a href="#" id="loginButton" class="btn btn-default btn-sm"><strong>login</strong></a>
+                    <a href="#" id="signupButton" class="btn btn-default btn-sm"><strong>signup</strong></a>
+                </div>
                 <div class="filter"></div>
                 <video autoplay loop class="fillWidth">
                     <source src="pencil_down/pencil_down.mp4" type="video/mp4" />Your browser does not support the video tag. I suggest you upgrade your browser.
                     <source src="pencil_down/pencil_down.webm" type="video/webm" />Your browser does not support the video tag. I suggest you upgrade your browser.
                 </video>
+                <center><h1 id="headline">Collaborate with your classmates <br>or get tutored by them</h1></center>
+                <center></center><a href="#" id="productButton" class="btn btn-primary btn-lg"><strong>product</strong></a></center>
+
                 <div class="poster hidden">
                     <img src="pencil_down/pencil_down.jpg" alt="">
                 </div>
             </div>
         </div>
       </div>
-    <!--</div>-->
-
-
 
       <!-- jQuery -->
       
