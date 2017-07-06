@@ -1,6 +1,20 @@
 body {
 	font-family: sans-serif;
-	background-color: gray;
+	background-color: white;
+}
+
+.background-image {
+	height: 400pt;
+    background-image: url(/images/hero-bg-lg.png);
+    width: 100%;
+    position: absolute;
+    top:0;
+    z-index: -100;
+}
+
+.navbar-default {
+	background: transparent;
+	border-color: transparent;
 }
 
 #logo {
@@ -10,12 +24,108 @@ body {
 	margin-left: -5pt;
 }
 
-.navbar-default {
-	background: transparent;
-	border-color: transparent;
-}
 
 #proofCoilWorks {
 	margin-top: 12%;
 	background-color: transparent;
+}
+
+
+.row1 {
+	height: 50pt
+}
+
+.row2 {
+	height: 350pt;
+}
+
+#coil-vid-button {
+	width: 175pt;
+	margin-top: 150pt;
+	border-radius: 25pt;
+	background-color: black;
+	border-color: black;
+	color: gray;
+	font-size: 17pt;
+}
+
+.row3 {
+	height: 200pt;
+}
+
+.headline {
+	font-size: 40pt;
+	padding-left: 17%;
+	padding-right: 17%;
+	padding-top: 4%;
+	color: #494949;
+}
+
+.row4 {
+	height: 350pt;
+}
+
+#students-image {
+	width: 200pt;
+	height: 200pt;
+}
+
+#scroll-down {
+	color: gray;
+}
+
+.row5 {
+	height: 400pt;
+	border-top: 1px solid;
+	border-color: gray;
+}
+
+#coil-image {
+	margin-top: 25%;
+}
+
+.coil-headline {
+	padding-top: 15%
+}
+
+.row6 {
+	height: 400pt;
+	border-top: 1px solid;
+	border-color: gray;
+}
+
+#tutoring-image {
+	margin-top: 25%;
+}
+
+.tutoring-headline {
+	padding-top: 15%
+}
+
+.row7 {
+	height: 400pt;
+	border-top: 1px solid;
+	border-color: gray;
+}
+
+#leaderboard-image {
+	margin-top: 25%;
+}
+
+.leaderboard-headline {
+	padding-top: 15%
+}
+
+.row8 {
+	height: 400pt;
+	border-top: 1px solid;
+	border-color: gray;
+}
+
+#chit-chat-image {
+	margin-top: 25%;
+}
+
+.chit-chat-headline {
+	padding-top: 15%
 }

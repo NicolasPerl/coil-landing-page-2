@@ -1,0 +1,53 @@
+.hero {
+  display: flex;
+  align-items: center;
+  width: calc(100% - 40px);
+  padding-left: 20px;
+  padding-right: 20px;
+  //height: calc(100vh - 100px); // fill height of screen, 100px = navbar height
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+
+  color: white;
+  text-align: center;
+
+  background-image: url('../img/hero-bg-sm.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+
+  padding-top: $navbar-height;
+
+  @media (min-width: 768px) {
+    background-image: url('../img/hero-bg-md.png');
+  }
+
+  @media (min-width: 1024px) {
+    background-image: url('../img/hero-bg-lg.png');
+  }
+
+  &__content {
+    // horizontally center
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  &__title {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-weight: 400;
+  }
+
+  &__lead {
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+
+  // call to action
+  &__cta {
+    font-weight: 400;
+  }
+}
