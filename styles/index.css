@@ -28,17 +28,30 @@ body {
 #productButton {
 	position: relative;
 	z-index: 100;
-	margin-left: 43%;
 	background-color: #003C64;
 	padding: 14px 40px;
 }
 
 #loginButton {
 	margin: 1%;
+	-webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+#loginButton:hover {
+	background-color: #003C64; /* Green */
+    color: white;
 }
 
 #signupButton {
 	margin: 1%;
+	-webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+#signupButton:hover {
+	background-color: #003C64; /* Green */
+    color: white;
 }
 
 .btn-default{
@@ -91,3 +104,29 @@ body {
     width: 100%;
 }
 /* Code to jumbotron video ends here */
+
+/*footer*/
+#usingCoilFooter  {
+	margin-top: 10%;
+	color: #7C00B2;
+}
+
+#coilFooter {
+	margin-top: 10%;
+	color: #E14400;
+}
+
+#handyLinksFooter {
+	margin-top: 10%;
+	color: #00C7A1;
+}
+
+.footerLinks a {
+	text-decoration: none;
+	color: #778899;
+}
+
+.footerLinks {
+	margin-bottom: 10%;
+	margin: 3%;
+}

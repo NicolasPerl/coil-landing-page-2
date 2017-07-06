@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Landing Page</title>
+    <title>coil</title>
 
     <!-- Bootstrap -->
     <link href="bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
@@ -22,6 +22,9 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico" />
+
   </head>
 
 
@@ -41,7 +44,7 @@
                     <source src="pencil_down/pencil_down.webm" type="video/webm" />Your browser does not support the video tag. I suggest you upgrade your browser.
                 </video>
                 <center><h1 id="headline">Collaborate with your classmates <br>or get tutored by them</h1></center>
-                <center></center><a href="#" id="productButton" class="btn btn-primary btn-lg"><strong>product</strong></a></center>
+                <center><a href="#" id="productButton" class="btn btn-primary btn-lg"><strong>product</strong></a></center>
 
                 <div class="poster hidden">
                     <img src="pencil_down/pencil_down.jpg" alt="">
@@ -49,6 +52,36 @@
             </div>
         </div>
       </div>
+
+    <footer>
+        <div class="row">
+            <div class="col-md-4">
+                <center><p id="usingCoilFooter"> using coil</p>
+                <div class="footerLinks">
+                    <a href="#"> product </a><br>
+                    <a href="#"> prove it </a>
+                </div></center>
+            </div>
+            <div class="col-md-4">
+                <!--<p id="coilFooter">Coil</p>-->
+                <center><span class="glyphicon glyphicon-heart" id="coilFooter" aria-hidden="true"></span> coil
+                <div class="footerLinks">
+                    <a href="#"> policy </a><br>
+                    <a href="#"> support </a>
+                </div></center>
+            </div>
+            <div class="col-md-4">
+                <center><p id="handyLinksFooter">handy links</p></center>
+            </div>
+
+
+
+
+        </div>
+
+
+
+    </footer>
 
       <!-- jQuery -->
       
