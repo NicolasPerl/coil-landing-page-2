@@ -23,8 +23,18 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 
+    <!--favicon in tab-->
     <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico" />
-
+    <!--google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Lato:black,400,900" rel="stylesheet">
+    <!--
+    <style>
+      body {
+        font-family: 'Lato', serif;
+        font-size: 200%;
+      }
+    </style>
+-->
   </head>
 
 
@@ -35,19 +45,20 @@
                 <div class="loginButtons">
                     <img src="images/landing-page-logo.png" id="landing-page-logo" alt="coil logo">
                     <!--Figure out how to make button link up-->
-                    <a href="#" id="loginButton" class="btn btn-default btn-sm"><strong>login</strong></a>
-                    <a href="#" id="signupButton" class="btn btn-default btn-sm"><strong>signup</strong></a>
+                    <a href="#" id="loginButton" class="btn btn-primary btn-sm"><strong>login</strong></a>
+                    <a href="#" id="signupButton" class="btn btn-primary btn-sm"><strong>signup</strong></a>
                 </div>
                 <div class="filter"></div>
                 <video autoplay loop class="fillWidth">
-                    <source src="pencil_down/pencil_down.mp4" type="video/mp4" />Your browser does not support the video tag. I suggest you upgrade your browser.
-                    <source src="pencil_down/pencil_down.webm" type="video/webm" />Your browser does not support the video tag. I suggest you upgrade your browser.
+                    <source src="Comfy/MP4/Comfy.mp4" type="video/mp4" />Your browser does not support the video tag. I suggest you upgrade your browser.
+                    <source src="Comfy/WEBM/Comfy.webm" type="video/webm" />Your browser does not support the video tag. I suggest you upgrade your browser.
                 </video>
                 <center><h1 id="headline">Collaborate with your classmates <br>or get tutored by them</h1></center>
-                <center><a href="/product.php" id="productButton" class="btn btn-primary btn-lg"><strong>product</strong></a></center>
+                <center><a href="/product.php" id="productButton" class="btn btn-default btn-lg"><strong>product</strong></a></center>
+
 
                 <div class="poster hidden">
-                    <img src="pencil_down/pencil_down.jpg" alt="">
+                    <img src="Comfy/Snapshots/Comfy.jpg" alt="">
                 </div>
             </div>
         </div>
