@@ -27,24 +27,25 @@
       <div class="background-image">
       </div> <!-- background-image-->
 
-      <div class="container-fluid">
-        <div class="row row1">
-          <div class="col-md-12">
-            <nav class="navbar navbar-default">
-              <div class="container-fluid"> 
-                  <a href="/index.php">
-                    <img id="logo" alt="Brand" src="images/coil_logo_clear.png">
-                  </a>
-                  <form class="navbar-right" action="/proof.php">
-                    <button id="proofCoilWorks"type="submit" class="btn btn-default navbar-btn">Proof Coil Works</button>
-                  </form>
-              </div>
-            </nav>
-          </div> 
-        </div> <!-- row 1 -->
-
+      <div class="container">
+        <nav class="navbar navbar-default">
+          <div class="row row1">
+            <div class="col-xs-6">
+                <!-- <div class="container-fluid"> --> 
+                    <a href="/index.php">
+                      <img id="logo" alt="Brand" src="images/coil_logo_clear.png">
+                    </a>
+            </div>
+            <div class="col-xs-6">
+                    <form class="navbar-right" action="/proof.php">
+                      <button id="proofCoilWorks"type="submit" class="btn btn-default navbar-btn pull-right">Proof Coil Works</button>
+                    </form>
+                <!-- </div> -->
+            </div> 
+          </div> <!-- row 1 -->
+        </nav>
         <div class="row row2">
-          <div class="col-md-12">
+          <div class="col-sm-12">
             <form class="coil-vid-button text-center" action="/product_video.php">
                 <button id="coil-vid-button" class="btn btn-default btn-lg" type="submit">Watch the tour</button>
             </form>
@@ -54,24 +55,24 @@
 
       <div class="container">
         <div class="row row3">
-          <div class="col-md-12">
-            <h1 class="headline text-center">Your journey to making an A just got a whole lot easier</h1>
+          <div class="col-sm-12">
+            <h1 class="headline text-center">Your journey to making an A+ just got a whole lot easier</h1>
           </div> <!-- col -->
         </div> <!-- row 3 -->
 
         <div class="row row4">
-          <div class="col-md-4 text-center">
+          <div class="col-sm-4 text-center col-1">
             <img id="prof-image" src="/images/prof.png">
             <h2>Professor invites students to the class</h2>
           </div> <!-- col 1 -->
-          <div class="col-md-4 text-center">
+          <div class="col-sm-4 text-center col-2">
             <img id="board-image" src="/images/board.png">
             <h2>In each class, there's a board that acts as the central hub</h2>
           </div> <!-- col 2 -->
-          <div class="col-md-4 text-center">
+          <div class="col-sm-4 text-center col-3">
             <img id="students-image" src="/images/students.jpg">
             <h2>On the board students have the power to...</h2>
-            <h4 id="scroll-down">(Scroll down)</h4>
+            <h4 id="scroll-down">(Scroll down to see!)</h4>
           </div> <!-- col 3 -->
         </div> <!-- row 4 -->
 
@@ -79,55 +80,86 @@
 <!-- feature description section -->
 
         <!-- coils -->
-        <div class="row row5 text-center">
-          <div class="col-md-6"> 
-            <img id="coil-image" src="/images/prof.png">
-          </div> <!-- col -->
+        <div class="coils">
+          <div class="row row5 text-center">
+            <div class="col-md-6"> 
+              <img id="coil-image" src="/images/prof.png">
+            </div> <!-- col -->
 
-          <div class="col-md-6">
-            <h1 class="coil-headline">Coils</h1>
-            <h3>Coil knows that studying with classmates, especially in person, is the most effective way to learn. Coil lets you create a Coil (our word for study group) that your classmates can join.  Whether it's to finish HW or study for that upcoming test, a coil is where great minds come together to collaborate and educate each other.</h3>
-          </div> <!-- col -->
-        </div> <!-- row 5 -->
+            <div class="col-md-6">
+              <h1 class="coil-headline">Coils</h1>
+              <h3>Coil knows that studying with classmates, especially in person, is the most effective way to learn. Coil lets you create a Coil (our word for study group) that your classmates can join.  Whether it's to finish HW or study for that upcoming test, a coil is where great minds come together to collaborate and educate each other.</h3>
+            </div> <!-- col -->
+          </div> <!-- row 5 -->
 
-        <!-- tutoring -->
-        <div class="row row6 text-center">
-         <div class="col-md-6">
-            <h1 class="tutoring-headline">Classmate tutoring</h1>
-            <h3>Unless you're a genius you've probably felt confused in some classes. Thankfully, a few of your classmates understand what's going on. And Coil will connect you to them. You'll receive the help you need while  your classmate gains a deeper understanding of the material by explaining it to you, which is backed up by the Feynman technique - the guy who won the Nobel Peace Prize</h3>
-          </div> <!-- col -->
+          <!-- tutoring -->
+          <div class="row row6 text-center hidden-xs">
+            <div class="col-md-6">
+              <h1 class="tutoring-headline">Classmate tutoring</h1>
+              <h3>Unless you're a genius you've probably felt confused in some classes. Thankfully, a few of your classmates understand what's going on. And Coil will connect you to them. You'll receive the help you need while  your classmate gains a deeper understanding of the material by explaining it to you, which is backed up by the Feynman technique - the guy who won the Nobel Peace Prize</h3>
+            </div> <!-- col -->
 
-          <div class="col-md-6">
-            <img id="tutoring-image" src="/images/prof.png">
-          </div> <!-- col -->
-        </div> <!-- row 5 -->
+            <div class="col-md-6">
+              <img id="tutoring-image" src="/images/prof.png">
+            </div> <!-- col -->
+          </div> <!-- row 5 -->
 
-        <!-- leaderboard -->
-        <div class="row row7 text-center">
-          <div class="col-md-6">
-            <img id="leaderboard-image" src="/images/prof.png">
-          </div> <!-- col -->
+          <div class="row row6 text-center visible-xs hidden-sm hidden-md hidden-lg">
 
-          <div class="col-md-6">
-            <h1 class="leaderboard-headline">Gurus</h1>
-            <h3>Students earn points by collaborating in study groups, explaining topics to classmates, and contributing to the classroom discussion (chit chat). The professor will have access to the leaderboard so he'll see if you really went the extra mile! </h3>
-          </div> <!-- col -->
-        </div> <!-- row 5 -->
+            <div class="col-md-6">
+              <img id="tutoring-image" src="/images/prof.png">
+            </div> <!-- col -->
+
+            <div class="col-md-6">
+              <h1 class="tutoring-headline">Classmate tutoring</h1>
+              <h3>Unless you're a genius you've probably felt confused in some classes. Thankfully, a few of your classmates understand what's going on. And Coil will connect you to them. You'll receive the help you need while  your classmate gains a deeper understanding of the material by explaining it to you, which is backed up by the Feynman technique - the guy who won the Nobel Peace Prize</h3>
+            </div> <!-- col -->
+
+          </div> <!-- row 5 -->
+
+          <!-- leaderboard -->
+          <div class="row row7 text-center">
+            <div class="col-md-6">
+              <img id="leaderboard-image" src="/images/prof.png">
+            </div> <!-- col -->
+
+            <div class="col-md-6">
+              <h1 class="leaderboard-headline">Gurus</h1>
+              <h3>Students earn points by collaborating in study groups, explaining topics to classmates, and contributing to the classroom discussion (chit chat). The professor will have access to the leaderboard so he'll see if you really went the extra mile! </h3>
+            </div> <!-- col -->
+          </div> <!-- row 5 -->
 
 
-        <!-- chit chat -->
-        <div class="row row8 text-center">
-          <div class="col-md-6">
-            <h1 class="chit-chat-headline">Chit Chat</h1>
-            <h3>Coil enables students to ask questions and get answers from classmates or the professor, and send pictures, videos, or files. We all know no question is a dumb question but just in case, you can post anonymously. </h3>
-          </div> <!-- col -->
+          <!-- chit chat -->
+          <div class="row row8 text-center hidden-xs">
+            <div class="col-md-6">
+              <h1 class="chit-chat-headline">Chit Chat</h1>
+              <h3>Coil enables students to ask questions and get answers from classmates or the professor, and send pictures, videos, or files. We all know no question is a dumb question but just in case, you can post anonymously. </h3>
+            </div> <!-- col -->
 
-          <div class="col-md-6">
-            <img id="chit-chat-image" src="/images/prof.png">
-          </div> <!-- col -->
-        </div> <!-- row 5 -->
+            <div class="col-md-6">
+              <img id="chit-chat-image" src="/images/prof.png">
+            </div> <!-- col -->
+          </div> <!-- row 5 -->
+
+          <div class="row row8 text-center visible-xs hidden-sm hidden-md hidden-lg">
+
+            <div class="col-md-6">
+              <img id="chit-chat-image" src="/images/prof.png">
+            </div> <!-- col -->
+
+            <div class="col-md-6">
+              <h1 class="chit-chat-headline">Chit Chat</h1>
+              <h3>Coil enables students to ask questions and get answers from classmates or the professor, and send pictures, videos, or files. We all know no question is a dumb question but just in case, you can post anonymously. </h3>
+            </div> <!-- col -->
+            
+          </div> <!-- row 5 -->
 
 
+
+
+
+        </div> <!-- coils -->
       </div> <!-- container -->
 
 

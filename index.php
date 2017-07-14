@@ -44,7 +44,7 @@
                     <source src="pencil_down/pencil_down.webm" type="video/webm" />Your browser does not support the video tag. I suggest you upgrade your browser.
                 </video>
                 <center><h1 id="headline">Collaborate with your classmates <br>or get tutored by them</h1></center>
-                <center><a href="#" id="productButton" class="btn btn-primary btn-lg"><strong>product</strong></a></center>
+                <center><a href="/product.php" id="productButton" class="btn btn-primary btn-lg"><strong>product</strong></a></center>
 
                 <div class="poster hidden">
                     <img src="pencil_down/pencil_down.jpg" alt="">
