@@ -60,7 +60,7 @@
                 <div class="type-wrap">
                     <div id="typed-strings">
                         <h1>Collaborate with your <strong>classmates</strong></h1>
-                        <h1>Or <em>get</em> tutored by them.</h1>
+                        <h1>Or get <em>tutored</em> by them.</h1>
                     </div>
                     <span id="typed"></span>
                 </div>

@@ -14,10 +14,8 @@
     <link href="styles/product.css" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
+    <!--typed.js-->
     <script src="lib/typed.min.js" type="text/javascript"></script>
-
-
-
 
     <!-- Lato font -->
     <link href="https://fonts.googleapis.com/css?family=Lato:black,400,900" rel="stylesheet">
@@ -30,17 +28,9 @@
     <![endif]-->
 
     <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico" />
-
-
- 
-
   </head>
 
-
   <body>
-
-
-
       <div class="background-image">
       </div> <!-- background-image-->
 
@@ -54,9 +44,22 @@
                     </a>
             </div>
             <div class="col-xs-6">
+              <div class="loginButtons">
+                    <!--Figure out how to make button link up-->
+                    <a href="#" id="strategizeButton" class="btn btn-primary btn-sm"><strong>strategize</strong></a>
+                    <a href="#" id="loginButton" class="btn btn-primary btn-sm"><strong>login</strong></a>
+                    <a href="#" id="signupButton" class="btn btn-primary btn-sm"><strong>signup</strong></a>
+                </div>  
+
+
+            <!--
                     <form class="navbar-right" action="/proof.php">
                       <button id="proofCoilWorks"type="submit" class="btn btn-default navbar-btn pull-right">Proof Coil Works</button>
                     </form>
+            -->
+
+
+
                 <!-- </div> -->
             </div> 
           </div> <!-- row 1 -->
