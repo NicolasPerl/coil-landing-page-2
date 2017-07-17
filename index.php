@@ -9,7 +9,8 @@
 
     <!-- Bootstrap -->
     <link href="bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="lib/typed.min.js" type="text/javascript"></script>
 
     <!-- This page's style sheet -->
     <link href="styles/index.css" rel="stylesheet">
@@ -35,9 +36,10 @@
       }
     </style>
 -->
+
+
+
   </head>
-
-
   <body>
       <div class="col-lg-12">
         <div class="homepage-hero-module">
@@ -49,12 +51,35 @@
                     <a href="#" id="signupButton" class="btn btn-primary btn-sm"><strong>signup</strong></a>
                 </div>
                 <div class="filter"></div>
-                <video autoplay loop class="fillWidth">
+                <video autoplay loop class="fillWidth" preload="autoplay">
                     <source src="Comfy/MP4/Comfy.mp4" type="video/mp4" />Your browser does not support the video tag. I suggest you upgrade your browser.
                     <source src="Comfy/WEBM/Comfy.webm" type="video/webm" />Your browser does not support the video tag. I suggest you upgrade your browser.
                 </video>
-                <center><h1 id="headline">Collaborate with your classmates <br>or get tutored by them</h1></center>
-                <center><a href="/product.php" id="productButton" class="btn btn-default btn-lg"><strong>product</strong></a></center>
+                <!--<center><h1 id="headline">Collaborate with your classmates <br>or get tutored by them</h1></center>-->
+                <!-- typed.js injection -->
+                <div class="type-wrap">
+                    <div id="typed-strings">
+                        <h1>Collaborate with your <strong>classmates</strong></h1>
+                        <h1>Or <em>get</em> tutored by them.</h1>
+                    </div>
+                    <span id="typed"></span>
+                </div>
+                <!-- typed.js ends here -->
+                    <center><a href="/product.php" id="productButton" class="btn btn-default btn-lg"><strong>product</strong></a></center>
+
+                <!-- typed.js script -->
+                <script>
+                    var typed = new Typed('#typed', {
+                    stringsElement: '#typed-strings',
+                    typeSpeed: 40,
+                    loop: true,
+                    backDelay: 700,
+                    startDelay: 1000,
+                    showCursor: true,
+                    backSpeed: 20,
+                    });
+                </script>
+                <!--typed.js ends here -->
 
 
                 <div class="poster hidden">
@@ -69,12 +94,11 @@
             <div class="col-md-4">
                 <center><p id="usingCoilFooter"> using coil</p>
                 <div class="footerLinks">
-                    <a href="#"> product </a><br>
+                    <a href="/product.php"> product </a><br>
                     <a href="#"> prove it </a>
                 </div></center>
             </div>
             <div class="col-md-4">
-                <!--<p id="coilFooter">Coil</p>-->
                 <center><span class="glyphicon glyphicon-heart" id="coilFooter" aria-hidden="true"></span> coil
                 <div class="footerLinks">
                     <a href="#"> policy </a><br>
@@ -82,16 +106,12 @@
                 </div></center>
             </div>
             <div class="col-md-4">
-                <center><p id="handyLinksFooter">handy links</p></center>
+                <center><p id="handyLinksFooter">tool box</p></center>
+                <div class="footerLinks">
+                    <a id="toolBox" href="#"> iOS app</a>
+                </div>
             </div>
-
-
-
-
         </div>
-
-
-
     </footer>
 
       <!-- jQuery -->

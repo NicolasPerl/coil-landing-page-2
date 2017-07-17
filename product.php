@@ -12,6 +12,12 @@
 
     <!-- This page's style sheet -->
     <link href="styles/product.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <script src="lib/typed.min.js" type="text/javascript"></script>
+
+
+
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -19,10 +25,18 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico" />
+
+
+ 
+
   </head>
 
 
   <body>
+
+
 
       <div class="background-image">
       </div> <!-- background-image-->
@@ -56,9 +70,33 @@
       <div class="container">
         <div class="row row3">
           <div class="col-sm-12">
-            <h1 class="headline text-center">Your journey to making an A+ just got a whole lot easier</h1>
-          </div> <!-- col -->
-        </div> <!-- row 3 -->
+          
+          <!-- typed.js injection -->
+            <div class="type-wrap">
+               <div id="typed-strings">
+                  <h1 class="headline text-center">Your journey to making an A</h1>
+                  <h1><em>just</em> got a whole lot <strong>easier.</strong></h1>
+                </div>
+              <span id="typed" style="white-space:pre;"></span>
+            </div>
+            <!-- typed.js ends here -->
+
+            <!--<h1 class="headline text-center">Your journey to making an A+ just got a whole lot easier</h1>-->
+        </div> <!-- col -->
+      </div> <!-- row 3 -->
+
+      <!-- typed.js script -->
+       <script>
+        var typed = new Typed('#typed', {
+          stringsElement: '#typed-strings',
+          typeSpeed: 40,
+          loop: true,
+          backDelay: 500,
+          startDelay: 1000,
+        });
+      </script>
+      <!-- typed.js script ends here -->
+
 
         <div class="row row4">
           <div class="col-sm-4 text-center col-1">
@@ -168,10 +206,13 @@
 
 
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <!--jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+
+    <!--<script src="lib/typed.js" type="text/javascript"></script> -->
+
   </body>
 
 
