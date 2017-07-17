@@ -73,12 +73,34 @@
             </div> <!-- col -->
 
             <div class="col-md-6">
-              <h1 class="feynman-description">Study like the Nobel Peace Prize winner with these 4 steps</h1>
+              <h1 class="feynman-description ">Study like the Nobel Peace Prize winner with these 4 steps</h1>
               <div class="col-md-6">
-                <h3> <b>1)</b> <br>Start studying any topic <br><br><br> <b>2)</b><br> Attempt to teach the topic to your classmate</h3>
+                <h3><span class="blue">1</span><br>Start studying any topic <br><br><br> <span class="blue">2</span><br> Attempt to teach the topic to your classmate</h3>
               </div> <!-- col -->
+              <div class="col-md-6 text-center">
+                <h3> <span class="blue">3</span><br>Once you're stumped, get back to the books to study <br><br> <span class="blue">4</span><br> Teach it again but simplify your explanation and use analogies</h3>
+              </div> <!-- col -->
+            </div> <!-- col -->
+          </div> <!-- row 5 -->
+        </div> <!-- coils -->
+
+<!-- Created by students section -->
+        <div class="row row3">
+          <div class="col-sm-12">
+            <h1 class="headline2 text-center">Current students created Coil so other students can leverage the exquisite power of the Feynman technique</h1>
+          </div> <!-- col -->
+        </div> <!-- row 3 -->
+
+
+        <div class="feynman">
+          <div class="row row4 text-center">
+            <div class="col-md-12">
+              <h1 class="feynman-description ">From our own experience, we've found that studying with classmates is the best way to learn, especially if you follow these steps...</h1>
               <div class="col-md-6">
-                <h3> <b>3)</b> <br>Once you're stumped, get back to the books to study <br><br> <b>4)</b><br> Teach it again but simplify your explanation and use analogies</h3>
+                <h3><span class="blue">1</span><br>Everyone put pen to paper. Try the problem alone at first.<br><br><br> <span class="blue">2</span><br> Once someone gets stumped they can ask the group for help</h3>
+              </div> <!-- col -->
+              <div class="col-md-6 text-center">
+                <h3> <span class="blue">3</span><br>A group member attempts to teach the struggling student<br><br> <span class="blue">4</span><br>If nobody can teach it to the group, everyone goes back to the books to study more</h3>
               </div> <!-- col -->
             </div> <!-- col -->
           </div> <!-- row 5 -->

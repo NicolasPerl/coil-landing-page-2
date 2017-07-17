@@ -79,12 +79,27 @@ body {
 	border-width: 2pt;
 	border-style: solid;
 	border-color: gray;
+	margin-top: 20pt;
 }
 
 .feynman-description {
 	margin-top: 2%;
 	font-size: calc(12pt + 2vw);
 	color: #494949;
+}
+
+span.blue {
+  background: #C05A23;
+  border-radius: 0.8em;
+  -moz-border-radius: 0.8em;
+  -webkit-border-radius: 0.8em;
+  color: #ffffff;
+  display: inline-block;
+  font-weight: bold;
+  line-height: 1.6em;
+  margin-right: 15px;
+  text-align: center;
+  width: 1.6em; 
 }
 
 h2 {
