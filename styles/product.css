@@ -197,8 +197,9 @@ li {
 
 #steps {
 	height: 10%;
-	width: 100%;
+	width: 75%;
 	margin: 5%;
+	margin-left: 12%;
 }
 
 h2 {
@@ -240,29 +241,40 @@ h2 {
 }
 
 .row5 {
-	min-height: 700pt;
+	min-height: 935pt;
 	border-top: 1px solid;
 	border-color: gray;
+}
+
+
+/* Confeti Background */
+#confeti {
+	width: 100%;
+	min-height: 200pt;
+	margin: 0;
 	background-color: #143E5F;
-	width: 960px;
-  	margin: 0 auto;
+	/*background-color: #001E4C;*/
+	position: absolute;
+	overflow: hidden;
+	z-index: -100;
 }
+/* Confeti background ends here */
 
-.row5 h1 {
-	color: white;
-}
 
-.row5 h3 {
-	color: white;
-}
 
 #coil-image {
 	margin-top: 15%;
-
 }
 
 .coil-headline {
 	margin-top: 15%;
+	color: white;
+	margin-right: 12%;
+}
+
+.row5 h3 {
+	color: white;
+	margin-right: 10%;
 }
 
 .row6 {
@@ -288,7 +300,8 @@ h2 {
 #leaderboard-image {
 	margin-top: 15%;
 	height: 50%;
-	width: 100%;
+	width: 50%;
+	margin-bottom: 15%;
 }
 
 .leaderboard-headline {

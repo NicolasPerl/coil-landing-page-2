@@ -37,7 +37,7 @@
       <div class="background-image">
       </div> <!-- background-image-->
 
-      <div class="container">
+      <!--<div class="container">-->
         <div class="row row1">
           <div class="col-lg-12">
             <a class="navbar-brand" href="/index.php">
@@ -106,7 +106,7 @@
         </div> <!-- row 2 -->
      <!-- </div>  container-fluid -->
 
-      <div class="container">
+      <!--<div class="container">-->
         <div class="row row3">
           <div class="col-sm-12">
           
@@ -161,30 +161,29 @@
 
         <!-- coils -->
         <div class="coils">
-          <div class="row row5 text-center">
-            <div class="col-md-6"> 
-              <img id="coil-image" src="/images/prof.png">
-            </div> <!-- col -->
-
-            <div class="col-md-6">
-              <h1 class="coil-headline">Coils</h1>
-              <h3>Coil knows that studying with classmates, especially in person, is the most effective way to learn. Coil lets you create a coil (our word for study group) that your classmates can join.  Whether it's to finish homework or study for that upcoming test, a coil is where great minds come together to collaborate and educate each other.</h3>
-            </div> <!-- col -->
-          </div> <!-- row 5 -->
-
-          <!-- tutoring -->
-          <div class="row row6 text-center hidden-xs">
-            <div class="tutor-background">
-              <div class="col-md-6">
-                <h1 class="tutoring-headline">Classmate tutoring</h1>
-                <h3>Unless you're a genius you've probably felt confused in some classes. Thankfully, a few of your classmates understand what's going on. And Coil will connect you to them. You'll receive the help you need while  your classmate gains a deeper understanding of the material by explaining it to you, which is backed up by the Feynman technique - the guy who won the Nobel Peace Prize</h3>
+          <canvas id='confeti'></canvas>
+            <div class="row row5 text-center">
+              <div class="col-md-6"> 
+                <img id="coil-image" src="/images/prof.png">
               </div> <!-- col -->
-            </div>
-            <div class="col-md-6">
-              <img id="tutoring-image" src="/images/prof.png">
-            </div> <!-- col -->
-          </div> <!-- row 5 -->
-
+              <div class="col-md-6">
+                <h1 class="coil-headline">Coils</h1>
+                <h3>Coil knows that studying with classmates, especially in person, is the most effective way to learn. Coil lets you create a coil (our word for study group) that your classmates can join.  Whether it's to finish homework or study for that upcoming test, a coil is where great minds come together to collaborate and educate each other.</h3>
+              </div> <!-- col -->
+            </div> <!-- row 5 -->
+            <!-- tutoring -->
+            <div class="row row6 text-center hidden-xs">
+              <div class="tutor-background">
+                <div class="col-md-6">
+                  <h1 class="tutoring-headline">Classmate tutoring</h1>
+                  <h3>Unless you're a genius you've probably felt confused in some classes. Thankfully, a few of your classmates understand what's going on. And Coil will connect you to them. You'll receive the help you need while  your classmate gains a deeper understanding of the material by explaining it to you, which is backed up by the Feynman technique - the guy who won the Nobel Peace Prize</h3>
+                </div> <!-- col -->
+              </div>
+              <div class="col-md-6">
+                <img id="tutoring-image" src="/images/prof.png">
+              </div> <!-- col -->
+            </div> <!-- row 6 -->
+          
           <div class="row row6 text-center visible-xs hidden-sm hidden-md hidden-lg">
 
             <div class="col-md-6">
@@ -236,7 +235,7 @@
             
           </div> <!-- row 5 -->
         </div> <!-- coils -->
-      </div> <!-- container -->
+     <!-- </div>  container -->
 
       <footer>
         <div class="row">
@@ -273,6 +272,9 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+
+        <script src="canvas-confetti/js/coffee-script.js"></script>
+
 
     <!--<script src="lib/typed.js" type="text/javascript"></script> -->
 
