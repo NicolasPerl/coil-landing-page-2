@@ -12,6 +12,8 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="lib/typed.min.js" type="text/javascript"></script>
 
+    
+
     <!-- This page's style sheet -->
     <link href="styles/index.css" rel="stylesheet">
     <!-- Mobile Friendly-->
@@ -23,6 +25,11 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+
+
+    <!--PointPoint
+    <link rel="stylesheet" href="pointpoint/jquery.pointpoint/jquery.pointpoint.css" />-->
+
 
     <!--favicon in tab-->
     <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico" />
@@ -46,9 +53,13 @@
             <div class="video-container">
                 <div class="loginButtons">
                     <img src="images/landing-page-logo.png" id="landing-page-logo" alt="coil logo">
-                    <!--Figure out how to make button link up-->
+                    <!--Figure out how to make button link up
                     <a href="#" id="loginButton" class="btn btn-primary btn-sm"><strong>login</strong></a>
-                    <a href="#" id="signupButton" class="btn btn-primary btn-sm"><strong>signup</strong></a>
+                    <a href="#" id="signupButton" class="btn btn-primary btn-sm"><strong>signup</strong></a>-->
+
+                    <a class="button" href="#" id="loginButton"><strong>login</strong></a>     
+                    <a class="button" href="#" id="signupButton"><strong>signup</strong></a>
+
                 </div>
                 <div class="filter"></div>
                 <video autoplay loop class="fillWidth" preload="autoplay">
@@ -65,15 +76,14 @@
                     <span id="typed"></span>
                 </div>
                 <!-- typed.js ends here -->
-                    <center><a href="/product.php" id="productButton" class="btn btn-default btn-lg"><strong>product</strong></a></center>
-
+                    <center><a href="/product.php" id="productButton" class="btn btn-default btn-lg"><strong>Take the tour</strong></a></center>
                 <!-- typed.js script -->
                 <script>
                     var typed = new Typed('#typed', {
                     stringsElement: '#typed-strings',
                     typeSpeed: 40,
                     loop: true,
-                    backDelay: 700,
+                    backDelay: 900,
                     startDelay: 1000,
                     showCursor: true,
                     backSpeed: 20,
@@ -99,7 +109,7 @@
                 </div></center>
             </div>
             <div class="col-md-4">
-                <center><span class="glyphicon glyphicon-heart" id="coilFooter" aria-hidden="true"></span> coil
+                <center><span class="glyphicon glyphicon-heart" id="coilFooter" aria-hidden="true">coil</span> 
                 <div class="footerLinks">
                     <a href="#"> policy </a><br>
                     <a href="#"> support </a>
@@ -126,6 +136,16 @@
     <script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
 
     <script src="js/bootstrap.min.js" type="text/javascript"></script>
+
+    <!-- Including The jQuery Library -->
+    <script src="http://code.jquery.com/jquery-1.6.3.min.js"></script>
+
+    <!-- Including the PointPoint() Plugin -->
+    <script src="pointpoint/jquery.pointpoint/transform.js"></script>
+    <script src="pointpoint/jquery.pointpoint/jquery.pointpoint.js"></script>
+
+    <!-- The main script file -->
+    <script src="pointpoint/js/script.js"></script>    
 
   </body>
 

@@ -14,6 +14,9 @@
     <link href="styles/product.css" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
+    <!--CDN link for  TweenMax-->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TweenMax.min.js"></script>
+
     <!--typed.js-->
     <script src="lib/typed.min.js" type="text/javascript"></script>
 
@@ -35,43 +38,73 @@
       </div> <!-- background-image-->
 
       <div class="container">
-        <nav class="navbar navbar-default">
-          <div class="row row1">
-            <div class="col-xs-6">
-                <!-- <div class="container-fluid"> --> 
-                    <a href="/index.php">
-                      <img id="logo" alt="Brand" src="images/coil_logo_clear.png">
-                    </a>
-            </div>
-            <div class="col-xs-6">
+        <div class="row row1">
+          <div class="col-lg-12">
+            <a class="navbar-brand" href="/index.php">
+                  <img id="logo" alt="Brand" src="images/coil_logo_clear.png">
+            </a>
+            <div class="loginButtons">
+              <a class="button" href="#" id="loginButton"><strong>login</strong></a>     
+              <a class="button" href="#" id="signupButton"><strong>signup</strong></a>
+              <a class="button" href="#" id="blueprint"><strong>blueprint</strong></a>
+            </div>  
+          
+          </div>
+
+        </div>
+
+
+
+
+<!--
+          <nav class="navbar navbar-default">
+            <div class="container-fluid">
+              <div class="navbar-header">
+                <a class="navbar-brand" href="/index.php">
+                  <img id="logo" alt="Brand" src="images/coil_logo_clear.png">
+                </a>
+              </div>
               <div class="loginButtons">
-                    <!--Figure out how to make button link up-->
-                    <a href="#" id="strategizeButton" class="btn btn-primary btn-sm"><strong>strategize</strong></a>
-                    <a href="#" id="loginButton" class="btn btn-primary btn-sm"><strong>login</strong></a>
-                    <a href="#" id="signupButton" class="btn btn-primary btn-sm"><strong>signup</strong></a>
-                </div>  
+                <ul class="nav navbar-nav">
+                  <li class="button"><a href="#" id="loginButton"><strong>login</strong></a></li>
+                  <li class="button"><a href="#" id="signupButton"><strong>signup</strong></a></li>
+                  <li class="button"><a href="#" id="blueprint"><strong>blueprint</strong></a></li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+-->
 
 
-            <!--
-                    <form class="navbar-right" action="/proof.php">
-                      <button id="proofCoilWorks"type="submit" class="btn btn-default navbar-btn pull-right">Proof Coil Works</button>
-                    </form>
+<!--
+            <nav class="navbar fixed-top navbar-light bg-faded">
+              
+              <div class="navbar-brand">
+                <div class="loginButtons" id="button">
+                <a class="button" href="#" id="loginButton"><strong>login</strong></a>     
+                <a class="button" href="#" id="signupButton"><strong>signup</strong></a>
+                <a class="button" href="#" id="blueprint"><strong>blueprint</strong></a>
+                </div>
+              </div>
+            </nav>
             -->
-
-
-
-                <!-- </div> -->
-            </div> 
+            
+                <!--<div class="container-fluid">-->
+                    
+            
+            <!-- Login buttons-->
+                
+  
+                
           </div> <!-- row 1 -->
-        </nav>
         <div class="row row2">
           <div class="col-sm-12">
             <form class="coil-vid-button text-center" action="/product_video.php">
-                <button id="coil-vid-button" class="btn btn-default btn-lg" type="submit">Watch the tour</button>
+                <button id="coil-vid-button" class="btn btn-default btn-lg" type="submit">Watch the film</button>
             </form>
           </div> <!-- col -->
         </div> <!-- row 2 -->
-      </div> <!-- container-fluid -->
+     <!-- </div>  container-fluid -->
 
       <div class="container">
         <div class="row row3">
@@ -105,6 +138,9 @@
 
 
         <div class="row row4">
+          <div class="col-lg-12">
+            <img src="/images/Steps.png" id="steps">
+          </div>
           <div class="col-sm-4 text-center col-1">
             <img id="prof-image" src="/images/prof.png">
             <h2>Professor invites students to the class</h2>
@@ -114,7 +150,7 @@
             <h2>In each class, there's a board that acts as the central hub</h2>
           </div> <!-- col 2 -->
           <div class="col-sm-4 text-center col-3">
-            <img id="students-image" src="/images/students.jpg">
+            <img id="students-image" src="/images/iPad-coffee-pencil.png">
             <h2>On the board students have the power to...</h2>
             <h4 id="scroll-down">(Scroll down to see!)</h4>
           </div> <!-- col 3 -->
@@ -132,17 +168,18 @@
 
             <div class="col-md-6">
               <h1 class="coil-headline">Coils</h1>
-              <h3>Coil knows that studying with classmates, especially in person, is the most effective way to learn. Coil lets you create a Coil (our word for study group) that your classmates can join.  Whether it's to finish HW or study for that upcoming test, a coil is where great minds come together to collaborate and educate each other.</h3>
+              <h3>Coil knows that studying with classmates, especially in person, is the most effective way to learn. Coil lets you create a coil (our word for study group) that your classmates can join.  Whether it's to finish homework or study for that upcoming test, a coil is where great minds come together to collaborate and educate each other.</h3>
             </div> <!-- col -->
           </div> <!-- row 5 -->
 
           <!-- tutoring -->
           <div class="row row6 text-center hidden-xs">
-            <div class="col-md-6">
-              <h1 class="tutoring-headline">Classmate tutoring</h1>
-              <h3>Unless you're a genius you've probably felt confused in some classes. Thankfully, a few of your classmates understand what's going on. And Coil will connect you to them. You'll receive the help you need while  your classmate gains a deeper understanding of the material by explaining it to you, which is backed up by the Feynman technique - the guy who won the Nobel Peace Prize</h3>
-            </div> <!-- col -->
-
+            <div class="tutor-background">
+              <div class="col-md-6">
+                <h1 class="tutoring-headline">Classmate tutoring</h1>
+                <h3>Unless you're a genius you've probably felt confused in some classes. Thankfully, a few of your classmates understand what's going on. And Coil will connect you to them. You'll receive the help you need while  your classmate gains a deeper understanding of the material by explaining it to you, which is backed up by the Feynman technique - the guy who won the Nobel Peace Prize</h3>
+              </div> <!-- col -->
+            </div>
             <div class="col-md-6">
               <img id="tutoring-image" src="/images/prof.png">
             </div> <!-- col -->
@@ -164,7 +201,7 @@
           <!-- leaderboard -->
           <div class="row row7 text-center">
             <div class="col-md-6">
-              <img id="leaderboard-image" src="/images/prof.png">
+              <img id="leaderboard-image" src="/images/Gurus.png">
             </div> <!-- col -->
 
             <div class="col-md-6">
@@ -182,7 +219,7 @@
             </div> <!-- col -->
 
             <div class="col-md-6">
-              <img id="chit-chat-image" src="/images/prof.png">
+              <img id="chit-chat-image" src="/images/upload.png">
             </div> <!-- col -->
           </div> <!-- row 5 -->
 
@@ -198,13 +235,33 @@
             </div> <!-- col -->
             
           </div> <!-- row 5 -->
-
-
-
-
-
         </div> <!-- coils -->
       </div> <!-- container -->
+
+      <footer>
+        <div class="row">
+            <div class="col-md-4">
+                <center><p id="usingCoilFooter"> using coil</p>
+                <div class="footerLinks">
+                    <a href="/product.php"> product </a><br>
+                    <a href="#"> prove it </a>
+                </div></center>
+            </div>
+            <div class="col-md-4">
+                <center><span class="glyphicon glyphicon-heart" id="coilFooter" aria-hidden="true">coil</span> 
+                <div class="footerLinks">
+                    <a href="#"> policy </a><br>
+                    <a href="#"> support </a>
+                </div></center>
+            </div>
+            <div class="col-md-4">
+                <center><p id="handyLinksFooter">tool box</p></center>
+                <div class="footerLinks">
+                    <a id="toolBox" href="#"> iOS app</a>
+                </div>
+            </div>
+        </div>
+    </footer>
 
 
 
@@ -220,6 +277,13 @@
     <!--<script src="lib/typed.js" type="text/javascript"></script> -->
 
   </body>
+
+            <!--
+                    <form class="navbar-right" action="/proof.php">
+                      <button id="proofCoilWorks"type="submit" class="btn btn-default navbar-btn pull-right">Proof Coil Works</button>
+                    </form>
+            -->
+
 
 
 </html>
