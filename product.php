@@ -34,90 +34,44 @@
   </head>
 
   <body>
-      <div class="background-image">
-      </div> <!-- background-image-->
-
       <!--<div class="container">-->
         <div class="row row1">
           <div class="col-lg-12">
+            <canvas id='confeti'></canvas>
+
             <a class="navbar-brand" href="/index.php">
                   <img id="logo" alt="Brand" src="images/coil_logo_clear.png">
             </a>
+
+            <!-- Login buttons-->
             <div class="loginButtons">
               <a class="button" href="#" id="loginButton"><strong>login</strong></a>     
               <a class="button" href="#" id="signupButton"><strong>signup</strong></a>
-              <a class="button" href="#" id="blueprint"><strong>blueprint</strong></a>
+              <a class="button" href="/proof.php" id="blueprint"><strong>blueprint</strong></a>
             </div>  
           
           </div>
-
-        </div>
-
-
-
-
-<!--
-          <nav class="navbar navbar-default">
-            <div class="container-fluid">
-              <div class="navbar-header">
-                <a class="navbar-brand" href="/index.php">
-                  <img id="logo" alt="Brand" src="images/coil_logo_clear.png">
-                </a>
-              </div>
-              <div class="loginButtons">
-                <ul class="nav navbar-nav">
-                  <li class="button"><a href="#" id="loginButton"><strong>login</strong></a></li>
-                  <li class="button"><a href="#" id="signupButton"><strong>signup</strong></a></li>
-                  <li class="button"><a href="#" id="blueprint"><strong>blueprint</strong></a></li>
-                </ul>
-              </div>
-            </div>
-          </nav>
--->
-
-
-<!--
-            <nav class="navbar fixed-top navbar-light bg-faded">
-              
-              <div class="navbar-brand">
-                <div class="loginButtons" id="button">
-                <a class="button" href="#" id="loginButton"><strong>login</strong></a>     
-                <a class="button" href="#" id="signupButton"><strong>signup</strong></a>
-                <a class="button" href="#" id="blueprint"><strong>blueprint</strong></a>
-                </div>
-              </div>
-            </nav>
-            -->
-            
-                <!--<div class="container-fluid">-->
-                    
-            
-            <!-- Login buttons-->
-                
-  
-                
-          </div> <!-- row 1 -->
+        </div> <!-- row 1 -->
         <div class="row row2">
           <div class="col-sm-12">
-            <form class="coil-vid-button text-center" action="/product_video.php">
-                <button id="coil-vid-button" class="btn btn-default btn-lg" type="submit">Watch the film</button>
-            </form>
+            <h1 class="headline text-center">Your journey to making an A</h1>
+            <h1><em>just</em> got a whole lot <strong>easier.</strong></h1>
           </div> <!-- col -->
         </div> <!-- row 2 -->
-     <!-- </div>  container-fluid -->
+     <!-- </div>  container-->
 
       <!--<div class="container">-->
         <div class="row row3">
           <div class="col-sm-12">
           
-          <!-- typed.js injection -->
+          <!-- typed.js injection 
             <div class="type-wrap">
                <div id="typed-strings">
                   <h1 class="headline text-center">Your journey to making an A</h1>
                   <h1><em>just</em> got a whole lot <strong>easier.</strong></h1>
                 </div>
               <span id="typed" style="white-space:pre;"></span>
-            </div>
+            </div>-->
             <!-- typed.js ends here -->
 
             <!--<h1 class="headline text-center">Your journey to making an A+ just got a whole lot easier</h1>-->
@@ -161,7 +115,7 @@
 
         <!-- coils -->
         <div class="coils">
-          <canvas id='confeti'></canvas>
+          <!--<canvas id='confeti'></canvas>-->
             <div class="row row5 text-center">
               <div class="col-md-6"> 
                 <img id="coil-image" src="/images/prof.png">
