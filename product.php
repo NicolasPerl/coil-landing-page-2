@@ -31,6 +31,8 @@
     <![endif]-->
 
     <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico" />
+
+
   </head>
 
   <body>
@@ -118,11 +120,11 @@
           <!--<canvas id='confeti'></canvas>-->
             <div class="row row5 text-center">
               <div class="col-md-6"> 
-                <img id="coil-image" src="/images/prof.png">
+                <!--<img id="coil-image" src="/images/prof.png">-->
               </div> <!-- col -->
               <div class="col-md-6">
                 <h1 class="coil-headline">Coils</h1>
-                <h3>Coil knows that studying with classmates, especially in person, is the most effective way to learn. Coil lets you create a coil (our word for study group) that your classmates can join.  Whether it's to finish homework or study for that upcoming test, a coil is where great minds come together to collaborate and educate each other.</h3>
+                <h3>Coil knows that studying with classmates, especially <br> in person, is the  most <span class="textColor">effective</span> way to learn.  Coil lets you <span class="textColor">create</span> a coil <br> (our word for study group) that your classmates can join.  Whether it's to finish <br> homework or study for that upcoming test, a coil is where great minds come together <br> to <span class="textColor">collaborate</span> and <span class="textColor">educate</span> each other.</h3>
               </div> <!-- col -->
             </div> <!-- row 5 -->
             <!-- tutoring -->
@@ -130,26 +132,26 @@
               <div class="tutor-background">
                 <div class="col-md-6">
                   <h1 class="tutoring-headline">Classmate tutoring</h1>
-                  <h3>Unless you're a genius you've probably felt confused in some classes. Thankfully, a few of your classmates understand what's going on. And Coil will connect you to them. You'll receive the help you need while  your classmate gains a deeper understanding of the material by explaining it to you, which is backed up by the Feynman technique - the guy who won the Nobel Peace Prize</h3>
+                  <h3>Unless you're a genius you've probably felt confused <br> in some classes. Thankfully, a few of your classmates understand what's going <br> on. And Coil will connect you to them. You'll receive the help you need while <br> your classmate gains a deeper understanding of the material by explaining it to you,<br> which is backed up by the Feynman technique - the guy who won the Nobel Peace Prize</h3>
                 </div> <!-- col -->
               </div>
               <div class="col-md-6">
-                <img id="tutoring-image" src="/images/prof.png">
+                <!--<img id="tutoring-image" src="/images/prof.png">-->
               </div> <!-- col -->
             </div> <!-- row 6 -->
           
           <div class="row row6 text-center visible-xs hidden-sm hidden-md hidden-lg">
 
             <div class="col-md-6">
-              <img id="tutoring-image" src="/images/prof.png">
+              <!--<img id="tutoring-image" src="/images/prof.png">-->
             </div> <!-- col -->
 
             <div class="col-md-6">
               <h1 class="tutoring-headline">Classmate tutoring</h1>
-              <h3>Unless you're a genius you've probably felt confused in some classes. Thankfully, a few of your classmates understand what's going on. And Coil will connect you to them. You'll receive the help you need while  your classmate gains a deeper understanding of the material by explaining it to you, which is backed up by the Feynman technique - the guy who won the Nobel Peace Prize</h3>
+              <h3>Unless you're a genius you've probably felt confused <br> in some classes. Thankfully, a few of your classmates understand what's going on. And Coil <br> will connect you to them. You'll receive the help you need while  your classmate <br> gains a deeper understanding of the material by explaining it to you, which <br> is backed up by the Feynman technique - the guy who won the Nobel Peace Prize</h3>
             </div> <!-- col -->
 
-          </div> <!-- row 5 -->
+          </div> <!-- row 6 -->
 
           <!-- leaderboard -->
           <div class="row row7 text-center">
@@ -159,35 +161,53 @@
 
             <div class="col-md-6">
               <h1 class="leaderboard-headline">Gurus</h1>
-              <h3>Students earn points by collaborating in study groups, explaining topics to classmates, and contributing to the classroom discussion (chit chat). The professor will have access to the leaderboard so he'll see if you really went the extra mile! </h3>
+              <h3>Students earn points by collaborating in study groups, <br>explaining topics to classmates, and contributing to the classroom discussion <br> (chit chat). The professor will have access to the leaderboard so he'll see if you really<br> went the extra mile!</h3>
+              <p id="gurusPage">Visit the <a href="windows/index.html">gurus page</a> to see what's activities are worth the most points!</p>
+
             </div> <!-- col -->
-          </div> <!-- row 5 -->
+          </div> <!-- row 7 -->
 
 
-          <!-- chit chat -->
+
+          <!--Chit Chat-->
+          <div class="row row8 text-center hidden-xs">
+            <div class="col-md-12">
+              <h1 class="chit-chat-headline">Collaborate with anyone at any time.</h1>
+              <h3>Coil enables students to ask questions and get answers from<br> classmates or the professor, and send pictures, videos, or files. We all know no<br> question is a dumb question but just in case, you can post anonymously. </h3>
+              <img id="chit-chat-image" src="/images/upload.png">
+            </div>
+          </div>
+
+          <div class="row row8 text-center visible-xs hidden-sm hidden-md hidden-lg">
+            <img id="chit-chat-image" src="/images/upload.png">
+            <h1 class="chit-chat-headline">Collaborate with anyone at any time.</h1>
+            <h3>Coil enables students to ask questions and get answers from classmates or the professor, and send pictures, videos, or files. We all know no question is a dumb question but just in case, you can post anonymously. </h3>
+          </div>
+
+          <!-- chit chat 
           <div class="row row8 text-center hidden-xs">
             <div class="col-md-6">
               <h1 class="chit-chat-headline">Chit Chat</h1>
               <h3>Coil enables students to ask questions and get answers from classmates or the professor, and send pictures, videos, or files. We all know no question is a dumb question but just in case, you can post anonymously. </h3>
-            </div> <!-- col -->
+            </div> col 
 
             <div class="col-md-6">
               <img id="chit-chat-image" src="/images/upload.png">
-            </div> <!-- col -->
-          </div> <!-- row 5 -->
+            </div>  col 
+          </div>  row 8 
 
           <div class="row row8 text-center visible-xs hidden-sm hidden-md hidden-lg">
 
             <div class="col-md-6">
               <img id="chit-chat-image" src="/images/prof.png">
-            </div> <!-- col -->
+            </div> col 
 
             <div class="col-md-6">
               <h1 class="chit-chat-headline">Chit Chat</h1>
               <h3>Coil enables students to ask questions and get answers from classmates or the professor, and send pictures, videos, or files. We all know no question is a dumb question but just in case, you can post anonymously. </h3>
-            </div> <!-- col -->
+            </div> col 
             
-          </div> <!-- row 5 -->
+          </div> row 8 -->
         </div> <!-- coils -->
      <!-- </div>  container -->
 
@@ -216,30 +236,12 @@
         </div>
     </footer>
 
-
-
-
-
-
-
     <!--jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
-
-        <script src="canvas-confetti/js/coffee-script.js"></script>
-
-
+    <script src="canvas-confetti/js/coffee-script.js"></script>
     <!--<script src="lib/typed.js" type="text/javascript"></script> -->
 
   </body>
-
-            <!--
-                    <form class="navbar-right" action="/proof.php">
-                      <button id="proofCoilWorks"type="submit" class="btn btn-default navbar-btn pull-right">Proof Coil Works</button>
-                    </form>
-            -->
-
-
-
 </html>

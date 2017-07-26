@@ -22,6 +22,7 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico" />
   </head>
 
 
@@ -53,7 +54,7 @@
         </nav>
         <div class="row row2">
           <div class="col-sm-12">
-            <h1 class="headline text-center">Coil's inspiration is a theorist who won the Nobel Peace Prize</h1>
+            <h1 class="headline text-center">Coil's inspiration came from a theorist who won the Nobel Peace Prize</h1>
           </div> <!-- col -->
         </div> <!-- row 2 -->
       </div> <!-- container-fluid -->
@@ -68,20 +69,74 @@
 
         <div class="feynman">
           <div class="row row4 text-center">
-            <div class="col-md-6"> 
-              <iframe id="feynman-video"width="100%" height="315" src="https://www.youtube.com/embed/tkm0TNFzIeg" frameborder="0" allowfullscreen></iframe>
-            </div> <!-- col -->
 
-            <div class="col-md-6">
-              <h1 class="feynman-description ">Study like the Nobel Peace Prize winner with these 4 steps</h1>
-              <div class="col-md-6">
-                <h3><span class="blue">1</span><br>Start studying any topic <br><br><br> <span class="blue">2</span><br> Attempt to teach the topic to your classmate</h3>
-              </div> <!-- col -->
-              <div class="col-md-6 text-center">
-                <h3> <span class="blue">3</span><br>Once you're stumped, get back to the books to study <br><br> <span class="blue">4</span><br> Teach it again but simplify your explanation and use analogies</h3>
-              </div> <!-- col -->
-            </div> <!-- col -->
-          </div> <!-- row 5 -->
+            <ul class="masonry-list">
+              <li class="tile-case">
+                <a href="#">
+                  <div class="tile-primary-content">
+                    <!--<img src="http://albumcoverart.files.wordpress.com/2010/04/fleet-foxes-lp.jpg" alt="">-->
+                  </div>
+                  <div class="tile-secondary-content">
+                    <h2>Music</h2>
+                    <p>Start studying any topic</p>
+                  </div>
+                </a>
+              </li>
+              <li class="tile-job">
+                <a href="#">
+                  <div class="tile-primary-content">
+                    <h2>Career</h2>
+                    <p>We're looking for consultants and other experts in advertising</p>
+                  </div>
+                  <div class="tile-secondary-content">
+                    <p>Apply now and become successful</p>
+                  </div>
+                </a>
+              </li>
+              <li class="tile-facebook">
+                <a href="#">
+                  <div class="tile-primary-content">
+                    <h2>Facebook</h2>
+                    <p>Don't expect to reach us on the phone today. We're BBQing! :)</p>
+                  </div>
+                  <div class="tile-secondary-content">
+                    <p>Like us on Facebook</p>
+                  </div>
+                </a>
+              </li>
+              <li class="tile-twitter">
+                <a href="https://twitter.com/chrisgrabinski">
+                  <div class="tile-primary-content">
+                    <h2>Twitter</h2>
+                    <p>@chrisgrabinski Lol. What's wrong with your CSS, bro?</p>
+                  </div>
+                  <div class="tile-secondary-content">
+                    <p>Follow us on Twitter</p>
+                  </div>
+                </a>
+              </li>
+              <li class="tile-person">
+                <a href="#">
+                  <div class="tile-primary-content">
+                    <img src="https://pbs.twimg.com/profile_images/687989817171288064/Y4PzAmSn.jpg" alt="">
+                  </div>
+                  <div class="tile-secondary-content">
+                    <div class="tile-secondary-container">
+                      <h2>Chris Grabinski</h2>
+                      <p>Front-end Development</p>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <li class="tile-client">
+                <a href="#">
+                  <div class="tile-primary-content">
+                    <img src="https://i.imgur.com/I6YDabc.png" alt="">
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </div> <!-- row 4 -->
         </div> <!-- coils -->
 
 <!-- Created by students section -->
