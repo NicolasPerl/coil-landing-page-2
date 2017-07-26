@@ -171,17 +171,23 @@
 
           <!--Chit Chat-->
           <div class="row row8 text-center hidden-xs">
-            <div class="col-md-12">
+            <div class="col-sm-6">
               <h1 class="chit-chat-headline">Collaborate with anyone at any time.</h1>
               <h3>Coil enables students to ask questions and get answers from<br> classmates or the professor, and send pictures, videos, or files. We all know no<br> question is a dumb question but just in case, you can post anonymously. </h3>
+            </div>
+            <div class="col-sm-6">
               <img id="chit-chat-image" src="/images/upload.png">
             </div>
           </div>
 
           <div class="row row8 text-center visible-xs hidden-sm hidden-md hidden-lg">
-            <img id="chit-chat-image" src="/images/upload.png">
-            <h1 class="chit-chat-headline">Collaborate with anyone at any time.</h1>
-            <h3>Coil enables students to ask questions and get answers from classmates or the professor, and send pictures, videos, or files. We all know no question is a dumb question but just in case, you can post anonymously. </h3>
+            <div class="col-md-6">
+              <img id="chit-chat-image" src="/images/upload.png">
+            </div>
+            <div class="col-md-6">
+              <h1 class="chit-chat-headline">Collaborate with anyone at any time.</h1>
+              <h3>Coil enables students to ask questions and get answers from classmates or the professor, and send pictures, videos, or files. We all know no question is a dumb question but just in case, you can post anonymously. </h3>
+            </div>
           </div>
 
           <!-- chit chat 
