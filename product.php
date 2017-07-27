@@ -66,8 +66,8 @@
               <!--<p>-->
                 <span class="word wisteria">engaging.</span>
                 <span class="word belize">interactive.</span>
-                <span class="word pomegranate">exciting.</span>
-                <span class="word green">fun.</span>
+                <span class="word pomegranate">natural.</span>
+                <span class="word green">immediate.</span>
                 <span class="word midnight">intuitive.</span>
                 </p>
               <!--</p>-->
@@ -86,7 +86,7 @@
             <img src="/images/Steps.png" id="steps">
           </div>
           <div class="col-sm-4 text-center col-1">
-            <img id="prof-image" src="/images/prof.png">
+            <img id="prof-image" src="/images/professor.png">
             <h2>Professor invites students to the class</h2>
           </div> <!-- col 1 -->
           <div class="col-sm-4 text-center col-2">
@@ -94,7 +94,7 @@
             <h2 class="boardText">In each class, there's a board that acts as the central hub</h2>
           </div> <!-- col 2 -->
           <div class="col-sm-4 text-center col-3">
-            <img id="students-image" src="/images/iPad-coffee-pencil.png">
+            <img id="students-image" src="/images/questions.png">
             <h2>On the board students have the power to...</h2>
             <h4 id="scroll-down">(Scroll down to see!)</h4>
           </div> <!-- col 3 -->
@@ -118,23 +118,23 @@
               <div class="tutor-background">
                 <div class="col-md-6">
                   <h1 class="tutoring-headline">Classmate tutoring</h1>
-                  <h3>Unless you're a genius you've probably felt confused <br> in some classes. Thankfully, a few of your classmates understand what's going <br> on. And Coil will connect you to them. You'll receive the help you need while <br> your classmate gains a deeper understanding of the material by explaining it to you,<br> which is backed up by the Feynman technique - the guy who won the Nobel Peace Prize</h3>
+                  <h3>Unless you're a genius you've probably felt <span class="textColor">confused</span> in some classes. Thankfully, a few of your classmates understand what's going on. And Coil will <span class="textColor">connect</span> you to them. You'll receive the help you need while your classmate gains a deeper <span class="textColor">understanding</span> of the material by explaining it to you, which is backed up by the Feynman technique - the guy who won the <span class="textColor">Nobel Peace Prize</span></h3>
                 </div> <!-- col -->
               </div>
               <div class="col-md-6">
-                <!--<img id="tutoring-image" src="/images/prof.png">-->
+                <img id="tutoring-image" src="/images/classmate-tutoring.png">
               </div> <!-- col -->
             </div> <!-- row 6 -->
           
           <div class="row row6 text-center visible-xs hidden-sm hidden-md hidden-lg">
 
             <div class="col-md-6">
-              <!--<img id="tutoring-image" src="/images/prof.png">-->
+              <img id="tutoring-image" src="/images/classmate-tutoring.png">
             </div> <!-- col -->
 
             <div class="col-md-6">
               <h1 class="tutoring-headline">Classmate tutoring</h1>
-              <h3>Unless you're a genius you've probably felt confused <br> in some classes. Thankfully, a few of your classmates understand what's going on. And Coil <br> will connect you to them. You'll receive the help you need while  your classmate <br> gains a deeper understanding of the material by explaining it to you, which <br> is backed up by the Feynman technique - the guy who won the Nobel Peace Prize</h3>
+              <h3>Unless you're a genius you've probably felt <span class="textColor">confused</span> in some classes. Thankfully, a few of your classmates understand what's going on. And Coil will <span class="textColor">connect</span> you to them. You'll receive the help you need while  your classmate gains a deeper <span class="textColor">understanding</span> of the material by explaining it to you, which is backed up by the Feynman technique - the guy who won the <span class="textColor">Nobel Peace Prize</span></h3>
             </div> <!-- col -->
 
           </div> <!-- row 6 -->
@@ -179,13 +179,13 @@
                 <center><p id="usingCoilFooter"> using coil</p>
                 <div class="footerLinks">
                     <a href="/product.php"> product </a><br>
-                    <a href="#"> prove it </a>
+                    <a href="/proof.php"> prove it </a>
                 </div></center>
             </div>
             <div class="col-md-4">
                 <center><span class="glyphicon glyphicon-heart" id="coilFooter" aria-hidden="true">coil</span> 
                 <div class="footerLinks">
-                    <a href="#"> policy </a><br>
+                    <a id="policyLink" href="#"> policy </a><br>
                     <a href="#"> support </a>
                 </div></center>
             </div>
@@ -197,6 +197,7 @@
                 </div>
             </div>
         </div>
+  
     </footer>
 
     <!--jQuery (necessary for Bootstrap's JavaScript plugins) -->

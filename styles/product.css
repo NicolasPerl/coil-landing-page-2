@@ -87,9 +87,14 @@ body {
 	height: 50pt
 }
 
+#prof-image {
+	height: 10%;
+	width: 20%;
+}
+
 #board-image {
-	height: 40%;
-	width: 80%;
+	height: 20%;
+	width: 30%;
 	position: relative;
 	z-index: -100
 }
@@ -198,6 +203,10 @@ body {
 	background: url(/images/fabric-of-squares.png);
 }
 
+.row4 h2 {
+	font-size: 130%;
+}
+
 
 
 h2 {
@@ -219,8 +228,8 @@ h2 {
 	
 }
 #students-image {
-	width: 300pt;
-	height: 200pt;
+	width: 150pt;
+	height: 150pt;
 	margin: 5%;
 	margin-left: 10%;
 }
@@ -276,23 +285,28 @@ h2 {
 	min-height: 400pt;
 	border-top: 1px solid;
 	border-color: gray;
-	background-color: #2C2D31;
-	background:  url(/images/pink-dust.png)
+	background-color: #15B2D5;
+	/*background:  url(/images/pink-dust.png)*/
 }
 
 .row6 h3 {
 	color: white;
 	font-size: 130%;
+	margin-left: 50%;
 }
 
 #tutoring-image {
 	margin-top: 15%;
+	margin-right: 50%;
+	width: 30%;
+	height: 60%;
+	margin-bottom: 15%;
 }
 
 .tutoring-headline {
 	margin-top: 15%;
 	color: white;
-
+	margin-left: 50%;
 }
 
 .row7 {
@@ -371,9 +385,9 @@ footer {
 }
 
 #coilFooter {
-	margin-top: 10%;
+	margin-top: 12%;
 	color: #E14400;
-  font-size: 150%;
+  	font-size: 150%;
 
 }
 
@@ -386,6 +400,10 @@ footer {
 
 }
 
+#policyLink {
+	margin-top: 5%;
+}
+
 #toolBox {
 	float: right;
 	margin-right: 47%;
@@ -395,19 +413,19 @@ footer {
 	text-decoration: none;
 	color: #778899;
 	font-size: 90%;
-	margin-bottom: 20%;
+	/*margin-bottom: 20%;*/
 }
 
 #gurusLink {
 	float: right;
-	margin-right: 47%;
+	margin-right: 45%;
 }
 
 
 .footerLinks {
 	margin-bottom: 10%;
-	/*margin: 3%;
-*/}
+	margin: 3%;
+}
 
 
 /* rotating text starts here */

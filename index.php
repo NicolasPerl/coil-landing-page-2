@@ -6,45 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>coil</title>
-
     <!-- Bootstrap -->
     <link href="bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="lib/typed.min.js" type="text/javascript"></script>
-
-    
-
     <!-- This page's style sheet -->
     <link href="styles/index.css" rel="stylesheet">
     <!-- Mobile Friendly-->
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
-
-    <!--PointPoint
-    <link rel="stylesheet" href="pointpoint/jquery.pointpoint/jquery.pointpoint.css" />-->
-
-
     <!--favicon in tab-->
     <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico" />
     <!--google fonts-->
     <link href="https://fonts.googleapis.com/css?family=Lato:black,400,900" rel="stylesheet">
-    <!--
-    <style>
-      body {
-        font-family: 'Lato', serif;
-        font-size: 200%;
-      }
-    </style>
--->
-
-
 
   </head>
   <body>
@@ -53,20 +26,14 @@
             <div class="video-container">
                 <div class="loginButtons">
                     <img src="images/landing-page-logo.png" id="landing-page-logo" alt="coil logo">
-                    <!--Figure out how to make button link up
-                    <a href="#" id="loginButton" class="btn btn-primary btn-sm"><strong>login</strong></a>
-                    <a href="#" id="signupButton" class="btn btn-primary btn-sm"><strong>signup</strong></a>-->
-
                     <a class="button" href="#" id="loginButton"><strong>login</strong></a>     
                     <a class="button" href="#" id="signupButton"><strong>signup</strong></a>
-
                 </div>
                 <div class="filter"></div>
                 <video autoplay loop class="fillWidth" preload="autoplay">
                     <source src="Comfy/MP4/Comfy.mp4" type="video/mp4" />Your browser does not support the video tag. I suggest you upgrade your browser.
                     <source src="Comfy/WEBM/Comfy.webm" type="video/webm" />Your browser does not support the video tag. I suggest you upgrade your browser.
                 </video>
-                <!--<center><h1 id="headline">Collaborate with your classmates <br>or get tutored by them</h1></center>-->
                 <!-- typed.js injection -->
                 <div class="type-wrap">
                     <div id="typed-strings">
@@ -119,35 +86,26 @@
                 <center><p id="handyLinksFooter">tool box</p></center>
                 <div class="footerLinks">
                     <a id="toolBox" href="#"> iOS app</a>
+                    <a id="gurusLink" href="/windows/index.html">guru board</a>
                 </div>
             </div>
         </div>
     </footer>
 
-      <!-- jQuery -->
-      
+
+    <!-- jQuery -->
     <script src="js/jquery.js"></script>
-
-
-
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
-
     <script src="js/bootstrap.min.js" type="text/javascript"></script>
-
     <!-- Including The jQuery Library -->
     <script src="http://code.jquery.com/jquery-1.6.3.min.js"></script>
-
     <!-- Including the PointPoint() Plugin -->
     <script src="pointpoint/jquery.pointpoint/transform.js"></script>
     <script src="pointpoint/jquery.pointpoint/jquery.pointpoint.js"></script>
-
     <!-- The main script file -->
     <script src="pointpoint/js/script.js"></script>    
-
   </body>
-
-
 </html>
