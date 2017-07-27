@@ -103,7 +103,7 @@
           </div> <!-- col 1 -->
           <div class="col-sm-4 text-center col-2">
             <img id="board-image" src="/images/board.png">
-            <h2>In each class, there's a board that acts as the central hub</h2>
+            <h2 class="boardText">In each class, there's a board that acts as the central hub</h2>
           </div> <!-- col 2 -->
           <div class="col-sm-4 text-center col-3">
             <img id="students-image" src="/images/iPad-coffee-pencil.png">
@@ -120,11 +120,11 @@
           <!--<canvas id='confeti'></canvas>-->
             <div class="row row5 text-center">
               <div class="col-md-6"> 
-                <!--<img id="coil-image" src="/images/prof.png">-->
+                <img id="coil-image" src="/images/coilsYellow.png">
               </div> <!-- col -->
               <div class="col-md-6">
-                <h1 class="coil-headline">Coils</h1>
-                <h3>Coil knows that studying with classmates, especially <br> in person, is the  most <span class="textColor">effective</span> way to learn.  Coil lets you <span class="textColor">create</span> a coil <br> (our word for study group) that your classmates can join.  Whether it's to finish <br> homework or study for that upcoming test, a coil is where great minds come together <br> to <span class="textColor">collaborate</span> and <span class="textColor">educate</span> each other.</h3>
+                <h1 class="coil-headline">Create coils for when it matters.</h1>
+                <h3>Coil knows that studying with classmates, especially <br> in person, is the  most <span class="textColor">effective</span> way to learn.  Coil lets you <span class="textColor">create</span> a coil (our word for study group) that your classmates can join.  Whether it's to finish homework or study for that upcoming test, a coil is where great minds come together to <span class="textColor">collaborate</span> and <span class="textColor">educate</span> each other.</h3>
               </div> <!-- col -->
             </div> <!-- row 5 -->
             <!-- tutoring -->
@@ -175,11 +175,14 @@
               <h1 class="chit-chat-headline">Collaborate with anyone at any time.</h1>
               <h3>Coil enables students to ask questions and get answers from<br> classmates or the professor, and send pictures, videos, or files. We all know no<br> question is a dumb question but just in case, you can post anonymously. </h3>
               <img id="chit-chat-image" src="/images/upload.png">
+              <img id="qa-image" src="/images/qa.png">
+
             </div>
           </div>
 
           <div class="row row8 text-center visible-xs hidden-sm hidden-md hidden-lg">
             <img id="chit-chat-image" src="/images/upload.png">
+            <img id="qa-image" src="/images/qa.png">
             <h1 class="chit-chat-headline">Collaborate with anyone at any time.</h1>
             <h3>Coil enables students to ask questions and get answers from classmates or the professor, and send pictures, videos, or files. We all know no question is a dumb question but just in case, you can post anonymously. </h3>
           </div>

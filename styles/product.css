@@ -67,6 +67,18 @@ body {
 	height: 50pt
 }
 
+#board-image {
+	height: 40%;
+	width: 80%;
+	position: relative;
+	z-index: -100
+}
+
+.boardText {
+	z-index: 100;
+	margin-bottom: 22%;
+}
+
 .row2 {
 	height: 350pt;
 }
@@ -209,13 +221,21 @@ h2 {
 .coils h3 {
 	font-size: calc(12pt + .3vw);
 	margin-bottom: 10%;
+
 }
 
 .row5 {
 	min-height: 500pt;
 	border-top: 1px solid;
 	border-color: gray;
-	background-color: #439FE0;
+	background-color: #F3B14A;
+}
+
+.row5 img {
+	width: 40%;
+	height: 80%;
+	margin-left: 60%;
+	margin-bottom: 10%;
 }
 
 
@@ -240,13 +260,13 @@ h2 {
 .coil-headline {
 	margin-top: 15%;
 	color: white;
-	margin-right: 12%;
+	margin-right: 63%;
 	font-size: 10%;
 }
 
 .row5 h3 {
 	color: white;
-	margin-right: 10%;
+	margin-right: 60%;
 	font-size: 130%;
 }
 
@@ -316,6 +336,14 @@ h2 {
 	height: 20%;
 	width: 20%;
 	margin-bottom: 10%;
+
+}
+
+#qa-image {
+	width: 12%;
+	height: 12%;
+	margin-bottom: 9%;
+	margin-left: 10%;
 }
 
 .chit-chat-headline {
