@@ -36,23 +36,26 @@
           <div class="mobile-toggle"> <span></span> <span></span> <span></span> </div>
           <nav>
             <ul>
-              <li><a href="index.php">Home</a></li>
-              <li><a href="product.php">Product</a></li>
-              <li><a href="windows/index.html">Gurus</a></li>
-              <li><a href="#portfolio">Something</a></li>
-              <li><a href="#contact">Contact</a></li>
+              <li><a href="index.php">home</a></li>
+              <li><a href="product.php">product</a></li>
+              <li><a href="windows/index.html">gurus</a></li>
+              <!--<li><a href="#portfolio">Something</a></li>-->
+              <li><a href="mailto:support@coilapp.com?Subject=Hi%20again!" target="_top">contact</a></li>
+              <!--<li><a href="#contact">Contact</a></li>-->
             </ul>
           </nav>
         </div>
       </div>
-
+      <a class="navbar-brand" href="/index.php">
+            <img id="logo" alt="Brand" src="images/coil_logo_clear.png">
+      </a>
       <div class="title">
         <div><span class="typcn typcn-heart-outline icon heading"></span></div>
         <div class="smallsep heading"></div>
         <h1 class="heading"> Coil's inspiration came from a theorist who won the Nobel Peace Prize</h1>
         <div class='hoverme'>
             <span>
-              Your welcome.
+              From us to you.
             </span>
             <i></i>
             <i></i>
@@ -204,7 +207,7 @@
               </div>
             </div>
             <div class="progressBar">
-              <h4>I learned by by watching</h4>
+              <h4>I learned by watching</h4>
               <div class="progressBarContainer">
                 <div class="progressBarValue value-10"></div>
               </div>

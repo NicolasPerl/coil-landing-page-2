@@ -6,80 +6,56 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>Product</title>
-
     <!-- Bootstrap -->
     <link href="bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
-
     <!-- This page's style sheet -->
     <link href="styles/product.css" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
     <!--CDN link for  TweenMax-->
     <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TweenMax.min.js"></script>
-
     <!--typed.js-->
     <script src="lib/typed.min.js" type="text/javascript"></script>
-
     <!-- Lato font -->
     <link href="https://fonts.googleapis.com/css?family=Lato:black,400,900" rel="stylesheet">
-
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
     <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico" />
-
-
   </head>
-
   <body>
-      <!--<div class="container">-->
         <div class="row row1">
           <div class="col-lg-12">
             <canvas id='confeti'></canvas>
-
             <a class="navbar-brand" href="/index.php">
                   <img id="logo" alt="Brand" src="images/coil_logo_clear.png">
             </a>
-
             <!-- Login buttons-->
             <div class="loginButtons">
               <a class="button" href="#" id="loginButton"><strong>login</strong></a>     
               <a class="button" href="#" id="signupButton"><strong>signup</strong></a>
+              <a class="button" href="windows/index.html" id="gurus"><strong>gurus</strong></a>
               <a class="button" href="/proof.php" id="blueprint"><strong>blueprint</strong></a>
+
             </div>  
           
           </div>
         </div> <!-- row 1 -->
         <div class="row row2">
           <div class="col-sm-12">
-          <!--
-            <h1 class="headline text-center">Your journey to making an A</h1>
-            <h1><em>just</em> got a whole lot <strong>easier.</strong></h1> -->
-
-
             <div class="text">
               <p id="headline">Your journey to making an A just got a whole lot more &nbsp    
-              <!--<p>-->
                 <span class="word wisteria">engaging.</span>
                 <span class="word belize">interactive.</span>
                 <span class="word pomegranate">natural.</span>
                 <span class="word green">immediate.</span>
                 <span class="word midnight">intuitive.</span>
-                </p>
-              <!--</p>-->
+              </p>
             </div>
-
           </div> <!-- col -->
         </div> <!-- row 2 -->
 
+        <!-- Random Row -->
         <div class="row row3">
           <div class="col-sm-12">
-          </div> <!-- col -->
-      </div> <!-- row 3 -->
+          </div> 
+        </div> <!-- row 3 -->
 
         <div class="row row4">
           <div class="col-lg-12">
@@ -99,7 +75,6 @@
             <h4 id="scroll-down">(Scroll down to see!)</h4>
           </div> <!-- col 3 -->
         </div> <!-- row 4 -->
-
 
         <!-- coils -->
         <div class="coils">
@@ -147,8 +122,9 @@
 
             <div class="col-md-6">
               <h1 class="leaderboard-headline">Gurus</h1>
-              <h3>Students earn points by collaborating in study groups, <br>explaining topics to classmates, and contributing to the classroom discussion <br> (chit chat). The professor will have access to the leaderboard so he'll see if you really<br> went the extra mile!</h3>
-              <p id="gurusPage">Visit the <a href="windows/index.html">gurus page</a> to see what's activities are worth the most points!</p>
+              <h3>Students earn points by collaborating in study groups, <br>explaining topics to classmates, and contributing to the classroom discussion (chit chat). The professor will have access to the leaderboard so he'll see if you really went the extra mile!<br><br> <span class="gurusPage"> Visit the <a href="windows/index.html">gurus page</a> to see how to earn the most points!</span></h3>
+              <!--
+              <p id="gurusPage">Visit the <a href="windows/index.html">gurus page</a> to see what's activities are worth the most points!</p>-->
 
             </div> <!-- col -->
           </div> <!-- row 7 -->
@@ -186,7 +162,7 @@
                 <center><span class="glyphicon glyphicon-heart" id="coilFooter" aria-hidden="true">coil</span> 
                 <div class="footerLinks">
                     <a id="policyLink" href="#"> policy </a><br>
-                    <a href="#"> support </a>
+                    <a href="mailto:support@coilapp.com?Subject=Hi%20again!" target="_top">contact us</a>
                 </div></center>
             </div>
             <div class="col-md-4">

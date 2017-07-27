@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>coil</title>
+    <title>Coil</title>
     <!-- Bootstrap -->
     <link href="bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -79,7 +79,7 @@
                 <center><span class="glyphicon glyphicon-heart" id="coilFooter" aria-hidden="true">coil</span> 
                 <div class="footerLinks">
                     <a href="#"> policy </a><br>
-                    <a href="#"> support </a>
+                    <a href="mailto:support@coilapp.com?Subject=Hi%20again!" target="_top">contact us</a>
                 </div></center>
             </div>
             <div class="col-md-4">
