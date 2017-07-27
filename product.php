@@ -56,42 +56,30 @@
         </div> <!-- row 1 -->
         <div class="row row2">
           <div class="col-sm-12">
+          <!--
             <h1 class="headline text-center">Your journey to making an A</h1>
-            <h1><em>just</em> got a whole lot <strong>easier.</strong></h1>
+            <h1><em>just</em> got a whole lot <strong>easier.</strong></h1> -->
+
+
+            <div class="text">
+              <p id="headline">Your journey to making an A just got a whole lot more &nbsp    
+              <!--<p>-->
+                <span class="word wisteria">engaging.</span>
+                <span class="word belize">interactive.</span>
+                <span class="word pomegranate">exciting.</span>
+                <span class="word green">fun.</span>
+                <span class="word midnight">intuitive.</span>
+                </p>
+              <!--</p>-->
+            </div>
+
           </div> <!-- col -->
         </div> <!-- row 2 -->
-     <!-- </div>  container-->
 
-      <!--<div class="container">-->
         <div class="row row3">
           <div class="col-sm-12">
-          
-          <!-- typed.js injection 
-            <div class="type-wrap">
-               <div id="typed-strings">
-                  <h1 class="headline text-center">Your journey to making an A</h1>
-                  <h1><em>just</em> got a whole lot <strong>easier.</strong></h1>
-                </div>
-              <span id="typed" style="white-space:pre;"></span>
-            </div>-->
-            <!-- typed.js ends here -->
-
-            <!--<h1 class="headline text-center">Your journey to making an A+ just got a whole lot easier</h1>-->
-        </div> <!-- col -->
+          </div> <!-- col -->
       </div> <!-- row 3 -->
-
-      <!-- typed.js script -->
-       <script>
-        var typed = new Typed('#typed', {
-          stringsElement: '#typed-strings',
-          typeSpeed: 40,
-          loop: true,
-          backDelay: 500,
-          startDelay: 1000,
-        });
-      </script>
-      <!-- typed.js script ends here -->
-
 
         <div class="row row4">
           <div class="col-lg-12">
@@ -113,15 +101,13 @@
         </div> <!-- row 4 -->
 
 
-<!-- feature description section -->
-
         <!-- coils -->
         <div class="coils">
-          <!--<canvas id='confeti'></canvas>-->
             <div class="row row5 text-center">
               <div class="col-md-6"> 
                 <img id="coil-image" src="/images/coilsYellow.png">
               </div> <!-- col -->
+              <!-- feature description section -->
               <div class="col-md-6">
                 <h1 class="coil-headline">Create coils for when it matters.</h1>
                 <h3>Coil knows that studying with classmates, especially <br> in person, is the  most <span class="textColor">effective</span> way to learn.  Coil lets you <span class="textColor">create</span> a coil (our word for study group) that your classmates can join.  Whether it's to finish homework or study for that upcoming test, a coil is where great minds come together to <span class="textColor">collaborate</span> and <span class="textColor">educate</span> each other.</h3>
@@ -186,34 +172,7 @@
             <h1 class="chit-chat-headline">Collaborate with anyone at any time.</h1>
             <h3>Coil enables students to ask questions and get answers from classmates or the professor, and send pictures, videos, or files. We all know no question is a dumb question but just in case, you can post anonymously. </h3>
           </div>
-
-          <!-- chit chat 
-          <div class="row row8 text-center hidden-xs">
-            <div class="col-md-6">
-              <h1 class="chit-chat-headline">Chit Chat</h1>
-              <h3>Coil enables students to ask questions and get answers from classmates or the professor, and send pictures, videos, or files. We all know no question is a dumb question but just in case, you can post anonymously. </h3>
-            </div> col 
-
-            <div class="col-md-6">
-              <img id="chit-chat-image" src="/images/upload.png">
-            </div>  col 
-          </div>  row 8 
-
-          <div class="row row8 text-center visible-xs hidden-sm hidden-md hidden-lg">
-
-            <div class="col-md-6">
-              <img id="chit-chat-image" src="/images/prof.png">
-            </div> col 
-
-            <div class="col-md-6">
-              <h1 class="chit-chat-headline">Chit Chat</h1>
-              <h3>Coil enables students to ask questions and get answers from classmates or the professor, and send pictures, videos, or files. We all know no question is a dumb question but just in case, you can post anonymously. </h3>
-            </div> col 
-            
-          </div> row 8 -->
         </div> <!-- coils -->
-     <!-- </div>  container -->
-
       <footer>
         <div class="row">
             <div class="col-md-4">
@@ -233,7 +192,8 @@
             <div class="col-md-4">
                 <center><p id="handyLinksFooter">tool box</p></center>
                 <div class="footerLinks">
-                    <a id="toolBox" href="#"> iOS app</a>
+                    <a id="toolBox" href="#"> iOS app</a><br>
+                    <a id="gurusLink" href="/windows/index.html">guru board</a>
                 </div>
             </div>
         </div>
@@ -245,6 +205,7 @@
     <script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
     <script src="canvas-confetti/js/coffee-script.js"></script>
     <!--<script src="lib/typed.js" type="text/javascript"></script> -->
+    <script src="rotating-text/rotating-text.js"></script>
 
   </body>
 </html>
