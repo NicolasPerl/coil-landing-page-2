@@ -32,7 +32,7 @@
 
     <header id="header">
       <div class="main_nav">
-        <div class="container">
+        <!--<div class="container">-->
           <div class="mobile-toggle"> <span></span> <span></span> <span></span> </div>
           <nav>
             <ul>
@@ -44,7 +44,7 @@
               <!--<li><a href="#contact">Contact</a></li>-->
             </ul>
           </nav>
-        </div>
+        <!--</div>-->
       </div>
       <a class="navbar-brand" href="/index.php">
             <img id="logo" alt="Brand" src="images/coil_logo_clear.png">

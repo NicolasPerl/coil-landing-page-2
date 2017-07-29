@@ -6,8 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>Product</title>
+
+
     <!-- Bootstrap -->
     <link href="bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
+
+
     <!-- This page's style sheet -->
     <link href="styles/product.css" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -39,15 +43,19 @@
         </div> <!-- row 1 -->
         <div class="row row2">
           <div class="col-sm-12">
-            <div class="text">
-              <p id="headline">Your journey to making an A just got a whole lot more &nbsp    
-                <span class="word wisteria">engaging.</span>
-                <span class="word belize">interactive.</span>
-                <span class="word pomegranate">natural.</span>
-                <span class="word green">immediate.</span>
-                <span class="word midnight">intuitive.</span>
-              </p>
-            </div>
+            <section class="rw-wrapper">
+              <h2 class="rw-sentence">
+                <span>Your journey to making an A just got a whole lot</span>
+                <span>more</span>
+                <div class="rw-words rw-words-1">
+                  <span>incredible</span>
+                  <span>engaging</span>
+                  <span>interactive</span>
+                  <span>intuitive</span>
+                </div>
+                <br />
+              </h2>
+            </section>
           </div> <!-- col -->
         </div> <!-- row 2 -->
 
@@ -122,7 +130,7 @@
 
             <div class="col-md-6">
               <h1 class="leaderboard-headline">Gurus</h1>
-              <h3>Students earn points by collaborating in study groups, <br>explaining topics to classmates, and contributing to the classroom discussion (chit chat). The professor will have access to the leaderboard so he'll see if you really went the extra mile!<br><br> <span class="gurusPage"> Visit the <a href="windows/index.html">gurus page</a> to see how to earn the most points!</span></h3>
+              <h3>Students earn points by collaborating in study groups, <br>explaining topics to classmates, and contributing to the classroom discussion. The professor will have access to the leaderboard so he'll see if you really went the extra mile!<br><br> <span class="gurusPage"> Visit the <a href="windows/index.html">gurus page</a> to see how to earn the most points!</span></h3>
               <!--
               <p id="gurusPage">Visit the <a href="windows/index.html">gurus page</a> to see what's activities are worth the most points!</p>-->
 
@@ -178,8 +186,12 @@
 
     <!--jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+
+
     <script src="canvas-confetti/js/coffee-script.js"></script>
     <!--<script src="lib/typed.js" type="text/javascript"></script> -->
     <script src="rotating-text/rotating-text.js"></script>
