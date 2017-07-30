@@ -188,9 +188,6 @@ h2 {
 	margin-left: 10%;
 }
 
-#scroll-down {
-	color: gray;
-}
 
 .coils h1 {
 	font-size: calc(12pt + 1.2vw)
@@ -233,6 +230,7 @@ h2 {
 	color: white;
 	margin-right: 60%;
 	font-size: 130%;
+	letter-spacing: 1px;
 }
 
 .row6 {
@@ -246,6 +244,8 @@ h2 {
 	color: white;
 	font-size: 130%;
 	margin-left: 50%;
+	letter-spacing: 1px;
+
 }
 
 #tutoring-image {
@@ -272,6 +272,8 @@ h2 {
 .row7 h3 {
 	font-size: 130%;
 	margin-right: 50%;
+	letter-spacing: 1px;
+
 }
 
 #leaderboard-image {
@@ -383,90 +385,7 @@ footer {
 }
 /* footer ends here */
 
-/* rotating text starts here ]
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:600);
-.text { 
-  position: absolute;
-  width: 28%;
-  /*margin-left: -225px;
-  height: 40px;
-  top: 50%;
-  margin-top: 4%;
-  margin-left: 35%;
-  font-size: 300%;
-}
-
-.text p {
-	
-  display: inline-block;
-  vertical-align: top;
-  margin: 0;
-}
-
-.word {
-  position: absolute;
-  width: 220px;
-  opacity: 0;
-}
-
-.letter {
-  display: inline-block;
-  position: relative;
-  float: left;
-  -webkit-transform: translateZ(25px);
-        transform: translateZ(25px);
-  -webkit-transform-origin: 50% 50% 25px;
-    	transform-origin: 50% 50% 25px;
-}
-
-.letter.out {
-  -webkit-transform: rotateX(90deg);
-  		transform: rotateX(90deg);
-  -webkit-transition: -webkit-transform 0.32s cubic-bezier(0.55, 0.055, 0.675, 0.19);
-  transition: -webkit-transform 0.32s cubic-bezier(0.55, 0.055, 0.675, 0.19);
-  transition: transform 0.32s cubic-bezier(0.55, 0.055, 0.675, 0.19);
-  transition: transform 0.32s cubic-bezier(0.55, 0.055, 0.675, 0.19), -webkit-transform 0.32s cubic-bezier(0.55, 0.055, 0.675, 0.19);
-}
-
-
-
-.letter.behind {
-  -webkit-transform: rotateX(-90deg);
-          transform: rotateX(-90deg);
-}
-
-.letter.in {
-  -webkit-transform: rotateX(0deg);
-  -webkit-transform: rotateX(90deg);
-          transform: rotateX(0deg);
-  -webkit-transition: -webkit-transform 0.38s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-  transition: -webkit-transform 0.38s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-  transition: transform 0.38s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-  transition: transform 0.38s cubic-bezier(0.175, 0.885, 0.32, 1.275), -webkit-transform 0.38s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-}
-
-.wisteria {
-  color: #ff7373;
-}
-
-.belize {
-  color: #60C0A1;
-}
-
-.pomegranate {
-  color: #c0392b;
-}
-
-.green {
-  color: #16a085;
-}
-
-.midnight {
-  color: #FF6161;
-}
-
-*/
-
+/* rotating text starts here*/
 .rw-wrapper{
 	width: 80%;
 	position: relative;

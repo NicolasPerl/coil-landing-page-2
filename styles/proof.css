@@ -467,6 +467,10 @@ opacity: 0;
 #about {
 	padding: 100px 0 50px 0;
 }
+
+#peaceHeadline {
+	font-size: 130%;
+}
 /* Team Section
 ********************************************************************* */
 #team {

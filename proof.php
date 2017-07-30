@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>blueprint</title>
+    <title>inspiration</title>
 
     <!-- Bootstrap -->
     <link href="bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
@@ -55,7 +55,7 @@
         <h1 class="heading"> Coil's inspiration came from a theorist who won the Nobel Peace Prize</h1>
         <div class='hoverme'>
             <span>
-              From us to you.
+              A gift from us to you.
             </span>
             <i></i>
             <i></i>
@@ -126,13 +126,13 @@
         <div class="row">
           <h1>Feynman's Study Technique</h1>
           <div class="block"></div>
-          <p>Study like the Nobel Peace Prize winner with these 4 steps:</p>
+          <p id="peaceHeadline">Study like the Nobel Peace Prize winner with these 4 steps:</p>
         </div>
         <div class="row">
           <div class="six columns">
             <h3><span class="typcn typcn-device-desktop icon"></span>Step 1:</h3>
             <p><img id="library" src="maki-icons/svgs/library-15.svg">
-            Pick a clear topic or subject to study.</p>
+            Pick a topic or subject and study it.</p>
           </div>
           <div class="six columns">
             <h3><span class="typcn typcn-pen icon"></span>Step 2:</h3>
@@ -143,12 +143,12 @@
             <div class="six columns">
               <h3><span class="typcn typcn-cog-outline icon"></span>Step 3:</h3>
               <p><img id="library" src="maki-icons/svgs/college-15.svg">
-              Return to studying, but this time take time to understand areas that you could not explain clearly.</p>
+              Return to studying, but focus on understanding the areas that you could not explain clearly.</p>
             </div>
             <div class="six columns">
               <h3><span class="typcn typcn-lightbulb icon"></span>Step 4:</h3>
               <p><img id="library" src="maki-icons/svgs/rocket-15.svg">
-              Teach it again but simplify your explanation and use analogies.</p>
+              Teach it again with a simple explanation and analogy.</p>
             </div>
           </div>
         </div>
@@ -163,7 +163,7 @@
         <div class="row">
           <h1>Let's break it down...</h1>
           <div class="block"></div>
-          <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+
         </div>
         <div class="row">
           <iframe id="feynman-video" width="50%" height="315" src="https://www.youtube.com/embed/tkm0TNFzIeg" frameborder="0" allowfullscreen></iframe>
@@ -176,7 +176,7 @@
 
     <section id="skills">
       <div class="container">
-        <h1>Built by students for students</h1>
+        <h1>Students built Coil so other students could leverage the Feynman technique</h1>
         <div class="block"></div>
         <div class="row">
           <div class="one-third column">
@@ -195,32 +195,32 @@
         <div class="row">
           <div class="eight columns">
             <div class="progressBar">
-              <h4>I can explain topics clearly</h4>
+              <h4>I studied by explaining topics</h4>
               <div class="progressBarContainer">
                 <div class="progressBarValue value-90"></div>
               </div>
             </div>
             <div class="progressBar">
-              <h4>I am able to solve problems from scratch</h4>
+              <h4>I studied by solving problems from scratch</h4>
               <div class="progressBarContainer">
-                <div class="progressBarValue value-90"></div>
-              </div>
-            </div>
-            <div class="progressBar">
-              <h4>I learned by watching</h4>
-              <div class="progressBarContainer">
-                <div class="progressBarValue value-10"></div>
+                <div class="progressBarValue value-80"></div>
               </div>
             </div>
             <div class="progressBar">
               <h4>I learned by doing</h4>
               <div class="progressBarContainer">
-                <div class="progressBarValue value-90"></div>
+                <div class="progressBarValue value-70"></div>
+              </div>
+            </div>
+            <div class="progressBar">
+              <h4>I studied by watching</h4>
+              <div class="progressBarContainer">
+                <div class="progressBarValue value-10"></div>
               </div>
             </div>
           </div>
           <div class="four columns">
-            <p>Your study strategy is an accurate predictor of your level of understanding</p>
+            <p>Your study strategy is an accurate predictor of your grade.</p>
           </div>
         </div>
       </div>

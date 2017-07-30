@@ -22,18 +22,30 @@
   </head>
   <body>
       <div class="col-lg-12">
-        <div class="homepage-hero-module">
-            <div class="video-container">
+        <div class="wrapper">
                 <div class="loginButtons">
                     <img src="images/landing-page-logo.png" id="landing-page-logo" alt="coil logo">
+
+                    <nav class="cl-effect-1">
+                        <a href="#">login</a>
+                        <a href="#">signup</a>
+                    </nav>
+                    <!--
                     <a class="button" href="#" id="loginButton"><strong>login</strong></a>     
-                    <a class="button" href="#" id="signupButton"><strong>signup</strong></a>
+                    <a class="button" href="#" id="signupButton"><strong>signup</strong></a>-->
                 </div>
-                <div class="filter"></div>
-                <video autoplay loop class="fillWidth" preload="autoplay">
-                    <source src="Comfy/MP4/Comfy.mp4" type="video/mp4" />Your browser does not support the video tag. I suggest you upgrade your browser.
-                    <source src="Comfy/WEBM/Comfy.webm" type="video/webm" />Your browser does not support the video tag. I suggest you upgrade your browser.
-                </video>
+                    <ul class="bg-bubbles">
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
                 <!-- typed.js injection -->
                 <div class="type-wrap">
                     <div id="typed-strings">
@@ -57,26 +69,20 @@
                     });
                 </script>
                 <!--typed.js ends here -->
-
-
-                <div class="poster hidden">
-                    <img src="Comfy/Snapshots/Comfy.jpg" alt="">
-                </div>
             </div>
         </div>
-      </div>
 
     <footer>
         <div class="row">
             <div class="col-md-4">
-                <center><p id="usingCoilFooter"> using coil</p>
+                <center><p id="usingCoilFooter"> Using Coil</p>
                 <div class="footerLinks">
                     <a href="/product.php"> product </a><br>
                     <a href="#"> prove it </a>
                 </div></center>
             </div>
             <div class="col-md-4">
-                <center><span class="glyphicon glyphicon-heart" id="coilFooter" aria-hidden="true">coil</span> 
+                <center><span class="glyphicon glyphicon-heart" id="coilFooter" aria-hidden="true">Coil</span> 
                 <div class="footerLinks">
                     <a href="#"> policy </a><br>
                     <a href="mailto:support@coilapp.com?Subject=Hi%20again!" target="_top">contact us</a>
@@ -107,5 +113,6 @@
     <script src="pointpoint/jquery.pointpoint/jquery.pointpoint.js"></script>
     <!-- The main script file -->
     <script src="pointpoint/js/script.js"></script>    
+    <script src="lib/index.js"></script>
   </body>
 </html>
