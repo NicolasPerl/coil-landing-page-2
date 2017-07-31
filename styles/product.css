@@ -28,6 +28,10 @@ body {
 	text-decoration: none;
 }
 
+.row1 {
+	height: 50pt
+}
+
 /* Buttons */
 .loginButtons a:link, a:visited {
     color: white;
@@ -83,43 +87,6 @@ body {
 }
 /* Confeti background ends here */
 
-/* 1 2 3 row starts here */
-#steps {
-	height: 10%;
-	width: 75%;
-	margin: 5%;
-	margin-left: 12%;
-}
-
-.row1 {
-	height: 50pt
-}
-
-#prof-image {
-	height: 10%;
-	width: 20%;
-}
-
-#board-image {
-	height: 30%;
-	width: 30%;
-	position: relative;
-	z-index: -100
-}
-
-.boardText {
-	z-index: 100;
-	margin-top: 22%;
-}
-
-#students-image {
-	width: 30%;
-	height: 30%;
-	margin-bottom: 10%;	
-	margin-right: 10%;
-	margin-left: 10%;
-}
-/* 1 2 3 row ends here */
 
 .row2 {
 	height: 350pt;
@@ -136,6 +103,137 @@ body {
 	margin-left: 42%;
 }
 
+/* 1 2 3 row starts here */
+.row4 {
+	min-height: 500pt;
+	background: url(/images/fabric-of-squares.png);
+
+}
+
+
+/*.row4 h2 {
+	font-size: 130%;
+}*/
+
+#steps {
+	height: 10%;
+	width: 75%;
+	margin: 5%;
+	margin-left: 12%;
+}
+
+
+
+.col-1 {
+	padding-top: 25pt;
+	
+}
+
+.col-1-xs {
+	padding-top: 25pt;
+	padding-bottom: 20pt;
+	border-bottom: 1pt #C0C0C0 solid;
+	
+}
+
+#prof-image {
+	height: 35%;
+	width: 35%;
+}
+
+#prof-image-xs {
+	height: 25%;
+	width: 25%;
+}
+
+.prof-headline {
+	margin-right: 15%;
+	margin-left:  15%;
+	
+}
+
+.prof-headline-xs {
+	margin-right: 15%;
+	margin-left:  15%;
+	
+}
+
+.col-2 {
+	padding-top: 35pt;
+	
+}
+
+.col-2-xs {
+	padding-top: 35pt;
+	border-bottom: 1pt #C0C0C0 solid;
+	min-height: 250pt;
+	
+}
+
+#board-image {
+	height: 65%;
+	width: 65%;
+	/*position: relative;
+	z-index: -100*/
+}
+
+#board-image-xs {
+	height: 50%;
+	width: 50%;
+	/*position: relative;
+	z-index: -100*/
+}
+
+.board-text {
+	z-index: 100;
+	margin-top: 27%;
+}
+
+.board-text-xs {
+	z-index: 100;
+	margin-top: 15%;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+
+.col-3 {
+	padding-top: 30pt;
+	min-height: 280pt;
+	
+}
+
+.col-3-xs {
+	padding-top: 30pt;
+	min-height: 280pt;
+	
+}
+
+#students-image {
+	width: 45%;
+	height: 45%;
+	
+}
+
+#students-image-xs {
+	width: 35%;
+	height: 35%;
+	
+}
+
+.students-text {
+	margin-top: 21%
+}
+
+.students-text-xs {
+	margin-top: 15%;
+	margin-right: 10%;
+	margin-left: 10%;
+}
+
+
+/* 1 2 3 row ends here */
+
 
 .row3 {
 	min-height: 100pt;
@@ -143,54 +241,10 @@ body {
 }
 
 
-.headline {
-	font-size: 40pt;
-	font-size: calc(12pt + 3vw); /*makes minimum font size*/
-	padding-left: 17%;
-	padding-right: 17%;
-	padding-top: 4%;
-	color: #494949;
-}
-
-.row4 {
-	min-height: 600pt;
-	background: url(/images/fabric-of-squares.png);
-}
-
-.row4 h2 {
-	font-size: 130%;
-}
-
-
-
 h2 {
 	font-size: calc(12pt + 1vw);
 }
 
-.col-1 {
-	padding-top: 30pt;
-	
-}
-
-.col-2 {
-	padding-top: 30pt;
-	
-}
-
-.col-3 {
-	padding-top: 30pt;
-	
-}
-
-.coils h1 {
-	font-size: calc(12pt + 1.2vw)
-}
-
-.coils h3 {
-	font-size: calc(12pt + .3vw);
-	margin-bottom: 10%;
-
-}
 
 .row5 {
 	min-height: 400pt;
@@ -199,33 +253,63 @@ h2 {
 	background-color: #F3B14A;
 }
 
-.row5 img {
-	width: 40%;
-	height: 80%;
-	margin-left: 60%;
-	margin-bottom: 10%;
-}
-
-
 
 #coil-image {
+	width: 60%;
+	height: 100%;
 	margin-top: 15%;
+	margin-left: 40%;
+	margin-bottom: 10%;
+
 }
 
+#coil-image-xs {
+	width: 60%;
+	height: 100%;
+	margin-top: 15%;
+	margin-bottom: 0%;
+
+}
+
+.coils h1 {
+	font-size: calc(18pt + 1.2vw);
+}
+
+.coils h3 {
+	font-size: calc(12pt + .3vw);
+	margin-bottom: 10%;
+
+}
 .coil-headline {
 	margin-top: 15%;
 	color: white;
-	margin-right: 63%;
-	font-size: 10%;
+	margin-right: 50%;
+	
 }
 
-.row5 h3 {
+.coil-headline-xs {
+	margin-top: 15%;
 	color: white;
-	margin-right: 60%;
-	font-size: 130%;
+	margin-right: 5%;
+	margin-left: 5%;
+}
+
+.coil-body {
+	color: white;
+	margin-right: 50%;
 	letter-spacing: 1px;
 	font-style: 'Lato Light';
 }
+
+.coil-body-xs {
+	color: white;
+	letter-spacing: 1px;
+	margin-right: 5%;
+	margin-left: 5%;
+	font-style: 'Lato Light';
+}
+
+
 
 .row6 {
 	min-height: 400pt;
@@ -234,32 +318,58 @@ h2 {
 	background-color: #15B2D5;
 }
 
-.row6 h3 {
-	color: white;
-	font-size: 130%;
-	margin-left: 50%;
-	letter-spacing: 1px;
-
+#tutoring-image {
+	margin-top: 15%;
+	margin-right: 30%;
+	width: 50%;
+	height: 80%;
+	margin-bottom: 15%;
 }
+
+#tutoring-image-xs {
+	margin-top: 15%;
+	width: 50%;
+	height: 80%;
+	margin-left: 10%;
+	margin-bottom: 5%;
+}
+
+.tutoring-headline {
+	margin-top: 15%;
+	color: white;
+	margin-left: 40%;
+	font-style: 'Lato Light';
+}
+
+.tutoring-body {
+	color: white;
+	margin-left: 40%;
+	letter-spacing: 1px;
+	font-style: 'Lato Light';
+}
+
+.tutoring-headline-xs {
+	color: white;
+	font-size: 40pt;
+	margin-right: 5%;
+	margin-left: 5%;
+	font-style: 'Lato Light';
+}
+
+.tutoring-body-xs {
+	color: white;
+	letter-spacing: 1px;
+	margin-right: 5%;
+	margin-left: 5%;
+	font-style: 'Lato Light';
+}
+
 
 .feynmanLink a {
 	color: white;
 	font-size: 80%;
 }
 
-#tutoring-image {
-	margin-top: 15%;
-	margin-right: 50%;
-	width: 30%;
-	height: 60%;
-	margin-bottom: 15%;
-}
-
-.tutoring-headline {
-	margin-top: 15%;
-	color: white;
-	margin-left: 50%;
-}
 
 .row7 {
 	min-height: 400pt;
@@ -268,24 +378,45 @@ h2 {
 	background: url(/images/school.png);
 }
 
-.row7 h3 {
-	font-size: 130%;
-	margin-right: 50%;
-	letter-spacing: 1px;
-
-}
 
 #leaderboard-image {
-	margin-top: 15%;
+	margin-top: 20%;
 	height: 50%;
 	width: 50%;
 	margin-bottom: 15%;
-	margin-left: 40%;
+	margin-left: 35%;
+}
+
+#leaderboard-image-xs {
+	margin-top: 15%;
+	height: 50%;
+	width: 50%;
+	margin-bottom: 5%;
 }
 
 .leaderboard-headline {
 	margin-top: 15%;
-	margin-right: 50%;
+	margin-right: 45%;
+	font-style: 'Lato Light';
+}
+
+.leaderboard-headline-xs {
+	margin-top: 5%;
+	font-style: 'Lato Light';
+}
+
+.leaderboard-body {
+	font-size: 130%;
+	margin-right: 45%;
+	letter-spacing: 1px;
+	font-style: 'Lato Light';
+}
+
+.leaderboard-body-xs {
+	margin-right: 5%;
+	margin-left: 5%;
+	letter-spacing: 1px;
+	font-style: 'Lato Light';
 }
 
 .gurusPage {
@@ -301,12 +432,35 @@ h2 {
 	background: url(/images/fabric-of-squares.png);
 }
 
-.row8 h3 {
-	font-size: 130%;
+.row8-xs {
+	min-height: 350pt;
+	border-top: 1px solid;
+	border-color: gray;
+	background-color: #6fa5b3;
+	background: url(/images/fabric-of-squares.png);
 }
 
 .chit-chat-headline {
 	margin-top: 5%;
+}
+
+.chit-chat-headline-xs {
+	margin-top: 10%;
+	margin-left: 15%;
+	margin-right: 15%;
+
+}
+
+.chit-chat-body {
+	margin-top: 3%;
+	margin-right: 5%;
+	margin-left: 5%;
+}
+
+.chit-chat-body-xs {
+	margin-top: 8%;
+	margin-right: 10%;
+	margin-left: 10%;
 }
 
 #chit-chat-image {
@@ -314,6 +468,14 @@ h2 {
 	height: 20%;
 	width: 20%;
 	margin-bottom: 10%;
+
+}
+
+#chit-chat-image-xs {
+	/*margin-top: 2%;*/
+	height: 30%;
+	width: 30%;
+	margin-right: 10%;
 
 }
 
@@ -325,6 +487,13 @@ h2 {
 	/*margin-top: 20%;*/
 }
 
+
+#qa-image-xs {
+	width: 25%;
+	height: 25%;
+	margin-left: 10%;
+	/*margin-top: 20%;*/
+}
 
 
 /*footer*/
