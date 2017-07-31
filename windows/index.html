@@ -1,8 +1,11 @@
 <!doctype html>
-<html>
+<html lang="en">
     <head>
-        <title>gurus</title>
 
+        <!-- Bootstrap -->
+        <link href="/bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Gurus</title>
         <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
         <script src="js/jquery.windows.js"></script>
         <!--<script src="js/confetti-cannon.js"></script>-->
@@ -26,24 +29,73 @@
                 </section>
             <div class="content">
                     <h1>Guru 👋</h1>
-                    <h2><em>~someone who is knowledgeable in a particular subject and gives others advice~</em><br id="scroll">keep scrolling!</h2>
+                    <h2><em>~someone who is knowledgeable in a particular subject and gives others advice~</em><br><br><br><br><br><br><br><br><span class="scroll">keep scrolling!</span></h2>
+
             </div>
         </section>
 
         <section id="1" class="window">
-            <div class="content">
-                <center>
-                    <h2>
-                    Coil points are <span class="highlight">awarded</span> to students when certain actions are taken on the coil platform. Coil points will be <span class="highlight">class specific</span> meaning a student could have 80 points in physics and 30 points in math. Students who earn the most coil points will rise to the top of their class <span class="highlight">leaderboard.</span> We call these students <span class="highlight">guru's,</span> and they'll be eligible for a <span class="highlight">scholarship!</span>
-                    </h2>
-                </center>
-            </div>
+                <div class="content">
+                    <center>
+                        <h2>
+                        Coil points are <span class="highlight">awarded</span> to students when certain actions are taken on the coil platform. Coil points will be <span class="highlight">class specific</span> meaning a student could have 80 points in physics, 30 points in math, 35 points in computer science and 90 points in economics. Students who earn the most coil points will rise to the top of their class <span class="highlight">leaderboard.</span> We call these students <span class="highlight">guru's,</span> and they'll be eligible for a <span class="highlight">scholarship!</span>
+                        </h2>
+                    </center>
+                </div>
+
+        
+            <!-- Bar chart starts here -->
+
+                    <center>
+                        <div class="chart small-font-size">
+                            <div class="bar bar-60 yellow">
+                              <div class="face side-0">
+                                <div class="growing-bar"></div>
+                              </div>
+                              <div class="face side-1">
+                                <div class="growing-bar"></div>
+                              </div>
+                              <div class="face top"></div>
+                              <div class="face floor"></div>
+                            </div>
+                            <div class="bar bar-25 red">
+                              <div class="face side-0">
+                                <div class="growing-bar"></div>
+                              </div>
+                              <div class="face side-1">
+                                <div class="growing-bar"></div>
+                              </div>
+                              <div class="face top"></div>
+                              <div class="face floor"></div>
+                            </div>
+                            <div class="bar bar-35 cyan">
+                              <div class="face side-0">
+                                <div class="growing-bar"></div>
+                              </div>
+                              <div class="face side-1">
+                                <div class="growing-bar"></div>
+                              </div>
+                              <div class="face top"></div>
+                              <div class="face floor"></div>
+                            </div>
+                            <div class="bar bar-80 lime">
+                              <div class="face side-0">
+                                <div class="growing-bar"></div>
+                              </div>
+                              <div class="face side-1">
+                                <div class="growing-bar"></div>
+                              </div>
+                              <div class="face top"></div>
+                              <div class="face floor"></div>
+                            </div>
+                          </div>
+                      </center>
         </section>
 
         <section id="2" class="window">
             <div class="content">
                 <h2>How to earn points</h2>
-                <div class="explanation">You can accrue coil points many different ways!
+                <div class="explanation">
                     <ul>
                         <li>When a student <span class="highlight">posts</span> in the class 👉 1 point</li>
                         <li>When a student <span class="highlight">requests</span> 1 on 1 help 👉 5 points</li>
@@ -51,6 +103,19 @@
                         <li>When a student <span class="highlight">creates</span> a study group 👉 20 points</li>
                         <li>When a student <span class="highlight">provides</span> 1 on 1 help 👉 40 points to the tutor</li>
                     </ul>
+                </div>
+
+                <div class="row row2">
+                    <div class="col-lg-12">
+                    <scene>
+                      <bounce>
+                        <ball></ball>
+                      </bounce>
+                      <shadow></shadow>
+                    </scene>
+                        <!--<img src="/images/journalist.png">-->
+                    </div>
+
                 </div>
             </div>
         </section>
@@ -61,16 +126,21 @@
             <div class="explanation">
             The top student in each class competes for the university wide scholarship.
             </div>
+            <div class="leaderboardImage">
+                <img id="guruBoard" src="/images/leaderboard.png">
+
+            </div>
         </section>
 
         <section id="4" class="window">
             <div class="content">
                 <h1>Coil's Scholarship</h1>
-                <pre>
+                <p>
                     The top three university gurus will earn a scholarship for their dedication to the course and to helping their classmates. 
-
-
-                </pre>
+                </p>
+            </div>
+            <div class="scholarImage">
+                <img id="scholarshipImage" src="/images/diploma.png">
             </div>
         </section>
 <!--
@@ -109,6 +179,8 @@
 
             });
         </script>
+
+        <script src="/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
         </div>
 
     </body>

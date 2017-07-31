@@ -16,7 +16,7 @@ body {
 .cl-effect-1 a {
   color: #1BABB7;
   text-decoration: none;
-  font-weight: bold;
+  /*font-weight: bold;*/
 
 }
 
@@ -27,7 +27,7 @@ body {
   -webkit-transition: -webkit-transform 0.3s, opacity 0.2s;
   -moz-transition: -moz-transform 0.3s, opacity 0.2s;
   transition: transform 0.3s, opacity 0.2s;
-  color: white;
+  color: black;
 }
 
 .cl-effect-1 a::before {
@@ -36,6 +36,7 @@ body {
   -webkit-transform: translateX(20px);
   -moz-transform: translateX(20px);
   transform: translateX(20px);
+
 
 }
 
@@ -65,15 +66,17 @@ body {
 
 
 .loginButtons a:link, a:visited {
-    color: #669999;
+    color: black;
     padding: 6px 14px;
     text-align: center; 
     text-decoration: none;
     display: inline-block;
     float: right;
 }
+/*-------buttons end here ------------
+------------------------------------------------*/ 
 
-/*
+/* hover with a background code 
 .loginButtons a:hover, a:active {
     background-color: #e4e4e4;
     border-radius: 12px;
@@ -154,8 +157,8 @@ body {
 	margin-top: 10%;
 	font-size: 400%;
 	font-family: 'Lato',sans-serif, serif;
-	color: #000000;
-	text-shadow:5px 5px 10px white;
+	color: black;
+	/*text-shadow:5px 5px 10px white;*/
 	text-align: center;
 }
 /* typed.js ends here---------------------------------------------------- */
