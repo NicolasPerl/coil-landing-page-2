@@ -25,10 +25,9 @@
         <div class="wrapper">
                 <div class="loginButtons">
                     <img src="images/landing-page-logo.png" id="landing-page-logo" alt="coil logo">
-
                     <nav class="cl-effect-1">
-                        <a href="#">login</a>
-                        <a href="#">signup</a>
+                        <a href="http://www.coilapp.com/">login</a>
+                        <a href="http://www.coilapp.com/sign-up">signup</a>
                     </nav>
                     <!--
                     <a class="button" href="#" id="loginButton"><strong>login</strong></a>     
@@ -75,14 +74,14 @@
     <footer>
         <div class="row">
             <div class="col-md-4">
-                <center><p id="usingCoilFooter"> Using Coil</p>
+                <center><p id="usingCoilFooter"> using coil</p>
                 <div class="footerLinks">
                     <a href="/product.php"> product </a><br>
                     <a href="#"> prove it </a>
                 </div></center>
             </div>
             <div class="col-md-4">
-                <center><span class="glyphicon glyphicon-heart" id="coilFooter" aria-hidden="true">Coil</span> 
+                <center><span class="glyphicon glyphicon-heart" id="coilFooter" aria-hidden="true">coil</span> 
                 <div class="footerLinks">
                     <a href="#"> policy </a><br>
                     <a href="mailto:support@coilapp.com?Subject=Hi%20again!" target="_top">contact us</a>

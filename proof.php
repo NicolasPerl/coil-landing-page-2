@@ -235,7 +235,7 @@
         <div class="quoteLoop">
           <blockquote class="quote"> <img src="images/statistics.png" width="100" height="100" alt=""/>
             <h5>&nbsp;<br>
-              &rdquo;I don't know what's the matter with people: they don't learn by understanding, they learn by some other way — by rote or something. Their knowledge is so fragile!&rdquo;<br>
+              &ldquo;I don't know what's the matter with people: they don't learn by understanding, they learn by some other way — by rote or something. Their knowledge is so fragile!&rdquo;<br>
               <small>Richard Feynman</small></h5>
           </blockquote>
           <blockquote class="quote"> <img src="images/library.png" width="100" height="100" alt=""/>

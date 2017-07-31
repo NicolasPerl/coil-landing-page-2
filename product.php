@@ -1,3 +1,6 @@
+
+
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -20,7 +23,7 @@
     <!--typed.js-->
     <script src="lib/typed.min.js" type="text/javascript"></script>
     <!-- Lato font -->
-    <link href="https://fonts.googleapis.com/css?family=Lato:black,400,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:black,light,400,900" rel="stylesheet">
     <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico" />
   </head>
   <body>
@@ -32,10 +35,10 @@
             </a>
             <!-- Login buttons-->
             <div class="loginButtons">
-              <a class="button" href="#" id="loginButton"><strong>login</strong></a>     
-              <a class="button" href="#" id="signupButton"><strong>signup</strong></a>
-              <a class="button" href="windows/index.html" id="gurus"><strong>gurus</strong></a>
-              <a class="button" href="/proof.php" id="blueprint"><strong>inspiration</strong></a>
+              <a class="button" href="http://www.coilapp.com/" id="loginButton"><strong>login</strong></a>     
+              <a class="button" href="http://www.coilapp.com/sign-up" id="signupButton"><strong>signup</strong></a>
+              <a class="button" href="windows/index.html" id="gurusButton"><strong>gurus</strong></a>
+              <a class="button" href="/proof.php" id="inspirationButton"><strong>inspiration</strong></a>
 
             </div>  
           
@@ -45,7 +48,7 @@
           <div class="col-sm-12">
             <section class="rw-wrapper">
               <h2 class="rw-sentence">
-                <span>Your journey to making an A just got a whole lot</span>
+                <span>Your journey to making an A just got<br> a whole lot</span>
                 <span>more</span>
                 <div class="rw-words rw-words-1">
                   <span>collaborative</span>
@@ -79,7 +82,7 @@
           </div> <!-- col 2 -->
           <div class="col-sm-4 text-center col-3">
             <img id="students-image" src="/images/questions.png">
-            <h2>Start connecting and  engagi with the smartest students in your class
+            <h2>Start connecting and engage with the smartest students in your class
 </h2>
             
           </div> <!-- col 3 -->
@@ -102,7 +105,7 @@
               <div class="tutor-background">
                 <div class="col-md-6">
                   <h1 class="tutoring-headline">Classmate tutoring</h1>
-                  <h3>Unless you're a genius you've probably felt <span class="textColor">confused</span> in some classes. Thankfully, a few of your classmates understand what's going on and Coil will <span class="textColor">connect</span> you to them. You'll receive the help you need while your classmate gains a deeper <span class="textColor">understanding</span> of the material by explaining it to you, which is backed up by the Feynman technique - the guy who won the <span class="textColor">Nobel Peace Prize</span></h3>
+                  <h3>Unless you're a genius you've probably felt <span class="textColor">confused</span> in some classes. Thankfully, a few of your classmates understand what's going on and Coil will <span class="textColor">connect</span> you to them. You'll receive the help you need while your classmate gains a deeper <span class="textColor">understanding</span> of the material by explaining it to you, which is backed up by the Feynman technique - the guy who won the <span class="textColor">Nobel Peace Prize</span><br><br> <span class="feynmanLink"> <a href="windows/proof.php">Introducing Richard Feynman</a></span></h3>
                 </div> <!-- col -->
               </div>
               <div class="col-md-6">
@@ -118,7 +121,7 @@
 
             <div class="col-md-6">
               <h1 class="tutoring-headline">Classmate tutoring</h1>
-              <h3>Unless you're a genius you've probably felt <span class="textColor">confused</span> in some classes. Thankfully, a few of your classmates understand what's going on. And Coil will <span class="textColor">connect</span> you to them. You'll receive the help you need while  your classmate gains a deeper <span class="textColor">understanding</span> of the material by explaining it to you, which is backed up by the Feynman technique - the guy who won the <span class="textColor">Nobel Peace Prize</span></h3>
+              <h3>Unless you're a genius you've probably felt <span class="textColor">confused</span> in some classes. Thankfully, a few of your classmates understand what's going on. And Coil will <span class="textColor">connect</span> you to them. You'll receive the help you need while  your classmate gains a deeper <span class="textColor">understanding</span> of the material by explaining it to you, which is backed up by the Feynman technique - the guy who won the <span class="textColor">Nobel Peace Prize</span><br><br> <span class="feynmanLink"> <a href="windows/proof.php">Introducing Richard Feynman</a></span></h3>
             </div> <!-- col -->
 
           </div> <!-- row 6 -->

@@ -587,13 +587,13 @@ opacity: 0;
 	text-align: center;
 }
 /* Contact Section
-********************************************************************* */
+********************************************************************* 
 #contact {
 	padding: 100px 0 100px 0;
 }
 input[type="email"], input[type="number"], input[type="search"], input[type="text"], input[type="tel"], input[type="url"], input[type="password"], textarea, select {
 	height: 38px;
-	padding: 6px 10px; /* The 6px vertically centers text on FF, ignored by Webkit */
+	padding: 6px 10px; /* The 6px vertically centers text on FF, ignored by Webkit 
 	background-color: #F5F5F5;
 	border: none;
 	box-shadow: none;
@@ -626,7 +626,7 @@ input[type="submit"] {
 input[type="submit"]:hover {
 	background: #e55d87;
 	text-decoration: none;
-}
+}*/
 /* Footer Section
 ********************************************************************* */
 footer {

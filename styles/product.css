@@ -61,13 +61,15 @@ body {
 	margin: 1%;
 }
 
-#gurus {
+#gurusButton {
 	margin: 1%;
 }
 
-#blueprint {
+#inspirationButton {
 	margin: 1%;
 }
+/* login buttons end here */
+
 
 /* Confeti Background */
 #confeti {
@@ -79,8 +81,9 @@ body {
 	overflow: hidden;
 	z-index: -100;
 }
-
 /* Confeti background ends here */
+
+/* 1 2 3 row starts here */
 #steps {
 	height: 10%;
 	width: 75%;
@@ -98,7 +101,7 @@ body {
 }
 
 #board-image {
-	height: 20%;
+	height: 30%;
 	width: 30%;
 	position: relative;
 	z-index: -100
@@ -106,8 +109,17 @@ body {
 
 .boardText {
 	z-index: 100;
-	margin-top: 5%;
+	margin-top: 22%;
 }
+
+#students-image {
+	width: 30%;
+	height: 30%;
+	margin-bottom: 10%;	
+	margin-right: 10%;
+	margin-left: 10%;
+}
+/* 1 2 3 row ends here */
 
 .row2 {
 	height: 350pt;
@@ -124,16 +136,6 @@ body {
 	margin-left: 42%;
 }
 
-
-#coil-vid-button {
-	width: 175pt;
-	margin-top: 150pt;
-	border-radius: 25pt;
-	background-color: #003C64;
-	border-color: black;
-	color: white;
-	font-size: 17pt;
-}
 
 .row3 {
 	min-height: 100pt;
@@ -179,15 +181,6 @@ h2 {
 	padding-top: 30pt;
 	
 }
-#students-image {
-	width: 150pt;
-	height: 150pt;
-	/*margin: 5%;*/
-	margin-bottom: 10%;	
-	margin-right: 10%;
-	margin-left: 10%;
-}
-
 
 .coils h1 {
 	font-size: calc(12pt + 1.2vw)
@@ -231,6 +224,7 @@ h2 {
 	margin-right: 60%;
 	font-size: 130%;
 	letter-spacing: 1px;
+	font-style: 'Lato Light';
 }
 
 .row6 {
@@ -246,6 +240,11 @@ h2 {
 	margin-left: 50%;
 	letter-spacing: 1px;
 
+}
+
+.feynmanLink a {
+	color: white;
+	font-size: 80%;
 }
 
 #tutoring-image {
@@ -306,6 +305,10 @@ h2 {
 	font-size: 130%;
 }
 
+.chit-chat-headline {
+	margin-top: 5%;
+}
+
 #chit-chat-image {
 	/*margin-top: 2%;*/
 	height: 20%;
@@ -322,9 +325,7 @@ h2 {
 	/*margin-top: 20%;*/
 }
 
-.chit-chat-headline {
-	margin-top: 10%;
-}
+
 
 /*footer*/
 footer {
@@ -389,9 +390,12 @@ footer {
 .rw-wrapper{
 	width: 80%;
 	position: relative;
-	margin: 110px auto 0 auto;
-	font-family: 'Bree Serif';
+	/*margin: 110px auto 0 auto;*/
+	font-family: 'Lato';
 	padding: 10px;
+	margin-left: 28%;
+	margin-right: 28%;
+	margin-top: 5%;
 }
 
 .rw-sentence{
