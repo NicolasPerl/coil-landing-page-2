@@ -12,7 +12,7 @@ body {
 	font-weight: 400;
 	/*font-family: 'Open Sans', Helvetica, Arial, sans-serif;*/
 	font-family: 'Lato', sans-serif, Helvetica, Arial;
-	color: #222;
+	color: #555;
 }
 /* Grid
 ********************************************************************* */  
@@ -28,15 +28,6 @@ body {
 	width: 100%;
 	float: left;
 	box-sizing: border-box;
-}
-
-#logo {
-	width: 42pt;
-	height: 42pt;
-	margin-top: 14pt;
-	position: relative;
-	z-index: 100;
-	/*margin-left: 3%;*/
 }
 
 /* For devices larger than 400px */
@@ -222,7 +213,7 @@ a:hover {
 ********************************************************************* */
 
 
-header {
+#header {
 	display: -ms-flexbox;
 	display: -webkit-box;
 	-webkit-box-pack: center;
@@ -238,6 +229,39 @@ header {
  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e55d87', endColorstr='#5fc3e4', GradientType=1 );
 }
 
+#header-xs {
+	display: -ms-flexbox;
+	display: -webkit-box;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+ 	width: 100%;
+	height: 100vh;
+	background: #e55d87;
+	background: -moz-linear-gradient(-45deg, #e55d87 0%, #5fc3e4 100%);
+	background: -webkit-linear-gradient(-45deg, #e55d87 0%, #5fc3e4 100%);
+	background: linear-gradient(135deg, #e55d87 0%, #5fc3e4 100%);
+ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e55d87', endColorstr='#5fc3e4', GradientType=1 );
+}
+
+#logo {
+	width: 42pt;
+	height: 42pt;
+	margin-top: 14pt;
+	position: relative;
+	z-index: 100;
+	/*margin-left: 3%;*/
+}
+
+#logo-xs {
+	width: 42pt;
+	height: 42pt;
+	margin-top: 14pt;
+	margin-left: 115pt;
+	position: relative;
+	z-index: 100;
+}
 
 .title {
 	-webkit-align-self: center;
@@ -250,12 +274,31 @@ header {
 
 
 }
+
+.title-xs {
+	-webkit-align-self: center;
+	-ms-flex-item-align: center;
+	align-self: center;
+	padding: 2rem;
+	max-width: 960px;
+	text-align: center;
+	margin-top: 0%;
+}
+
 .title .smallsep {
 	background: #fff;
 	height: 2px;
 	width: 70px;
 	margin: auto;
 	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.title-xs .smallsep-xs {
+	background: #fff;
+	height: 2px;
+	width: 70px;
+	margin: auto;
+	margin-top: 30%;
 	margin-bottom: 30px;
 }
 .title h1 {
@@ -268,6 +311,17 @@ header {
 	padding: 0;
 	color: #FFFFFF;
 }
+
+.title-xs h1 {
+	font-size: 40px;
+	font-weight: 100;
+	/*text-transform: uppercase;*/
+	line-height: 0.95;
+	margin-bottom: 28px;
+	margin-top: 0%;
+	padding: 0;
+	color: #FFFFFF;
+}
 .title h2 {
 	color: #FFFFFF;
 	font-size: 16px;
@@ -275,6 +329,15 @@ header {
 	text-transform: uppercase;
 	letter-spacing: 5px;
 	margin-top: 50px;
+}
+
+.title-xs h2 {
+	color: #FFFFFF;
+	font-size: 16px;
+	font-weight: 100;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	margin-top: 0px;
 }
 
 @media only screen and (max-height: 700px) {
@@ -461,6 +524,7 @@ transform:translate(0, 10px) rotate(45deg);
 opacity: 0;
 }
 }
+
 /* About Section
 ********************************************************************* */
 
@@ -469,9 +533,10 @@ opacity: 0;
 }
 
 #peaceHeadline {
-	font-size: 130%;
+	font-size: 150%;
+
 }
-/* Team Section
+/* video Section
 ********************************************************************* */
 #team {
 	padding: 50px 0 100px 0;
@@ -483,12 +548,74 @@ opacity: 0;
 #feynman-video {
 	margin-left: 30%;
 }
-/* Skills Section
+
+#feynman-video-xs {
+	margin-left: 0%;
+}
+
+/* Students built Coil Section
 ********************************************************************* */
 #skills {
 	padding: 100px 0 100px 0;
 	background-color: #F5F5F5;
 }
+
+#skills-xs {
+	padding: 100px 0 100px 0;
+	background-color: #F5F5F5;
+}
+
+.headliner-xs {
+	text-align: center;
+	margin-right: 5%;
+	margin-left: 5%;
+}
+
+.block-xs {
+	margin-left: 35%;
+	width: 100px;
+	height: 2px;
+	font-weight: bold;
+	background: #e55d87; /* Old browsers */
+	background: -moz-linear-gradient(-45deg, #e55d87 0%, #5fc3e4 100%);
+	background: -webkit-linear-gradient(-45deg, #e55d87 0%, #5fc3e4 100%);
+	background: linear-gradient(135deg, #e55d87 0%, #5fc3e4 100%);
+	margin-bottom: 50px;
+}
+
+.process {
+	margin-top: -20pt;
+	color: gray;
+}
+
+.process-xs {
+	margin-top: -20pt;
+	color: gray;
+	text-align: center;
+}
+
+.explanation {
+	margin-top: 50pt;
+}
+
+.badass-chart {
+	margin-top: 50pt;
+}
+
+.badass-chart-xs {
+	margin-top: 40pt;
+}
+
+.strategy {
+	margin-top: 0pt;
+	text-align: center;
+}
+
+.strategy-xs {
+	margin-bottom: 40pt;
+	text-align: center;
+}
+
 .progressBar {
 	margin-bottom: 26px;
 	margin-bottom: 1.66em;
@@ -557,11 +684,11 @@ opacity: 0;
 	height: auto;
 	margin-left: auto;
 	margin-right: auto;
-	transition: .5s;
+	transition: .10s;
 }
 .image:hover {
 	opacity: 0.6;
-	transition: .3s;
+	transition: .10s;
 	background-image: url(../images/hoverbg.png);
 	background-repeat: no-repeat;
 	background-position: center;
@@ -571,7 +698,7 @@ opacity: 0;
 ********************************************************************* */
 #testimonial {
 	background-color: #F5F5F5;
-	padding: 100px 0 100px 0;
+	padding: 30px 0 100px 0;
 }
 .quoteLoop {
 	height: auto;
@@ -719,6 +846,21 @@ body {
   cursor: pointer;
   position: relative;
 }
+
+.hoverme-xs {
+  width: 240px;
+  margin-left: 17%;
+  margin-top: 14px;
+  padding: 10px 0;
+  cursor: pointer;
+  position: relative;
+  color: #FFFFFF;
+	font-size: 16px;
+	font-weight: 400;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+}
+
 .hoverme span {
   	color: #FFFFFF;
 	font-size: 16px;
