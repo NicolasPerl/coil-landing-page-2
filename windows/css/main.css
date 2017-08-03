@@ -148,18 +148,28 @@ pre {
  bar code is at very bottom long af-----------------------------------------------------------------*/
 .window:nth-child(2) .content {
   position: absolute;
-  top: 50%;
-  left: 50%;
-  margin-top: -180px;
-  margin-left: -160px;
+  margin-top: 30px;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 .window:nth-child(2) .content h2 {
   color: #d5d7dd;
-  margin-right: 70%;
+  /*margin-right: 0%;*/
 }
 .window:nth-child(2) .content h2 .highlight {
   color: white;
 }
+
+.row2 {
+  height: 50vh;
+  
+}
+
+.row2-1 {
+  height: 50vh;
+  
+}
+
 
 /* window 3 is the listed points of how to get the points -------
 -----------------------------------------------------------------*/
@@ -168,23 +178,24 @@ pre {
 }
 .window:nth-child(3) .content {
   position: absolute;
-  top: 50%;
-  width: 100%;
-  margin-top: -230px;
-  margin-bottom: 10%;
+  /*top: 50%;
+  width: 100%;*/
+  margin-top: 10%;
+  margin-bottom: 0%;
 }
 .window:nth-child(3) .content h2 {
   text-align: center;
   font-size: 3.0em;
-  margin-top: -200px;
-  margin-bottom: 10%;
+  margin-top: 0px;
+  margin-bottom: 0%;
 }
 .window:nth-child(3) .content .explanation {
   font-family: BrandonText-Regular, Futura, Helvetica, Arial, sans-serif;
   color: white;
   font-size: 1.4em;
   text-align: center;
-  padding: 0 15%;
+  margin-right: 15%;
+  margin-left: 15%;
 
 }
 
@@ -196,6 +207,14 @@ pre {
 
 .window:nth-child(3) .content li .highlight {
   color: white;
+}
+
+.row3 {
+  height: 50vh;
+}
+
+.row3-1 {
+  height: 50vh;
 }
 /* window 4 is with the ranking image-------------------------------
 -----------------------------------------------------------------*/
@@ -636,7 +655,7 @@ time, mark, audio, video {
           perspective-origin: 50% 50%;
   position: relative;
   z-index: 100;
-  margin-top: 30%;
+  margin-top: 5%;
 
 }
 
