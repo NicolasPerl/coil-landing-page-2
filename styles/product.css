@@ -32,7 +32,7 @@ body {
 	height: 50pt
 }
 
-/* Buttons */
+/* Buttons *//*
 .loginButtons a:link, a:visited {
     color: white;
     padding: 6px 14px;
@@ -72,7 +72,60 @@ body {
 #inspirationButton {
 	margin: 1%;
 }
-/* login buttons end here */
+ login buttons end here */
+
+/* Effect 1: Brackets */
+.cl-effect-1 {
+  float: right;
+  margin-top: 1%;
+  margin-right: 2%;
+}
+
+.cl-effect-1 a {
+  color: white;
+  text-decoration: none;
+  /*font-weight: bold;*/
+
+}
+
+.cl-effect-1 a::before,
+.cl-effect-1 a::after {
+  display: inline-block;
+  opacity: 0;
+  -webkit-transition: -webkit-transform 0.3s, opacity 0.2s;
+  -moz-transition: -moz-transform 0.3s, opacity 0.2s;
+  transition: transform 0.3s, opacity 0.2s;
+  color: white;
+}
+
+.cl-effect-1 a::before {
+  margin-right: 10px;
+  content: '[';
+  -webkit-transform: translateX(20px);
+  -moz-transform: translateX(20px);
+  transform: translateX(20px);
+
+
+}
+
+.cl-effect-1 a::after {
+  margin-left: 10px;
+  content: ']';
+  -webkit-transform: translateX(-20px);
+  -moz-transform: translateX(-20px);
+  transform: translateX(-20px);
+}
+
+.cl-effect-1 a:hover::before,
+.cl-effect-1 a:hover::after,
+.cl-effect-1 a:focus::before,
+.cl-effect-1 a:focus::after {
+  opacity: 1;
+  -webkit-transform: translateX(0px);
+  -moz-transform: translateX(0px);
+  transform: translateX(0px);
+}
+/* ----------------------------------------------------*/
 
 
 /* Confeti Background */
@@ -576,7 +629,7 @@ footer {
 
 .rw-sentence span{
 	color: #444;
-	white-space: nowrap;
+	white-space: pre-wrap;
 	font-size: 150%;
 	font-weight: normal;
 	color: white;
@@ -630,6 +683,5 @@ footer {
 	13% { opacity: 0; height: 60px; }
     100% { opacity: 0; }
 }
-
 
 

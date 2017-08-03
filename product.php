@@ -35,13 +35,13 @@
             </a>
             <!-- Login buttons-->
             <div class="loginButtons">
-              <a class="button" href="http://www.coilapp.com/" id="loginButton"><strong>login</strong></a>     
-              <a class="button" href="http://www.coilapp.com/sign-up" id="signupButton"><strong>signup</strong></a>
-              <a class="button" href="windows/index.html" id="gurusButton"><strong>gurus</strong></a>
-              <a class="button" href="/proof.php" id="inspirationButton"><strong>inspiration</strong></a>
-
+              <nav class="cl-effect-1">
+                  <a href="windows/index.html">gurus</a>
+                  <a href="/proof.php">inspiration</a>
+                  <a href="http://www.coilapp.com/">login</a>
+                  <a href="http://www.coilapp.com/sign-up">signup</a>
+              </nav>
             </div>  
-          
           </div>
         </div> <!-- row 1 -->
         <div class="row row2">
@@ -176,8 +176,6 @@
             </div> <!-- col -->
           </div> <!-- row 7 -->
 
-
-
           <!--Chit Chat-->
           <div class="row row8 text-center hidden-xs">
             <div class="col-md-12">
@@ -187,7 +185,6 @@
               <img id="qa-image" src="/images/qa.png">
             </div>
           </div>
-
           <div class="row row8-xs text-center visible-xs hidden-sm hidden-md hidden-lg">
             <h1 class="chit-chat-headline-xs">Collaborate with classmates at any time.</h1>
             <h3 class="chit-chat-body-xs">Coil enables students to ask questions and get answers from classmates or the professor, and send pictures, videos, or files. We all know no question is a dumb question but just in case, you can post anonymously. </h3>
@@ -219,20 +216,14 @@
                 </div>
             </div>
         </div>
-  
     </footer>
 
     <!--jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-
-
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
-
-
     <script src="canvas-confetti/js/coffee-script.js"></script>
     <!--<script src="lib/typed.js" type="text/javascript"></script> -->
     <script src="rotating-text/rotating-text.js"></script>
-
   </body>
 </html>
