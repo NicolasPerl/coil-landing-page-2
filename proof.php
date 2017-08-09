@@ -43,6 +43,7 @@
               <li><a href="mailto:support@coilapp.com?Subject=Hi%20again!" target="_top">contact</a></li>
               <!--<li><a href="#contact">Contact</a></li>-->
             </ul>
+             
           </nav>
         <!--</div>-->
       </div>
