@@ -148,18 +148,34 @@ pre {
  bar code is at very bottom long af-----------------------------------------------------------------*/
 .window:nth-child(2) .content {
   position: absolute;
-  top: 50%;
-  left: 50%;
-  margin-top: -180px;
-  margin-left: -160px;
+  margin-top: 30px;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 .window:nth-child(2) .content h2 {
   color: #d5d7dd;
-  margin-right: 70%;
+  margin-right: 10vw;
+  margin-left: 10vw;
 }
 .window:nth-child(2) .content h2 .highlight {
   color: white;
 }
+
+.row2 {
+  height: 50vh;
+  
+}
+
+.chart {
+  padding-top: 10vh;
+}
+
+.row2-1 {
+  height: 50vh;
+  margin-top: -50px;
+  
+}
+
 
 /* window 3 is the listed points of how to get the points -------
 -----------------------------------------------------------------*/
@@ -167,24 +183,24 @@ pre {
   list-style-type: none;
 }
 .window:nth-child(3) .content {
-  position: absolute;
-  top: 50%;
-  width: 100%;
-  margin-top: -230px;
-  margin-bottom: 10%;
+  position: center;
+  margin-top: 10%;
+  margin-bottom: 0%;
 }
 .window:nth-child(3) .content h2 {
   text-align: center;
   font-size: 3.0em;
-  margin-top: -200px;
-  margin-bottom: 10%;
+  margin-top: 0px;
+  margin-bottom: 0%;
 }
 .window:nth-child(3) .content .explanation {
   font-family: BrandonText-Regular, Futura, Helvetica, Arial, sans-serif;
   color: white;
   font-size: 1.4em;
   text-align: center;
-  padding: 0 15%;
+  margin-right: 15%;
+  margin-left: 15%;
+  margin-top: 40px;
 
 }
 
@@ -197,57 +213,110 @@ pre {
 .window:nth-child(3) .content li .highlight {
   color: white;
 }
-/* window 4 is with the ranking image-------------------------------
+
+.row3 {
+  height: 50vh;
+}
+
+.row3-1 {
+  height: 50vh;
+}
+
+.row3-1 .content {
+  position: center;
+  margin-left: 40%;
+  padding-top: 50px;
+}
+/* window 4 is university gurus-------------------------------
 -----------------------------------------------------------------*/
-.window:nth-child(4) pre {
+/*.window:nth-child(4) pre {
   position: absolute;
   top: 50%;
   left: 50%;
   margin: -220px 0 0 -450px;
 }
-
+*/
 .window:nth-child(4) .content h1 {
   color: white;
+  margin-top: 5%;
 }
 
 .window:nth-child(4) .content .explanation {
   color: white;
   text-align: center;
   font-size: 1.4em;
+  margin-top: 2%;
+}
+
+
+
+#guruBoard {
+  margin-top: 10%;
+  height: 25%;
+  width: 25%;
+  margin-left: 35%;
+  /*margin-right: 25%;*/
+}
+
+#guruBoardsm {
+  margin-top: 15%;
+  height: 50%;
+  width: 50%;
+  margin-left: 25%;
+  /*margin-right: 25%;*/
 }
 
 /* window 5 is coil scholarships -------------------------------
 -----------------------------------------------------------------*/
 .window:nth-child(5) .content {
-  position: absolute;
-  margin-left: 30%;
-  margin-top: 2%;
+  position: center;
+  margin-top: 5%;
 
 }
 
 .window:nth-child(5) h1 {
   color: white;
 
+
+}
+.description {
+  color: white;
+  text-align: center;
+  margin-top: 5%;
 }
 
-.window:nth-child(5) p {
-  color: white;
+.scholarshipsm {
+  font-size: 50pt;
 }
+
+.descriptionsm {
+  color: white;
+  text-align: center;
+  margin-top: 10%;
+}
+
 
 #scholarshipImage {
   position: absolute;
-  height: 10%;
-  width: 5%;
+  height: 200px;
+  width: 200px;
+  margin-top: 20%;
+  margin-left: 40%
+ 
 }
+
+#scholarshipImagesm {
+  position: absolute;
+  height: 150px;
+  width: 150px;
+  margin-top: 20%;
+  margin-left: 28%
+ 
+}
+
+
 /*-------------------------------
 -----------------------------------------------------------------*/
-.window:nth-child(6) .content {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  margin: -100px 0 0 -100px;
-  text-align: center;
-}
 
 /* CSS Document */
 ::selection {
@@ -407,14 +476,6 @@ html, body {
 .scroll {
   font-size: 80%;
   margin-top: 80%;
-}
-
-/* Leaderboard Image ---------
-------------------------------- */
-
-.leaderboardImage {
-  margin-left: 40%;
-  margin-top: 4%;
 }
 
 /* Bouncing Ball -----------
@@ -636,7 +697,7 @@ time, mark, audio, video {
           perspective-origin: 50% 50%;
   position: relative;
   z-index: 100;
-  margin-top: 30%;
+  margin-top: 5%;
 
 }
 

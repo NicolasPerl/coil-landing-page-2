@@ -21,7 +21,7 @@
 
   </head>
   <body>
-      <div class="col-lg-12">
+      <div class="col-sm-12">
         <div class="wrapper">
                 <div class="loginButtons">
                     <img src="images/landing-page-logo.png" id="landing-page-logo" alt="coil logo">
@@ -33,7 +33,7 @@
                     <a class="button" href="#" id="loginButton"><strong>login</strong></a>     
                     <a class="button" href="#" id="signupButton"><strong>signup</strong></a>-->
                 </div>
-                    <ul class="bg-bubbles">
+                    <ul class="bg-bubbles hidden-xs">
                         <li></li>
                         <li></li>
                         <li></li>
@@ -45,6 +45,8 @@
                         <li></li>
                         <li></li>
                     </ul>
+                    <ul class="bg-bubbles visible-xs hidden-sm hidden-md hidden-lg">   
+                    </ul>
                 <!-- typed.js injection -->
                 <div class="type-wrap">
                     <div id="typed-strings">
@@ -54,7 +56,12 @@
                     <span id="typed"></span>
                 </div>
                 <!-- typed.js ends here -->
+                <div class="hidden-xs">
                     <center><a href="/product.php" id="productButton" class="btn btn-default btn-lg"><strong>Take the tour</strong></a></center>
+                </div>
+                 <div class="visible-xs hidden-sm hidden-md hidden-lg">
+                    <center><a href="/product.php" id="productButtonXS" class="btn btn-default btn-lg"><strong>Take the tour</strong></a></center>
+                </div>
                 <!-- typed.js script -->
                 <script>
                     var typed = new Typed('#typed', {
@@ -73,21 +80,21 @@
 
     <footer>
         <div class="row">
-            <div class="col-md-4">
+            <div class="col-sm-4">
                 <center><p id="usingCoilFooter"> using coil</p>
                 <div class="footerLinks">
                     <a href="/product.php"> product </a><br>
                     <a href="#"> prove it </a>
                 </div></center>
             </div>
-            <div class="col-md-4">
+            <div class="col-sm-4">
                 <center><span class="glyphicon glyphicon-heart" id="coilFooter" aria-hidden="true">coil</span> 
                 <div class="footerLinks">
                     <a href="#"> policy </a><br>
                     <a href="mailto:support@coilapp.com?Subject=Hi%20again!" target="_top">contact us</a>
                 </div></center>
             </div>
-            <div class="col-md-4">
+            <div class="col-sm-4">
                 <center><p id="handyLinksFooter">tool box</p></center>
                 <div class="footerLinks">
                     <a id="toolBox" href="#"> iOS app</a>
