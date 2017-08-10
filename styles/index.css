@@ -187,7 +187,7 @@ body {
 }
 
 #productButton:hover {
-	background-color: #003C64;
+	background-color: #1D3D5D;
   color: white;
 }
 
@@ -202,7 +202,7 @@ body {
 }
 
 #productButtonXS:hover {
-  background-color: #003C64;
+  background-color: #1D3D5D;
   color: white;
 }
 
@@ -310,9 +310,9 @@ body :-ms-input-placeholder {
   font-weight: 300;
 }
 .wrapper {
-  background: #50a3a2;
-  background: -webkit-linear-gradient(top left, #50a3a2 0%, #53e3a6 100%);
-  background: linear-gradient(to bottom right, #50a3a2 0%, #53e3a6 100%);
+  background: #1D3D5D;
+  background: -webkit-linear-gradient(top left, #1D3D5D 0%, #76BEA3 100%);
+  background: linear-gradient(to bottom right, #1D3D5D 0%, #76BEA3 100%);
   position: relative;
   top: 50%;
   left: 0;
