@@ -241,7 +241,7 @@
           <div class="six columns">
             <h3><span class="typcn typcn-lightbulb icon"></span>Step 4:</h3>
             <p><img id="library" src="maki-icons/svgs/rocket-15.svg">
-            Teach it again with a simple explanation and analogy.</p>
+            Teach it again with a simpler explanation and analogy.</p>
           </div>
         </div>
       </div>

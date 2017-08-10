@@ -94,11 +94,11 @@
 
           <div class="col-sm-4 text-center col-3 hidden-xs">
             <img id="students-image" src="/images/questions.png">
-            <h3 class="students-text">Start connecting and engage with the smartest students in your class</h3>
+            <h3 class="students-text">Start connecting and engaging with the smartest students in your class</h3>
           </div> <!-- col 3 -->
           <div class="col-sm-4 text-center col-3-xs visible-xs hidden-sm hidden-md hidden-lg">
             <img id="students-image-xs" src="/images/questions.png">
-            <h3 class="students-text-xs">Start connecting and engage with the smartest students in your class</h3>
+            <h3 class="students-text-xs">Start connecting and engaging with the smartest students in your class</h3>
           </div> <!-- col 3 -->
         </div> <!-- row 4 -->
 
@@ -111,7 +111,7 @@
               <!-- feature description section -->
               <div class="col-sm-6">
                 <h1 class="coil-headline">Create coils* with classmates</h1>
-                <h3 class="coil-body">Here at Coil, we know that studying with classmates, especially in person, is the  most <span class="textColor">effective</span> way to learn.  <!-- review sentence --> Coil lets you <span class="textColor">create</span> a coil - our word for study group - that your classmates can join.  Whether it's to finish homework or study for that upcoming test, a coil is where great minds come together to <span class="textColor">collaborate</span> and <span class="textColor">educate</span> each other.</h3>
+                <h3 class="coil-body">Here at Coil, we know that studying with classmates, especially in person, is the  most <span class="textColor">effective</span> way to learn. Coil lets you create a coil - our word for <span class="textColor">study group</span> - that your classmates can join.  Whether it's to finish homework or study for that upcoming test, a coil is where great minds come together to <span class="textColor">collaborate</span> and <span class="textColor">educate</span> each other.</h3>
               </div> <!-- col -->
             </div> <!-- row 5 -->
 
@@ -132,7 +132,7 @@
               <div class="tutor-background">
                 <div class="col-sm-6">
                   <h1 class="tutoring-headline">Classmate tutoring</h1>
-                  <h3 class="tutoring-body">Unless you're a genius, you've probably felt <span class="spanTextColor">confused</span> in some classes. Thankfully, a few of your classmates understand what's going on and Coil will <span class="spanTextColor">connect</span> you to them. You'll receive the help you need while your classmate gains a deeper <span class="spanTextColor">understanding</span> of the material by explaining it to you. This is backed up by the Feynman technique - <!-- the winner of ... --> the guy who won the <span class="spanTextColor">Nobel Peace Prize.</span><br><br> <span class="feynmanLink"> <a href="windows/proof.php">Introducing Richard Feynman</a></span></h3>
+                  <h3 class="tutoring-body">Unless you're a genius, you've probably felt <span class="spanTextColor">confused</span> in some classes. Thankfully, a few of your classmates understand what's going on and Coil will <span class="spanTextColor">connect</span> you to them. You'll receive the help you need while your classmate gains a deeper <span class="spanTextColor">understanding</span> of the material by explaining it to you. This is backed up by the Feynman technique - <!-- the winner of ... --> the guy who won the <span class="spanTextColor">Nobel Peace Prize.</span><br><br> <span class="feynmanLink"> <a href="proof.php"><span class="spanTextColor">Introducing Richard Feynman</span></a></h3>
                 </div> <!-- col -->
               </div>
               <div class="col-sm-6">
@@ -148,7 +148,7 @@
 
             <div class="col-md-6">
               <h1 class="tutoring-headline-xs">Classmate tutoring</h1>
-              <h3 class="tutoring-body-xs">Unless you're a genius, you've probably felt <span class="textColor">confused</span> in some classes. Thankfully, a few of your classmates understand what's going on. And Coil will <span class="textColor">connect</span> you to them. You'll receive the help you need while  your classmate gains a deeper <span class="textColor">understanding</span> of the material by explaining it to you. This is backed up by the Feynman technique - the guy who won the <span class="textColor">Nobel Peace Prize</span><br><br> <span class="feynmanLink"> <a href="windows/proof.php">Introducing Richard Feynman</a></span></h3>
+              <h3 class="tutoring-body-xs">Unless you're a genius, you've probably felt <span class="spanTextColor">confused</span> in some classes. Thankfully, a few of your classmates understand what's going on and Coil will <span class="spanTextColor">connect</span> you to them. You'll receive the help you need while your classmate gains a deeper <span class="spanTextColor">understanding</span> of the material by explaining it to you. This is backed up by the Feynman technique - <!-- the winner of ... --> the guy who won the <span class="spanTextColor">Nobel Peace Prize.</span><br><br> <span class="feynmanLink"> <a href="proof.php"><span class="spanTextColor">Introducing Richard Feynman</span></a></h3>
             </div> <!-- col -->
 
           </div> <!-- row 6 -->
@@ -161,7 +161,7 @@
 
             <div class="col-sm-6">
               <h1 class="leaderboard-headline">Gurus</h1>
-              <h3 class="leaderboard-body">Gurus are students who provide help  to their classmates and rise to the top of the leaderboard. Students earn points by collaborating in study groups, explaining topics to classmates, and contributing to the classroom discussion. The professor will have access to the leaderboard so he'll see if you really went the extra mile!<br><br> <span class="gurusPage"> <a href="windows/index.html">See how to earn the most points</a></span></h3>
+              <h3 class="leaderboard-body">Guru's are students who provide help  to their classmates and rise to the top of the <span class="textColor">leaderboard</span>. Students <span class="textColor">earn points</span> by <span class="textColor">collaborating</span> in study groups, <span class="textColor">explaining</span> topics to classmates, and <span class="textColor">contributing</span> to the classroom discussion. The professor will have access to the leaderboard so he'll see if you really went the extra mile!<br><br> <span class="gurusPage"> <a href="windows/index.html">See how to earn the most points</a></span></h3>
             </div> <!-- col -->
           </div> <!-- row 7 -->
 
@@ -172,7 +172,7 @@
 
             <div class="col-md-6">
               <h1 class="leaderboard-headline-xs">Gurus</h1>
-              <h3 class="leaderboard-body-xs">Guru's are students who provide help  to their classmates and rise to the top of the leaderboard. Students earn points by collaborating in study groups, explaining topics to classmates, and contributing to the classroom discussion. The professor will have access to the leaderboard so he'll see if you really went the extra mile!<br><br> <span class="gurusPage"> <a href="windows/index.html">See how to earn the most points</a></span></h3>
+              <h3 class="leaderboard-body-xs">Guru's are students who provide help  to their classmates and rise to the top of the <span class="textColor">leaderboard</span>. Students <span class="textColor">earn points</span> by <span class="textColor">collaborating</span> in study groups, <span class="textColor">explaining</span> topics to classmates, and <span class="textColor">contributing</span> to the classroom discussion. The professor will have access to the leaderboard so he'll see if you really went the extra mile!<br><br> <span class="gurusPage"> <a href="windows/index.html">See how to earn the most points</a></span></h3>
             </div> <!-- col -->
           </div> <!-- row 7 -->
 
@@ -180,14 +180,14 @@
           <div class="row row8 text-center hidden-xs">
             <div class="col-md-12">
               <h1 class="chit-chat-headline">Collaborate with classmates at any time</h1>
-              <h3 class="chit-chat-body">Coil enables students to ask questions and get answers from classmates or professors. Our users see a reduction in internal email and an increase in collaboration, which helps them enjoy a more pleasant and productive semester. Here at Coil, we know that no question is a dumb question but just in case, you can post anonymously. </h3>
+              <h3 class="chit-chat-body">Coil enables students to <span class="textColor">ask questions</span> and <span class="textColor">get answers</span> from classmates or professors. Our users see a <span class="textColor">reduction</span> in internal <span class="textColor">email</span> and an <span class="textColor">increase</span> in <span class="textColor">collaboration,</span> which helps them enjoy a more pleasant and productive semester. Here at Coil, we know that no question is a dumb question but just in case, you can post <span class="textColor">anonymously.</span> </h3>
               <img id="chit-chat-image" src="/images/upload.png">
               <img id="qa-image" src="/images/qa.png">
             </div>
           </div>
           <div class="row row8-xs text-center visible-xs hidden-sm hidden-md hidden-lg">
             <h1 class="chit-chat-headline-xs">Collaborate with classmates at any time.</h1>
-            <h3 class="chit-chat-body-xs">Coil enables students to ask questions and get answers from classmates or professors. Our users see a reduction in internal email and an increase in collaboration, which helps them enjoy a more pleasant and productive semester. Here at Coil, we know that no question is a dumb question but just in case, you can post anonymously. </h3>
+            <h3 class="chit-chat-body-xs">Coil enables students to <span class="textColor">ask questions</span> and <span class="textColor">get answers</span> from classmates or professors. Our users see a <span class="textColor">reduction</span> in internal <span class="textColor">email</span> and an <span class="textColor">increase</span> in <span class="textColor">collaboration,</span> which helps them enjoy a more pleasant and productive semester. Here at Coil, we know that no question is a dumb question but just in case, you can post <span class="textColor">anonymously.</span> </h3>
             <img id="chit-chat-image-xs" src="/images/upload.png">
             <img id="qa-image-xs" src="/images/qa.png">
           </div>
@@ -204,7 +204,7 @@
             <div class="col-md-4">
                 <center><span class="glyphicon glyphicon-heart" id="coilFooter" aria-hidden="true">coil</span> 
                 <div class="footerLinks">
-                    <a id="policyLink" href="#"> policy </a><br>
+                    <!--<a id="policyLink" href="#"> policy </a><br>-->
                     <a href="mailto:support@coilapp.com?Subject=Hi%20again!" target="_top">contact us</a>
                 </div></center>
             </div>

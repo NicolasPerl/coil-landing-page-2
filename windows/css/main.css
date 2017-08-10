@@ -187,11 +187,12 @@ pre {
   margin-top: 10%;
   margin-bottom: 0%;
 }
-.window:nth-child(3) .content h2 {
+.window:nth-child(3) .content h1 {
   text-align: center;
-  font-size: 3.0em;
-  margin-top: 0px;
-  margin-bottom: 0%;
+  /*font-size: 4.0em;*/
+  margin-top: 5%;
+  /*margin-bottom: 0%;*/
+  color: white;
 }
 .window:nth-child(3) .content .explanation {
   font-family: BrandonText-Regular, Futura, Helvetica, Arial, sans-serif;
