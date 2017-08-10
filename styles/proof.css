@@ -1,6 +1,4 @@
 
-@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,300");
-
 /* Base Styles
 ********************************************************************* */
 html {
@@ -277,11 +275,11 @@ a:hover {
 	justify-content: center;
  	width: 100%;
 	height: 100vh;
-	background: #e55d87;
-	background: -moz-linear-gradient(-45deg, #e55d87 0%, #5fc3e4 100%);
+	background: #FF6161;
+	/*background: -moz-linear-gradient(-45deg, #e55d87 0%, #5fc3e4 100%);
 	background: -webkit-linear-gradient(-45deg, #e55d87 0%, #5fc3e4 100%);
 	background: linear-gradient(135deg, #e55d87 0%, #5fc3e4 100%);
- filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e55d87', endColorstr='#5fc3e4', GradientType=1 );
+ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e55d87', endColorstr='#5fc3e4', GradientType=1 );*/
 }
 
 #header-xs {
@@ -868,7 +866,7 @@ pre, blockquote, dl, figure, table, p, ul, ol, form {
 /* confetti hover */
 body {
   background: #feffef;
-  font-family: Helvetica, sans-serif;
+  /*font-family: Helvetica, sans-serif;*/
 }
 
 @-webkit-keyframes bang {

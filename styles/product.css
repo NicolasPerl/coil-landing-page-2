@@ -200,6 +200,7 @@ body {
 }
 
 .prof-headline {
+	margin-top: 20%;
 	margin-right: 15%;
 	margin-left:  15%;
 	
@@ -239,7 +240,7 @@ body {
 
 .board-text {
 	z-index: 100;
-	margin-top: 27%;
+	margin-top: 16%;
 }
 
 .board-text-xs {
@@ -275,7 +276,7 @@ body {
 }
 
 .students-text {
-	margin-top: 21%
+	margin-top: 10%;
 }
 
 .students-text-xs {
@@ -400,6 +401,11 @@ h2 {
 	letter-spacing: 1px;
 	font-style: 'Lato Light';
 }
+
+.spanTextColor {
+	color: black;
+}
+
 
 .tutoring-headline-xs {
 	color: white;

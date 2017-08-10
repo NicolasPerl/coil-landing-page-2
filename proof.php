@@ -14,7 +14,7 @@
     <link href="styles/proof.css" rel="stylesheet">
 
     <!-- Lato font -->
-    <link href="https://fonts.googleapis.com/css?family=Lato:black,400,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:black,light,400,900" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->

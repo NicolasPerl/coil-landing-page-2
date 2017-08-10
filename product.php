@@ -74,11 +74,11 @@
           </div>
 
           <div class="col-sm-4 text-center col-1 hidden-xs">
-            <img id="prof-image" src="/images/professor.png">
+            <img id="prof-image" src="/images/boss.png">
             <h3 class="prof-headline">Professor invites students to the class</h3>
           </div> <!-- col 1 -->
           <div class="col-sm-4 text-center col-1-xs visible-xs hidden-sm hidden-md hidden-lg">
-            <img id="prof-image-xs" src="/images/professor.png">
+            <img id="prof-image-xs" src="/images/boss.png">
             <h3 class="prof-headline-xs">Professor invites students to the class</h3>
           </div> <!-- col 1 -->
 
@@ -132,7 +132,7 @@
               <div class="tutor-background">
                 <div class="col-sm-6">
                   <h1 class="tutoring-headline">Classmate tutoring</h1>
-                  <h3 class="tutoring-body">Unless you're a genius, you've probably felt <span class="textColor">confused</span> in some classes. Thankfully, a few of your classmates understand what's going on and Coil will <span class="textColor">connect</span> you to them. You'll receive the help you need while your classmate gains a deeper <span class="textColor">understanding</span> of the material by explaining it to you. This is backed up by the Feynman technique - <!-- the winner of ... --> the guy who won the <span class="textColor">Nobel Peace Prize.</span><br><br> <span class="feynmanLink"> <a href="windows/proof.php">Introducing Richard Feynman</a></span></h3>
+                  <h3 class="tutoring-body">Unless you're a genius, you've probably felt <span class="spanTextColor">confused</span> in some classes. Thankfully, a few of your classmates understand what's going on and Coil will <span class="spanTextColor">connect</span> you to them. You'll receive the help you need while your classmate gains a deeper <span class="spanTextColor">understanding</span> of the material by explaining it to you. This is backed up by the Feynman technique - <!-- the winner of ... --> the guy who won the <span class="spanTextColor">Nobel Peace Prize.</span><br><br> <span class="feynmanLink"> <a href="windows/proof.php">Introducing Richard Feynman</a></span></h3>
                 </div> <!-- col -->
               </div>
               <div class="col-sm-6">
@@ -180,14 +180,14 @@
           <div class="row row8 text-center hidden-xs">
             <div class="col-md-12">
               <h1 class="chit-chat-headline">Collaborate with classmates at any time</h1>
-              <h3 class="chit-chat-body">Coil enables students to ask questions and get answers from classmates or professors. Our users see a reduction<br>in internal email and an increase in collaboration, which helps them enjoy a more pleasant and <br>productive semester. Here at Coil, we know that no question is a dumb question but just in case, you can post anonymously. </h3>
+              <h3 class="chit-chat-body">Coil enables students to ask questions and get answers from classmates or professors. Our users see a reduction in internal email and an increase in collaboration, which helps them enjoy a more pleasant and productive semester. Here at Coil, we know that no question is a dumb question but just in case, you can post anonymously. </h3>
               <img id="chit-chat-image" src="/images/upload.png">
               <img id="qa-image" src="/images/qa.png">
             </div>
           </div>
           <div class="row row8-xs text-center visible-xs hidden-sm hidden-md hidden-lg">
             <h1 class="chit-chat-headline-xs">Collaborate with classmates at any time.</h1>
-            <h3 class="chit-chat-body-xs">Coil enables students to ask questions and get answers from classmates or professors. Our users see a reduction<br>in internal email and an increase in collaboration, which helps them enjoy a more pleasant and <br>productive semester. Here at Coil, we know that no question is a dumb question but just in case, you can post anonymously. </h3>
+            <h3 class="chit-chat-body-xs">Coil enables students to ask questions and get answers from classmates or professors. Our users see a reduction in internal email and an increase in collaboration, which helps them enjoy a more pleasant and productive semester. Here at Coil, we know that no question is a dumb question but just in case, you can post anonymously. </h3>
             <img id="chit-chat-image-xs" src="/images/upload.png">
             <img id="qa-image-xs" src="/images/qa.png">
           </div>
@@ -198,7 +198,7 @@
                 <center><p id="usingCoilFooter"> using coil</p>
                 <div class="footerLinks">
                     <a href="/product.php"> product </a><br>
-                    <a href="/proof.php"> prove it </a>
+                    <a href="/proof.php"> inspiration </a>
                 </div></center>
             </div>
             <div class="col-md-4">
