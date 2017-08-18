@@ -53,7 +53,7 @@
       <div class="title">
         <div><span class="typcn typcn-heart-outline icon heading"></span></div>
         <div class="smallsep heading"></div>
-        <h1 class="heading"> Coil's inspiration came from a theorist who won the Nobel Peace Prize</h1>
+        <h1 class="heading"> Coil's inspiration came from a theorist who won the Nobel Prize in Physics</h1>
         <div class='hoverme'>
             <span>
               A gift from us to you.
@@ -142,7 +142,7 @@
       </a>
       <div class="title-xs">
         <div class="smallsep-xs heading"></div>
-        <h1 class="heading-xs"> Coil's inspiration came from a theorist who won the Nobel Peace Prize</h1>
+        <h1 class="heading-xs"> Coil's inspiration came from a theorist who won the Nobel Prize in Physics</h1>
         <div class='hoverme-xs'>
             <span>
               A gift from us to you.
@@ -218,7 +218,7 @@
         <div class="row">
           <h1>Feynman's Study Technique</h1>
           <div class="block"></div>
-          <p id="peaceHeadline">Study like the Nobel Peace Prize winner with these 4 steps:</p>
+          <p id="peaceHeadline">Study like the Nobel Prize winner with these 4 steps:</p>
         </div>
         <div class="row">
           <div class="six columns">
@@ -278,7 +278,7 @@
         <div class="row explanation">
           <div class="one-third column">
             <h3>Pen to Paper.</h3>
-            <p>All students studying should be working on the same problem on their <strong>own</strong> paper. Try working it out from scratch with no help. It's easy to falsely assume you understand something by watching a classmate work out the problem. It's a different ball game when you face a similar problem on the exam and are forced to solve it from scratch.</p>
+            <p>All students should be working on the same problem on their <strong>own</strong> paper. Try working it out from scratch with no help. It's easy to falsely assume you understand something by watching a classmate work out the problem. It's a different ball game when you face a similar problem on the exam and are forced to solve it from scratch.</p>
           </div>
           <div class="one-third column">
             <h3>Confused?</h3>
@@ -286,7 +286,7 @@
           </div>
           <div class="one-third column">
             <h3>Peer to Peer Instruction.</h3>
-            <p>You know you understand a topic when you can explain it to a <em>five year old</em>. In coils case, you'll be explaining a topic to your study group. Pay close attention to any gaps in your explanation. These gaps are areas you know you must go back and obtain a deeper understanding.  </p>
+            <p>You know you understand a topic when you can explain it to a <em>five year old</em>. In Coil's case, you'll be explaining a topic to your study group. Pay close attention to any gaps in your explanation. These gaps are areas you know you must go back to in order to obtain a deeper understanding.  </p>
           </div>
         </div>
         <div class="row badass-chart">
@@ -331,7 +331,7 @@
         <div class="row explanation">
           <div class="one-third column">
             <h3>Pen to Paper.</h3>
-            <p>All students studying should be working on the same problem on their <strong>own</strong> paper. Try working it out from scratch with no help. It's easy to falsely assume you understand something by watching a classmate work out the problem. It's a different ball game when you face a similar problem on the exam and are forced to solve it from scratch.</p>
+            <p>All students should be working on the same problem on their <strong>own</strong> paper. Try working it out from scratch with no help. It's easy to falsely assume you understand something by watching a classmate work out the problem. It's a different ball game when you face a similar problem on the exam and are forced to solve it from scratch.</p>
           </div>
           <div class="one-third column">
             <h3>Confused?</h3>
@@ -339,7 +339,7 @@
           </div>
           <div class="one-third column">
             <h3>Peer to Peer Instruction.</h3>
-            <p>You know you understand a topic when you can explain it to a <em>five year old</em>. In coils case, you'll be explaining a topic to your study group. Pay close attention to any gaps in your explanation. These gaps are areas you know you must go back and obtain a deeper understanding.  </p>
+            <p>You know you understand a topic when you can explain it to a <em>five year old</em>. In Coil's case, you'll be explaining a topic to your study group. Pay close attention to any gaps in your explanation. These gaps are areas you know you must go back to in order to obtain a deeper understanding.  </p>
           </div>
         </div>
         <div class="row badass-chart-xs">

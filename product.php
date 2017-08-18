@@ -132,7 +132,7 @@
               <div class="tutor-background">
                 <div class="col-sm-6">
                   <h1 class="tutoring-headline">Classmate tutoring</h1>
-                  <h3 class="tutoring-body">Unless you're a genius, you've probably felt <span class="textColorBlack">confused</span> in some classes. Thankfully, a few of your classmates understand what's going on and Coil will <span class="textColorBlack">connect</span> you to them. You'll receive the help you need while your classmate gains a deeper <span class="textColorBlack">understanding</span> of the material by explaining it to you. This is backed up by the Feynman technique - <!-- the winner of ... --> the guy who won the <span class="textColorBlack">Nobel Peace Prize.</span><br><br> <span class="feynmanLink"> <a href="proof.php"><span class="textColorBlack">Introducing Richard Feynman</span></a></h3>
+                  <h3 class="tutoring-body">Unless you're a genius, you've probably felt <span class="textColorBlack">confused</span> in some classes. Thankfully, a few of your classmates understand what's going on and Coil will <span class="textColorBlack">connect</span> you to them. You'll receive the help you need while your classmate gains a deeper <span class="textColorBlack">understanding</span> of the material by explaining it to you. This is backed up by the Feynman technique - the guy who won the <span class="textColorBlack">Nobel Prize in Physics.</span><br><br> <span class="feynmanLink"> <a href="proof.php"><span class="textColorBlack">Introducing Richard Feynman</span></a></h3>
                 </div> <!-- col -->
               </div>
               <div class="col-sm-6">
@@ -148,7 +148,7 @@
 
             <div class="col-md-6">
               <h1 class="tutoring-headline-xs">Classmate tutoring</h1>
-              <h3 class="tutoring-body-xs">Unless you're a genius, you've probably felt <span class="textColorBlack">confused</span> in some classes. Thankfully, a few of your classmates understand what's going on and Coil will <span class="textColorBlack">connect</span> you to them. You'll receive the help you need while your classmate gains a deeper <span class="textColorBlack">understanding</span> of the material by explaining it to you. This is backed up by the Feynman technique - <!-- the winner of ... --> the guy who won the <span class="textColorBlack">Nobel Peace Prize.</span><br><br> <span class="feynmanLink"> <a href="proof.php"><span class="textColorBlack">Introducing Richard Feynman</span></a></h3>
+              <h3 class="tutoring-body-xs">Unless you're a genius, you've probably felt <span class="textColorBlack">confused</span> in some classes. Thankfully, a few of your classmates understand what's going on and Coil will <span class="textColorBlack">connect</span> you to them. You'll receive the help you need while your classmate gains a deeper <span class="textColorBlack">understanding</span> of the material by explaining it to you. This is backed up by the Feynman technique - the guy who won the <span class="textColorBlack">Nobel Prize in Physics.</span><br><br> <span class="feynmanLink"> <a href="proof.php"><span class="textColorBlack">Introducing Richard Feynman</span></a></h3>
             </div> <!-- col -->
 
           </div> <!-- row 6 -->
@@ -161,7 +161,7 @@
 
             <div class="col-sm-6">
               <h1 class="leaderboard-headline">Gurus</h1>
-              <h3 class="leaderboard-body">Guru's are students who provide help  to their classmates and rise to the top of the <span class="textColorBlue">leaderboard</span>. Students <span class="textColorBlue">earn points</span> by <span class="textColorBlue">collaborating</span> in study groups, <span class="textColorBlue">explaining</span> topics to classmates, and <span class="textColorBlue">contributing</span> to the classroom discussion. The professor will have access to the leaderboard so he'll see if you really went the extra mile!<br><br> <span class="gurusPage"> <a href="windows/index.html">See how to earn the most points</a></span></h3>
+              <h3 class="leaderboard-body">Gurus are students who provide help  to their classmates and rise to the top of the <span class="textColorBlue">leaderboard</span>. Students <span class="textColorBlue">earn points</span> by <span class="textColorBlue">collaborating</span> in study groups, <span class="textColorBlue">explaining</span> topics to classmates, and <span class="textColorBlue">contributing</span> to the classroom discussion. The professor will have access to the leaderboard so he'll see if you really went the extra mile!<br><br> <span class="gurusPage"> <a href="windows/index.html">See how to earn the most points</a></span></h3>
             </div> <!-- col -->
           </div> <!-- row 7 -->
 
