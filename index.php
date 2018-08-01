@@ -3,11 +3,11 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>Coil</title>
     <!-- Bootstrap -->
-    <link href="bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="lib/typed.min.js" type="text/javascript"></script>
     <!-- This page's style sheet -->
@@ -21,47 +21,237 @@
 
   </head>
   <body>
-      <div class="col-sm-12">
-        <div class="wrapper">
-                <div class="loginButtons">
-                    <img src="images/landing-page-logo.png" id="landing-page-logo" alt="coil logo">
+      <div class="container-fluid">
+        <div class="row">
+        	<div class="col-6">
+	        	<img src="images/landing-page-logo.png" id="landing-page-logo" alt="coil logo">
+        		
+        	</div>
+        	<div class="col-6">
+        		<!-- <div class="loginButtons"> -->
                     <nav class="cl-effect-1">
                         <a href="http://www.coilapp.com/">login</a>
                         <a href="http://www.coilapp.com/sign-up">signup</a>
                     </nav>
+        	</div>
+                
                     <!--
                     <a class="button" href="#" id="loginButton"><strong>login</strong></a>     
                     <a class="button" href="#" id="signupButton"><strong>signup</strong></a>-->
-                </div>
-                    <ul class="bg-bubbles hidden-xs">
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                    </ul>
-                    <ul class="bg-bubbles visible-xs hidden-sm hidden-md hidden-lg">   
-                    </ul>
+                <!-- </div> -->
+        </div> <!-- end row -->
+        <div class="row">
+        	<div class="col">
+        		<img id='splashImage'src="images/isometric-work-together.png">
+        	</div>
+        	<!-- <div class="splashImage">
+        		
+        	</div> -->
+        	<div class="col">
+        		<h3 id="splashHeader">Classroom communication software for the 21 century</h3>
+        		<p id="splashText">A tool for classrooms to collaborate, announce, meet, and grow together</p>
+        		<!-- call to action button -->
+                <center><a href="/product.php" id="productButtonXS" class="btn btn-default btn-lg"><strong>Get started</strong></a></center>
+        	</div>
+        </div> <!-- end row -->
+
+        <!-- circle layed over greenblock -->
+        <div class="row">
+        	<!-- <div class="circleBase type1">
+        		<p id="circleText">Imagine reducing workload but increasing engagement</p>
+        	</div> -->
+        	
+        	<div id="greenBlock" class="col">
+        		<div class="circle">
+        			<p id="circleText">Imagine reducing <br /> workload but increasing engagement</p>
+        			<p id="circleTextSmall">sounds crazy... we know</p>
+        		</div>
+        		<h3 id="greenBlockText">Coil is free, easy to use, and only takes minutes to set up. But, what makes Coil different?</h3>
+        	</div>
+        </div> <!-- end row -->
+
+        <h2 class="carouselHeader">We'll handle the hard part</h2>
+
+        
+        
+
+
+<!-- carousel starts here -->
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+			<ol class="carousel-indicators">
+				<!-- <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+				<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+				<li data-target="#carouselExampleIndicators" data-slide-to="2"></li> -->
+				<div class="row">
+<!-- first slide-->
+        	<div class="col-4" style="display:inherit;">
+				<img data-target="#carouselExampleIndicators" data-slide-to="0" class="emojiCarousel"border="0" alt="microphone" src="images/microphone.png">
+				<p class="carsouselIconText">Dynamic Feed</p>
+        	</div>
+<!-- second slide-->
+        	<div class="col-4" style="display:inherit;">
+				<img data-target="#carouselExampleIndicators" data-slide-to="1" class="emojiCarousel"border="0" alt="microphone" src="images/raisingHandEmoji.png">
+				<p class="carsouselIconText">Participation</p>
+        	</div>
+<!-- third slide-->
+        	<div class="col-4" style="display:inherit;">
+				<img data-target="#carouselExampleIndicators" data-slide-to="2" class="emojiCarousel"border="0" alt="microphone" src="images/wrenchEmoji.png">
+				<p class="carsouselIconText">Tools Provided</p>
+        	</div>
+        </div> <!-- end row -->
+			</ol>
+		<div class="carousel-inner">
+			<div class="carousel-item active">
+				<div id="slide1"class="row">
+					<div class="col-6">
+					<img class="d-block" src="images/filter-posts.png" alt="First slide">
+					<!-- ?auto=yes&bg=777&fg=555&text=First slide -->
+				</div>
+				<div class="col-6">
+					<h3>All conversation kept in one place</h3>
+					<p class="carouselText">Easily filter unsolved questions, endorse answers, and upload files. Students can choose to post only to educators, and all the contributions to your coil group are archived so there is never a lost post.</p>
+				</div>
+				</div>
+				
+			  
+			</div>
+		<div class="carousel-item">
+		  <div id="slide2" class="row">
+					<div class="col-6">
+					<img class="d-block" src="images/leaderboard-reward.png" alt="First slide">
+				</div>
+				<div class="col-6">
+					<h3>A reward from us to you</h3>
+					<p class="carouselText">With the help of our partners _______,_____, and _____ Coil provides scholarships to the highest achievers in the class. Our algorithm rewards the students that are participating, engaging, and helping in class the most. These students usually end up being your next teaching assistant. <br /><br />  Coil believes in rewarding the students with the highest participation and values_____.</p>
+				</div>
+				</div>
+		</div>
+		<div class="carousel-item">
+		  <div id="slide3" class="row">
+					<div class="col-6">
+					<img class="d-block" src="images/tools.png" alt="First slide">
+				</div>
+				<div class="col-6">
+					<h3>Collaboration comes in all shapes and sizes</h3>
+					<p class="carouselText">We’ll provide the tools to get your point accross. Whether you need to embed code, math equations, or docs we’ll handle it.</p>
+				</div>
+				</div>
+		</div>
+		</div>
+		<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+			<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			<span class="sr-only">Previous</span>
+		</a>
+		<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+			<span class="carousel-control-next-icon" aria-hidden="true"></span>
+			<span class="sr-only">Next</span>
+		</a>
+		</div>
+<!-- carousel ends here -->
+
+<!-- feature icons -->
+		<h2 class="carouselHeader">Coil is built for educators and learners to work together</h2>
+		<div class="row ">
+			<div class="col-12 feature-icons-all">
+				<div class="child">
+					<img class="feature-icons" src="images/analytics-icon.png">	
+					<p class="feature-icons-text">Analytics</p>
+				</div>
+				<div class="child">
+					<img class="feature-icons" src="images/atom-icon.png">	
+					<p class="feature-icons-text">Create study groups</p>
+				</div>
+				<div class="child">
+					<img class="feature-icons" src="images/telescope-icon.png">
+					<p class="feature-icons-text">Request for 1-on-1</p>
+				</div>
+				<div class="child">
+					<img class="feature-icons" src="images/highlighter-icon.png">
+					<p class="feature-icons-text">Ask questions</p>
+				</div>
+			</div>
+		</div>
+		<div class="row ">
+			<div class="col-12 feature-icons-all">
+				<div class="child">
+					<img class="feature-icons" src="images/medal-icon.png">	
+					<p class="feature-icons-text">Scholarship provided for every class</p>
+				</div>
+				<div class="child">
+					<img class="feature-icons" src="images/certificate-icon.png">	
+					<p class="feature-icons-text">Create study groups</p>
+				</div>
+				<div class="child">
+					<img class="feature-icons" src="images/computer-icon.png">
+					<p class="feature-icons-text">Insert code blocks</p>
+				</div>
+				<div class="child">
+					<img class="feature-icons" src="images/google-docs-icon.png">
+					<p class="feature-icons-text">Embed Google docs</p>
+				</div>
+			</div>
+		</div>
+<!-- feature icons ends here -->
+
+<!-- video loops start here -->
+		<div class="video-loops">
+			<h3 class="video-headers">Help is at your finger tips</h3>
+			<img src="images/triangle-background.png" style="width: 100%;">
+<!-- request 1-on-1 video loop -->
+			<div class="row">
+				<div class="col-6">
+				<img class="video-container"src="images/create-studygroup.gif">
+				</div>
+				<div class="col-6">
+					<img class="video-icons"src="images/video-loop-icon.svg">
+					<p class="video-loop-text">Students get confused - It’s inevitable. Thankfully, there are classmates that understand what's going on and Coil will connect you to them. Students receive the help they need while their classmates gain a deeper understanding of the material after explaining it. This is backed up by the Feynman technique - the guy who won the Nobel Prize in Physics.</p>
+				</div>
+			</div>
+<!--create a coil video loop -->
+			<h3 style="text-align: center;margin-top: 50px;">coils* bring classes together</h3>
+			<div class="row" style="margin-top: 75px;">
+				<div class="col-6">
+					<img class="video-icons"src="images/video-loop-icon-book.svg">
+					<p class="video-loop-text">At Coil, we know that studying with classmates, especially in person, is the most effective way to learn. Coil lets you create a coil - our word for study group - that classmates or educators can join. Whether it's to study for an upcoming test or to simply review material, a coil is where great minds come together to collaborate and educate each other.</p>
+				</div>
+				<div class="col-6">
+				<img class="video-container"src="images/isometric-work-together.png">
+				</div>			
+			</div>
+			<img src="images/half-circle.png" style="width:100%; height: 150px;">
+
+<!-- analytics video loop -->
+			<h3 id="analytics-header">Analytics you care about</h3>
+			<p class="video-loop-text">Coil's analytics help professors make decisions for the better</p>
+			<img id="analytics-video-loop" src="images/blank-desktop.png">
+		</div>
+<!-- video loops end here -->
+		
+<!-- request demo starts here -->
+		<div class="request-demo-div">
+			<h4 id="request-demo-text">Request a demo</h4>
+			<form name="web_form" id="web_form" method="post" action="process-form-data.php">
+        		<p class="form-processing"><label>Enter name: </label><input type="text" name="name" id="name" /></p>
+        		<p class="form-processing"><label>Enter email: </label><input type="text" name="email" id="email" /></p>
+        		<button type="submit">
+					<img src="images/submit.png" />
+				</button>
+			</form>
+		</div>
+
+
+
                 <!-- typed.js injection -->
-                <div class="type-wrap">
+                <!-- <div class="type-wrap">
                     <div id="typed-strings">
                         <h1>Collaborate with your <strong>classmates</strong></h1>
                         <h1>Or get <strong>tutored</strong> by them.</h1>
                     </div>
                     <span id="typed"></span>
-                </div>
+                </div> -->
                 <!-- typed.js ends here -->
-                <div class="hidden-xs">
-                    <center><a href="/product.php" id="productButton" class="btn btn-default btn-lg"><strong>Take the tour</strong></a></center>
-                </div>
-                 <div class="visible-xs hidden-sm hidden-md hidden-lg">
-                    <center><a href="/product.php" id="productButtonXS" class="btn btn-default btn-lg"><strong>Take the tour</strong></a></center>
-                </div>
+              
+                 
                 <!-- typed.js script -->
                 <script>
                     var typed = new Typed('#typed', {
@@ -75,7 +265,7 @@
                     });
                 </script>
                 <!--typed.js ends here -->
-            </div>
+            <!-- </div> -->
         </div>
 
     <footer>
@@ -104,17 +294,13 @@
         </div>
     </footer>
 
-
-    <!-- jQuery 
-    <script src="js/jquery.js"></script>-->
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
-    <!--<script src="js/bootstrap.min.js" type="text/javascript"></script>-->
-    <!-- Including The jQuery Library -->
-    <script src="http://code.jquery.com/jquery-1.6.3.min.js"></script>
-    <!-- Including the PointPoint() Plugin -->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
+    
+   <!-- Including the PointPoint() Plugin -->
     <script src="pointpoint/jquery.pointpoint/transform.js"></script>
     <script src="pointpoint/jquery.pointpoint/jquery.pointpoint.js"></script>
     <!-- The main script file -->
