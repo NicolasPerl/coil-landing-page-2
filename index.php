@@ -10,6 +10,7 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="lib/typed.min.js" type="text/javascript"></script>
+    <script src="lib/modernizr.custom.js"></script>
     <!-- This page's style sheet -->
     <link href="styles/index.css" rel="stylesheet">
     <!-- Mobile Friendly-->
@@ -200,7 +201,7 @@
 <!-- request 1-on-1 video loop -->
 			<div class="row">
 				<div class="col-6">
-				<img class="video-container"src="images/create-studygroup.gif">
+				<img class="video-container"src="images/request-1on1-video.gif">
 				</div>
 				<div class="col-6">
 					<img class="video-icons"src="images/video-loop-icon.svg">
@@ -215,15 +216,27 @@
 					<p class="video-loop-text">At Coil, we know that studying with classmates, especially in person, is the most effective way to learn. Coil lets you create a coil - our word for study group - that classmates or educators can join. Whether it's to study for an upcoming test or to simply review material, a coil is where great minds come together to collaborate and educate each other.</p>
 				</div>
 				<div class="col-6">
-				<img class="video-container"src="images/isometric-work-together.png">
+				<img class="video-container"src="images/create-studygroup-video.gif">
 				</div>			
 			</div>
 			<img src="images/half-circle.png" style="width:100%; height: 150px;">
 
 <!-- analytics video loop -->
-			<h3 id="analytics-header">Analytics you care about</h3>
+			<!-- <h3 id="analytics-header">Analytics you care about</h3>
 			<p class="video-loop-text">Coil's analytics help professors make decisions for the better</p>
 			<img id="analytics-video-loop" src="images/blank-desktop.png">
+			<img src="images/analytics-video.gif"> -->
+			<div class="container">
+				<h3 id="analytics-header">Analytics you care about</h3>
+				<p class="video-loop-text">Coil's analytics help professors make decisions for the better</p>
+			  <div class="row">
+			    <div class="col-sm-12">
+			      <div class="desktop-wrapper">
+			        <img width="560" height="315" src="images/analytics-video.gif" allowfullscreen>
+			      </div>
+			    </div>
+			  </div>
+			</div>
 		</div>
 <!-- video loops end here -->
 		
@@ -233,9 +246,12 @@
 			<form name="web_form" id="web_form" method="post" action="process-form-data.php">
         		<p class="form-processing"><label>Enter name: </label><input type="text" name="name" id="name" /></p>
         		<p class="form-processing"><label>Enter email: </label><input type="text" name="email" id="email" /></p>
-        		<button type="submit">
+        		<!-- <button type="submit">
 					<img src="images/submit.png" />
-				</button>
+				</button> -->
+				<nav class="cl-effect-13">
+					<a href="#"><span data-hover="Murmurous">Murmurous</span></a>
+				</nav>
 			</form>
 		</div>
 

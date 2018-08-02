@@ -5,6 +5,7 @@ body {
   background-color: white;
 }
 
+
 #splashImage{
   height: 100%;
   width:100%;
@@ -91,6 +92,7 @@ body {
     float: right;
     font-size: 15px;
 }
+
 
 
 /*-------buttons end here ------------
@@ -280,12 +282,31 @@ body {
     display: block;
     margin: auto;
   }
+
+div.desktop-wrapper {
+    position: relative;
+    padding-top: 25px;
+    padding-bottom: 67.5%;
+    height: 0;
+}
+div.desktop-wrapper img {
+    box-sizing: border-box;
+    background: url(http://img01.deviantart.net/05b6/i/2011/030/8/5/apple_led_cinema_screen_by_fisshy94-d38e3o5.png) center center no-repeat;
+    background-size: contain;
+    padding: 3.4% 10.8% 18.6%;/* 11.9% 15.5% 14.8% */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
 /*video loops ends here*/
 
 /*request a demo starts here*/
 .request-demo-div{
   min-height: 100px;
-  background: #2232AC;
+  background: #3583CE;
   margin-top: 35px;
 }
 
@@ -302,6 +323,44 @@ body {
   display: inline-grid;
   margin-left: 21%;
 }
+
+/* Effect 13: three circles */
+.cl-effect-13 a {
+  -webkit-transition: color 0.3s;
+  -moz-transition: color 0.3s;
+  transition: color 0.3s;
+}
+
+.cl-effect-13 a::before {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  color: transparent;
+  content: '•';
+  text-shadow: 0 0 transparent;
+  font-size: 1.2em;
+  -webkit-transition: text-shadow 0.3s, color 0.3s;
+  -moz-transition: text-shadow 0.3s, color 0.3s;
+  transition: text-shadow 0.3s, color 0.3s;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  transform: translateX(-50%);
+  pointer-events: none;
+}
+
+.cl-effect-13 a:hover::before,
+.cl-effect-13 a:focus::before {
+  color: #fff;
+  text-shadow: 10px 0 #fff, -10px 0 #fff;
+}
+
+.cl-effect-13 a:hover,
+.cl-effect-13 a:focus {
+  color: #ba7700;
+}
+/*3 circles ends here*/
+
+
 
 /*request a demo ends here*/
 
