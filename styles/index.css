@@ -324,42 +324,74 @@ div.desktop-wrapper img {
   margin-left: 21%;
 }
 
-/* Effect 13: three circles */
-.cl-effect-13 a {
-  -webkit-transition: color 0.3s;
-  -moz-transition: color 0.3s;
-  transition: color 0.3s;
+/* Effect 2: 3D rolling links, idea from http://hakim.se/thoughts/rolling-links */
+.cl-effect-2 a {
+  line-height: 44px;
+  -webkit-perspective: 1000px;
+  -moz-perspective: 1000px;
+  perspective: 1000px;
 }
 
-.cl-effect-13 a::before {
+.cl-effect-2 a span {
+  position: relative;
+  display: inline-block;
+  padding: 0 14px;
+  background: orange; /*#2195de*/
+  -webkit-transition: -webkit-transform 0.3s;
+  -moz-transition: -moz-transform 0.3s;
+  transition: transform 0.3s;
+  -webkit-transform-origin: 50% 0;
+  -moz-transform-origin: 50% 0;
+  transform-origin: 50% 0;
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+
+.cl-effect-2 a span::before {
   position: absolute;
   top: 100%;
-  left: 50%;
-  color: transparent;
-  content: '•';
-  text-shadow: 0 0 transparent;
-  font-size: 1.2em;
-  -webkit-transition: text-shadow 0.3s, color 0.3s;
-  -moz-transition: text-shadow 0.3s, color 0.3s;
-  transition: text-shadow 0.3s, color 0.3s;
-  -webkit-transform: translateX(-50%);
-  -moz-transform: translateX(-50%);
-  transform: translateX(-50%);
-  pointer-events: none;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: white; /*#0965a0*/
+  content: attr(data-hover);
+  -webkit-transition: background 0.3s;
+  -moz-transition: background 0.3s;
+  transition: background 0.3s;
+  -webkit-transform: rotateX(-90deg);
+  -moz-transform: rotateX(-90deg);
+  transform: rotateX(-90deg);
+  -webkit-transform-origin: 50% 0;
+  -moz-transform-origin: 50% 0;
+  transform-origin: 50% 0;
 }
 
-.cl-effect-13 a:hover::before,
-.cl-effect-13 a:focus::before {
+.cl-effect-2 a:hover span,
+.cl-effect-2 a:focus span {
+  -webkit-transform: rotateX(90deg) translateY(-22px);
+  -moz-transform: rotateX(90deg) translateY(-22px);
+  transform: rotateX(90deg) translateY(-22px);
+}
+
+.cl-effect-2 a:hover span::before,
+ .cl-effect-2 a:focus span::before {
+  background: orange;  /**/
+}
+
+#linkeffects{
+  position: relative;
+  display: inline-block;
+  margin: 15px 25px;
+  outline: none;
   color: #fff;
-  text-shadow: 10px 0 #fff, -10px 0 #fff;
+  text-decoration: none;
+  letter-spacing: 1px;
+  font-weight: 400;
+  text-shadow: 0 0 1px rgba(255,255,255,0.3);
+  font-size: 20px;
 }
-
-.cl-effect-13 a:hover,
-.cl-effect-13 a:focus {
-  color: #ba7700;
-}
-/*3 circles ends here*/
-
+/*3d rolling submit button ends here*/
 
 
 /*request a demo ends here*/
@@ -473,26 +505,26 @@ div.desktop-wrapper img {
 /* Code to jumbotron video ends here */
 
 /*footer*/
-#usingCoilFooter  {
-	margin-top: 10%;
-	color: #7C00B2;
-  font-size: 150%;
 
+#footerRow{
+  margin-top: 50px;
+}
+#usingCoilFooter  {
+	color: #7C00B2;
+}
+.footerTitles{
+  font-size: 25px;
 }
 
 #coilFooter {
-	margin-top: 10%;
+
 	color: #E14400;
-  font-size: 150%;
 
 }
 
 #handyLinksFooter {
-	margin-top: 10%;
 	color: #00C7A1;
 	font-family: 'Lato',sans-serif;
-  font-size: 150%;
-
 
 }
 
@@ -504,7 +536,7 @@ div.desktop-wrapper img {
 .footerLinks a {
 	text-decoration: none;
 	color: #778899;
-	font-size: 90%;
+	font-size: 17px;
 	/*margin-bottom: 20%;*/
 }
 
@@ -515,8 +547,14 @@ div.desktop-wrapper img {
 }
 
 #gurusLink {
-  float: right;
-  margin-right: 45%;
+  /*float: right;
+  margin-right: 45%;*/
+  position: relative;
+  float: left;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: 10px;
 }
 
 

@@ -249,14 +249,11 @@
         		<!-- <button type="submit">
 					<img src="images/submit.png" />
 				</button> -->
-				<nav class="cl-effect-13">
-					<a href="#"><span data-hover="Murmurous">Murmurous</span></a>
+				<nav style="text-align: center;"class="cl-effect-2">
+					<a id="linkeffects" type="submit"><span data-hover="Submit">Submit</span></a>
 				</nav>
 			</form>
 		</div>
-
-
-
                 <!-- typed.js injection -->
                 <!-- <div class="type-wrap">
                     <div id="typed-strings">
@@ -285,25 +282,25 @@
         </div>
 
     <footer>
-        <div class="row">
+        <div class="row" id="footerRow">
             <div class="col-sm-4">
-                <center><p id="usingCoilFooter"> using coil</p>
+                <center><p id="usingCoilFooter" class="footerTitles"> using coil</p>
                 <div class="footerLinks">
-                    <a href="/product.php"> product </a><br>
+                    <!-- <a href="/product.php"> product </a><br> -->
                     <a href="#"> prove it </a>
                 </div></center>
             </div>
             <div class="col-sm-4">
-                <center><span class="glyphicon glyphicon-heart" id="coilFooter" aria-hidden="true">coil</span> 
+                <center><span class="glyphicon glyphicon-heart footerTitles" id="coilFooter" aria-hidden="true">coil</span> 
                 <div class="footerLinks">
                     <a href="#"> policy </a><br>
                     <a href="mailto:support@coilapp.com?Subject=Hi%20again!" target="_top">contact us</a>
                 </div></center>
             </div>
             <div class="col-sm-4">
-                <center><p id="handyLinksFooter">tool box</p></center>
+                <center><p id="handyLinksFooter" class="footerTitles">tool box</p></center>
                 <div class="footerLinks">
-                    <a id="toolBox" href="#"> iOS app</a>
+                    <!-- <a id="toolBox" href="#"> iOS app</a> -->
                     <a id="gurusLink" href="/windows/index.html">guru board</a>
                 </div>
             </div>
