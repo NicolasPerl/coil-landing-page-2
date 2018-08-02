@@ -37,7 +37,7 @@
           <nav>
             <ul>
               <li><a href="index.php">home</a></li>
-              <li><a href="product.php">product</a></li>
+              <!-- <li><a href="product.php">product</a></li> -->
               <li><a href="windows/index.html">gurus</a></li>
               <!--<li><a href="#portfolio">Something</a></li>-->
               <li><a href="mailto:support@coilapp.com?Subject=Hi%20again!" target="_top">contact</a></li>

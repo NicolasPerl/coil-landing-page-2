@@ -287,7 +287,7 @@
                 <center><p id="usingCoilFooter" class="footerTitles"> using coil</p>
                 <div class="footerLinks">
                     <!-- <a href="/product.php"> product </a><br> -->
-                    <a href="#"> prove it </a>
+                    <a href="proof.php"> prove it </a>
                 </div></center>
             </div>
             <div class="col-sm-4">
