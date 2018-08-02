@@ -52,7 +52,7 @@
         		<h3 id="splashHeader">Classroom communication software for the 21 century</h3>
         		<p id="splashText">A tool for classrooms to collaborate, announce, meet, and grow together</p>
         		<!-- call to action button -->
-                <center><a href="/product.php" id="productButtonXS" class="btn btn-default btn-lg"><strong>Get started</strong></a></center>
+                <center><a href="http://www.coilapp.com/sign-up" id="productButtonXS" class="btn btn-default btn-lg"><strong>Get started</strong></a></center>
         	</div>
         </div> <!-- end row -->
 
@@ -105,7 +105,7 @@
 			<div class="carousel-item active">
 				<div id="slide1"class="row">
 					<div class="col-6">
-					<img class="d-block" src="images/filter-posts.png" alt="First slide">
+					<img class="d-block" src="images/filter-posts.gif" alt="First slide">
 					<!-- ?auto=yes&bg=777&fg=555&text=First slide -->
 				</div>
 				<div class="col-6">
