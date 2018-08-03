@@ -22,238 +22,289 @@
 
   </head>
   <body>
-      <div class="container-fluid">
-        <div class="row">
-        	<div class="col-6">
-	        	<img src="images/landing-page-logo.png" id="landing-page-logo" alt="coil logo">
-        		
+
+<!-- nav -->
+        <div id="nav_row">
+        	<div class="max_width_container">
+	        	<div class="logo_container">
+		        	<img src="images/coil_logo_clear.png" id="landing-page-logo" alt="coil logo">
+		        	<span> Coil </span>
+	        	</div>
+	        	
+	        	<div class="nav_btns_container">
+	                    <nav class="cl-effect-1">
+	                        <a href="http://www.coilapp.com/">Login</a>
+	                        <a href="http://www.coilapp.com/sign-up">Sign up</a>
+	                    </nav>
+	        	</div>
+	        </div> <!-- max_width_container -->
+        </div> <!-- nav_row -->
+
+
+
+
+
+
+
+
+
+
+
+<!-- main section -->
+        <div class="row max_width_container" id="splash_section">
+        	<div class="col-sm-6">
+        		<img id='splashImage' src="images/isometric-work-together.png">
         	</div>
-        	<div class="col-6">
-        		<!-- <div class="loginButtons"> -->
-                    <nav class="cl-effect-1">
-                        <a href="http://www.coilapp.com/">login</a>
-                        <a href="http://www.coilapp.com/sign-up">signup</a>
-                    </nav>
-        	</div>
-                
-                    <!--
-                    <a class="button" href="#" id="loginButton"><strong>login</strong></a>     
-                    <a class="button" href="#" id="signupButton"><strong>signup</strong></a>-->
-                <!-- </div> -->
-        </div> <!-- end row -->
-        <div class="row">
-        	<div class="col">
-        		<img id='splashImage'src="images/isometric-work-together.png">
-        	</div>
-        	<!-- <div class="splashImage">
-        		
-        	</div> -->
-        	<div class="col">
-        		<h3 id="splashHeader">Classroom communication software for the 21 century</h3>
-        		<p id="splashText">A tool for classrooms to collaborate, announce, meet, and grow together</p>
+
+        	<div class="col-sm-6">
+        		<h3 id="splashHeader">Where College Classes Share Their Knowledge</h3>
+        		<p id="splashText">Coil was built by students so their classmates could learn together, help eachother and earn scholarships.</p>
         		<!-- call to action button -->
-                <center><a href="http://www.coilapp.com/sign-up" id="productButtonXS" class="btn btn-default btn-lg"><strong>Get started</strong></a></center>
+
+                <a href="/product.php" id="productButtonXS" class="btn btn-default btn-lg"><strong>GET STARTED</strong></a>
+
         	</div>
         </div> <!-- end row -->
 
-        <!-- circle layed over greenblock -->
-        <div class="row">
-        	<!-- <div class="circleBase type1">
-        		<p id="circleText">Imagine reducing workload but increasing engagement</p>
-        	</div> -->
-        	
-        	<div id="greenBlock" class="col">
-        		<div class="circle">
-        			<p id="circleText">Imagine reducing <br /> workload but increasing engagement</p>
-        			<p id="circleTextSmall">sounds crazy... we know</p>
-        		</div>
-        		<h3 id="greenBlockText">Coil is free, easy to use, and only takes minutes to set up. But, what makes Coil different?</h3>
-        	</div>
-        </div> <!-- end row -->
-
-        <h2 class="carouselHeader">We'll handle the hard part</h2>
-
-        
-        
 
 
-<!-- carousel starts here -->
-        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-			<ol class="carousel-indicators">
-				<!-- <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-				<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-				<li data-target="#carouselExampleIndicators" data-slide-to="2"></li> -->
-				<div class="row">
-<!-- first slide-->
-        	<div class="col-4" style="display:inherit;">
-				<img data-target="#carouselExampleIndicators" data-slide-to="0" class="emojiCarousel"border="0" alt="microphone" src="images/microphone.png">
-				<p class="carsouselIconText">Dynamic Feed</p>
-        	</div>
-<!-- second slide-->
-        	<div class="col-4" style="display:inherit;">
-				<img data-target="#carouselExampleIndicators" data-slide-to="1" class="emojiCarousel"border="0" alt="microphone" src="images/raisingHandEmoji.png">
-				<p class="carsouselIconText">Participation</p>
-        	</div>
-<!-- third slide-->
-        	<div class="col-4" style="display:inherit;">
-				<img data-target="#carouselExampleIndicators" data-slide-to="2" class="emojiCarousel"border="0" alt="microphone" src="images/wrenchEmoji.png">
-				<p class="carsouselIconText">Tools Provided</p>
-        	</div>
-        </div> <!-- end row -->
-			</ol>
-		<div class="carousel-inner">
-			<div class="carousel-item active">
-				<div id="slide1"class="row">
-					<div class="col-6">
-					<img class="d-block" src="images/filter-posts.gif" alt="First slide">
-					<!-- ?auto=yes&bg=777&fg=555&text=First slide -->
-				</div>
-				<div class="col-6">
-					<h3>All conversation kept in one place</h3>
-					<p class="carouselText">Easily filter unsolved questions, endorse answers, and upload files. Students can choose to post only to educators, and all the contributions to your coil group are archived so there is never a lost post.</p>
-				</div>
-				</div>
-				
-			  
-			</div>
-		<div class="carousel-item">
-		  <div id="slide2" class="row">
-					<div class="col-6">
-					<img class="d-block" src="images/leaderboard-reward.png" alt="First slide">
-				</div>
-				<div class="col-6">
-					<h3>A reward from us to you</h3>
-					<p class="carouselText">With the help of our partners _______,_____, and _____ Coil provides scholarships to the highest achievers in the class. Our algorithm rewards the students that are participating, engaging, and helping in class the most. These students usually end up being your next teaching assistant. <br /><br />  Coil believes in rewarding the students with the highest participation and values_____.</p>
-				</div>
-				</div>
-		</div>
-		<div class="carousel-item">
-		  <div id="slide3" class="row">
-					<div class="col-6">
-					<img class="d-block" src="images/tools.png" alt="First slide">
-				</div>
-				<div class="col-6">
-					<h3>Collaboration comes in all shapes and sizes</h3>
-					<p class="carouselText">We’ll provide the tools to get your point accross. Whether you need to embed code, math equations, or docs we’ll handle it.</p>
-				</div>
-				</div>
-		</div>
-		</div>
-		<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-			<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-			<span class="sr-only">Previous</span>
-		</a>
-		<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-			<span class="carousel-control-next-icon" aria-hidden="true"></span>
-			<span class="sr-only">Next</span>
-		</a>
-		</div>
-<!-- carousel ends here -->
+
+
+
+
+
 
 <!-- feature icons -->
-		<h2 class="carouselHeader">Coil is built for educators and learners to work together</h2>
-		<div class="row ">
-			<div class="col-12 feature-icons-all">
-				<div class="child">
-					<img class="feature-icons" src="images/analytics-icon.png">	
-					<p class="feature-icons-text">Analytics</p>
+		<h2 class="featuresHeader">Coil was built for educators and learners to work together</h2>
+		<div class="row max_width_container featuresRow">
+			<div class="col-sm-6">
+				<div class="prof_features_header">
+					Professors
 				</div>
-				<div class="child">
-					<img class="feature-icons" src="images/atom-icon.png">	
-					<p class="feature-icons-text">Create study groups</p>
+				<div class="row top_features_row">
+					<div class="col-6">
+						<img class="feature-icons" src="images/student_analytics.png">	
+						<p class="feature-icons-text">Student-Specific Analytics</p>
+					</div>
+					<div class="col-6">
+						<img class="feature-icons" src="images/certificate-icon.png">	
+						<p class="feature-icons-text">Find Your Next TA</p>
+					</div>
 				</div>
-				<div class="child">
-					<img class="feature-icons" src="images/telescope-icon.png">
-					<p class="feature-icons-text">Request for 1-on-1</p>
-				</div>
-				<div class="child">
-					<img class="feature-icons" src="images/highlighter-icon.png">
-					<p class="feature-icons-text">Ask questions</p>
+				<div class="row ">
+					<div class="col-6">
+						<img class="feature-icons" src="images/hourglass.png">
+						<p class="feature-icons-text">Save Time & Effort</p>
+					</div>
+					<div class="col-6">
+						<img class="feature-icons" src="images/megaphone.png">
+						<p class="feature-icons-text">Make Announcements</p>
+					</div>
 				</div>
 			</div>
-		</div>
-		<div class="row ">
-			<div class="col-12 feature-icons-all">
-				<div class="child">
-					<img class="feature-icons" src="images/medal-icon.png">	
-					<p class="feature-icons-text">Scholarship provided for every class</p>
+
+			<div class="col-sm-6">
+				<div class="student_features_header">
+					Students
 				</div>
-				<div class="child">
-					<img class="feature-icons" src="images/certificate-icon.png">	
-					<p class="feature-icons-text">Create study groups</p>
+				<div class="row top_features_row">
+					<div class="col-6">
+						<img class="feature-icons" src="images/qa.png">
+						<p class="feature-icons-text">Get Questions Answered</p>
+					</div>
+					<div class="col-6">
+						<img class="feature-icons" src="images/study-group595.png">	
+						<p class="feature-icons-text">Create Study Groups</p>
+					</div>
 				</div>
-				<div class="child">
-					<img class="feature-icons" src="images/computer-icon.png">
-					<p class="feature-icons-text">Insert code blocks</p>
-				</div>
-				<div class="child">
-					<img class="feature-icons" src="images/google-docs-icon.png">
-					<p class="feature-icons-text">Embed Google docs</p>
+				<div class="row ">
+					<div class="col-6">
+						<img class="feature-icons" src="images/tutoring_icon.png">
+						<p class="feature-icons-text">Request for Tutoring</p>
+					</div>
+					<div class="col-6">
+						<img class="feature-icons" src="images/scholarship_icon.png">	
+						<p class="feature-icons-text">Earn Micro-Scholarships</p>
+					</div>
 				</div>
 			</div>
 		</div>
 <!-- feature icons ends here -->
 
-<!-- video loops start here -->
-		<div class="video-loops">
-			<h3 class="video-headers">Help is at your finger tips</h3>
-			<img src="images/triangle-background.png" style="width: 100%;">
-<!-- request 1-on-1 video loop -->
-			<div class="row">
-				<div class="col-6">
-				<img class="video-container"src="images/request-1on1-video.gif">
-				</div>
-				<div class="col-6">
-					<img class="video-icons"src="images/video-loop-icon.svg">
-					<p class="video-loop-text">Students get confused - It’s inevitable. Thankfully, there are classmates that understand what's going on and Coil will connect you to them. Students receive the help they need while their classmates gain a deeper understanding of the material after explaining it. This is backed up by the Feynman technique - the guy who won the Nobel Prize in Physics.</p>
-				</div>
-			</div>
-<!--create a coil video loop -->
-			<h3 style="text-align: center;margin-top: 50px;">coils* bring classes together</h3>
-			<div class="row" style="margin-top: 75px;">
-				<div class="col-6">
-					<img class="video-icons"src="images/video-loop-icon-book.svg">
-					<p class="video-loop-text">At Coil, we know that studying with classmates, especially in person, is the most effective way to learn. Coil lets you create a coil - our word for study group - that classmates or educators can join. Whether it's to study for an upcoming test or to simply review material, a coil is where great minds come together to collaborate and educate each other.</p>
-				</div>
-				<div class="col-6">
-				<img class="video-container"src="images/create-studygroup-video.gif">
-				</div>			
-			</div>
-			<img src="images/half-circle.png" style="width:100%; height: 150px;">
 
-<!-- analytics video loop -->
-			<!-- <h3 id="analytics-header">Analytics you care about</h3>
-			<p class="video-loop-text">Coil's analytics help professors make decisions for the better</p>
-			<img id="analytics-video-loop" src="images/blank-desktop.png">
-			<img src="images/analytics-video.gif"> -->
-			<div class="container">
-				<h3 id="analytics-header">Analytics you care about</h3>
-				<p class="video-loop-text">Coil's analytics help professors make decisions for the better</p>
+
+
+
+
+
+
+
+
+
+
+<!-- carousel starts here -->
+	<div class="carousel_container">
+	<div class="max_width_container">
+
+		<h2 class="carouselHeader">Not an ordinary discussion board</h2>
+		<p class="description_text">Tools to receive help when you desperately need it</p>
+
+		<nav>
+		  <div class="nav nav-tabs" id="nav-tab" role="tablist">
+		    <a class="nav-item nav-link active" id="nav-post-tab" data-toggle="tab" href="#nav-post" role="tab" aria-controls="nav-post" aria-selected="true"><img class="create_post_icon" border="0" alt="create post" src="images/create_post_icon.png">Create Beautiful Posts</a>
+		    <a class="nav-item nav-link" id="nav-studyGroup-tab" data-toggle="tab" href="#nav-studyGroup" role="tab" aria-controls="nav-studyGroup" aria-selected="false"><img class="create_post_icon" border="0" alt="create study group" src="images/study-group595.png">Create Study Groups</a>
+		    <a class="nav-item nav-link" id="nav-tutoring-tab" data-toggle="tab" href="#nav-tutoring" role="tab" aria-controls="nav-tutoring" aria-selected="false"><img class="create_post_icon" border="0" alt="request_for_tutoring" src="images/tutoring_icon.png">Request for Tutoring</a>
+		  </div>
+		</nav>
+
+		<div class="tab-content" id="nav-tabContent">
+
+		  <div class="tab-pane fade show active" id="nav-post" role="tabpanel" aria-labelledby="nav-post-tab">
+		  		<div class="row">
+					<div class="col-sm-6">
+						<img class="d-block" src="images/beautiful_post.png" alt="create beautiful posts">
+					</div>
+					<div class="col-sm-6">
+						<h3>Communicate clearly with Coil's text editor</h3>
+						<p class="carouselText">Coil provides the writing tools you need to get your point across effectively. Our text editor supports full markdown syntax, embeded code, simple math equations, all file types, and even google docs.</p>
+					</div>
+				</div>
+		  </div>
+
+		  <div class="tab-pane fade" id="nav-studyGroup" role="tabpanel" aria-labelledby="nav-studyGroup-tab">
+			  	<div class="row">
+					<div class="col-sm-6">
+						<img class="d-block" src="images/create-studygroup-video.gif" alt="Create study groups">
+					</div>
+					<div class="col-sm-6">
+						<h3>Coils* bring classmates together to learn</h3>
+						<p class="carouselText">At Coil, we know that studying with classmates, especially in person, is the most effective way to learn. Create a coil - our word for study group - that classmates or educators can join. Whether it's to study for an upcoming test or to simply review material, a coil is where great minds come together to collaborate and educate each other.</p>
+					</div>
+				</div>
+		  </div>
+
+		  <div class="tab-pane fade" id="nav-tutoring" role="tabpanel" aria-labelledby="nav-tutoring-tab">
+	  			<div class="row">
+					<div class="col-sm-6">
+						<img class="d-block" src="images/request-1on1-video.gif" alt="Request for tutoring">
+					</div>
+					<div class="col-sm-6">
+						<h3>Receive 1-on-1 help from your smartest classmates</h3>
+						<p class="carouselText">Students get confused - It’s inevitable. Thankfully, there are classmates that understand what's going on and Coil will connect you to them. Students receive the help they need while their helping classmate gains a deeper understanding of the material by explaining it. This is backed up by the <a href="/proof.php">Feynman technique</a> - the educator who won the Nobel Prize in Physics.</p>
+					</div>
+				</div>
+		  </div>
+		</div> <!-- nav-tabContent -->
+
+
+		<div class="desktop-wrapper">
+	        <img width="560" height="315" src="images/class_feed_gif.gif" allowfullscreen>
+	    </div>
+        
+	</div>  <!-- max_width_container -->
+	</div> <!-- carousel_container -->
+
+<!-- carousel ends here -->
+
+
+
+
+
+
+
+
+
+<!-- Scholarship section start here -->
+		<div class="scholarship_container">
+		<div class="max_width_container">
+			<h3 class="scholarship_header">Students earn micro-scholarships</h3>
+
+			<div class="row">
+				<div class="col-sm-6">
+					<img class="scholarship_desc_icon" src="images/scholarship_icon.png">
+					<p class="scholarship_desc">When students buy their textbooks via Coil, we donate money to their class scholarship, which is earned by the highest achievers in the class, whether it's a student or TA. Our algorithm rewards the students that are participating, engaging, and most importantly helping their classamtes the most. These students usually end up being your next teaching assistant. <br /><br />  </p>
+				</div>
+
+				<div class="col-sm-6">
+					<img src="images/leaderboard_pic.png" class="leaderboard_pic">
+				</div>
+			</div> <!--  row -->
+		</div> <!-- max_width_container -->
+		</div> <!-- scholarship_container -->
+<!-- Scholarship section ends here -->
+
+
+
+
+
+
+
+
+
+<!-- analytics section -->
+			<div class="analytics_container">
+			<div class="max_width_container">
+				<h3 id="analytics-header">Analytics that professors care about</h3>
+				<div class="analytics-text-container">
+					<p class="analytics-text">Coil's analytics give professors the insights they need about their class and individual students. Find students who may need extra help by seeing who asks the most questions. Find your high-level learning students by seeing who answers the most questions.</p>
+				</div>
 			  <div class="row">
-			    <div class="col-sm-12">
-			      <div class="desktop-wrapper">
-			        <img width="560" height="315" src="images/analytics-video.gif" allowfullscreen>
-			      </div>
+			  	<div class="col-sm-6">
+			    	<img src="images/short_analytics.png" class="analytics_media">
+			    </div>
+			    <div class="col-sm-6">
+			      <img src="images/analytics_gif.gif" class="analytics_media2">
 			    </div>
 			  </div>
-			</div>
-		</div>
-<!-- video loops end here -->
+			</div> <!-- max_width_container -->
+			</div> <!-- analytics_container -->
+<!-- analytics section ends here -->
 		
+
+
+
+
+
+
+
+
 <!-- request demo starts here -->
-		<div class="request-demo-div">
-			<h4 id="request-demo-text">Request a demo</h4>
-			<form name="web_form" id="web_form" method="post" action="process-form-data.php">
-        		<p class="form-processing"><label>Enter name: </label><input type="text" name="name" id="name" /></p>
-        		<p class="form-processing"><label>Enter email: </label><input type="text" name="email" id="email" /></p>
-        		<!-- <button type="submit">
-					<img src="images/submit.png" />
-				</button> -->
-				<nav style="text-align: center;"class="cl-effect-2">
-					<a id="linkeffects" type="submit"><span data-hover="Submit">Submit</span></a>
-				</nav>
-			</form>
-		</div>
+
+		
+
+		<div class="request_demo_container">
+		<div class="max_width_container">
+			<div class="demo_input_container">
+				<h1>Implement Coil into your class for free</h1>
+				<a href="/product.php" id="productButton2" class="btn btn-default btn-lg"><strong>GET STARTED</strong></a>
+				
+				<h3>Want to try a demo first?</h3>
+				<form name="web_form" id="web_form" method="post" action="process-form-data.php">
+					<input type="email" name="demo_email_input" class="demo_email_input" placeholder="Email address" required>
+					<input type="submit" name="submit_demo" class="submit_demo" value="Demo Coil">
+				</form>
+			</div>
+		</div> <!-- max_width_container -->
+		</div> <!-- request_demo_container -->
+
+
+
+
+		<footer>
+			<div class="max_width_container">
+				<div class="logo_container">
+		        	<img src="images/coil_logo_clear.png" id="landing-page-logo" alt="coil logo">
+		        	<span> Coil </span>
+	        	</div>
+
+	        	<div class="contact_container">
+	        		<img src="images/gmail.png">
+	        		<div class="contact_email">support@coilapp.com</div>
+	        	</div>
+        	</div> <!-- max_width_container -->
+	    </footer>
+
+
                 <!-- typed.js injection -->
                 <!-- <div class="type-wrap">
                     <div id="typed-strings">
@@ -279,33 +330,8 @@
                 </script>
                 <!--typed.js ends here -->
             <!-- </div> -->
-        </div>
+       </div> <!-- full_page_container -->
 
-    <footer>
-        <div class="row" id="footerRow">
-            <div class="col-sm-4">
-                <center><p id="usingCoilFooter" class="footerTitles"> using coil</p>
-                <div class="footerLinks">
-                    <!-- <a href="/product.php"> product </a><br> -->
-                    <a href="proof.php"> prove it </a>
-                </div></center>
-            </div>
-            <div class="col-sm-4">
-                <center><span class="glyphicon glyphicon-heart footerTitles" id="coilFooter" aria-hidden="true">coil</span> 
-                <div class="footerLinks">
-                    <a href="#"> policy </a><br>
-                    <a href="mailto:support@coilapp.com?Subject=Hi%20again!" target="_top">contact us</a>
-                </div></center>
-            </div>
-            <div class="col-sm-4">
-                <center><p id="handyLinksFooter" class="footerTitles">tool box</p></center>
-                <div class="footerLinks">
-                    <!-- <a id="toolBox" href="#"> iOS app</a> -->
-                    <a id="gurusLink" href="/windows/index.html">guru board</a>
-                </div>
-            </div>
-        </div>
-    </footer>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <!-- Include all compiled plugins (below), or include individual files as needed -->

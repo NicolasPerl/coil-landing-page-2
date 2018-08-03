@@ -1,9 +1,9 @@
 <?php
-$name = $_POST['name'];
-$email = $_POST['email'];
+$email = $_POST['demo_email_input'];
 $fp = fopen("requestDemo.txt", "a");
-$savestring = $name . "," . $email . "\n";
+$savestring = $email . "\n";
 fwrite($fp, $savestring);
 fclose($fp);
-echo "<h1>Thank you for reaching out! We'll be in touch shortly</h1>";
+header("location: https://demo.coilapp.com");
+// echo "<h1>Thank you for reaching out! We'll be in touch shortly</h1>";
 ?>
