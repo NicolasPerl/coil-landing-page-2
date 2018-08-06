@@ -28,7 +28,7 @@
         	<div class="max_width_container">
 	        	<div class="logo_container">
 		        	<img src="images/coil_logo_clear.png" id="landing-page-logo" alt="coil logo">
-		        	<span> Coil </span>
+		        	<span> coil </span>
 	        	</div>
 	        	
 	        	<div class="nav_btns_container">
@@ -58,7 +58,7 @@
 
         	<div class="col-sm-6">
         		<h3 id="splashHeader">Where College Classes Share Their Knowledge</h3>
-        		<p id="splashText">Coil was built by students so their classmates could learn together, help eachother and earn scholarships.</p>
+        		<p id="splashText">Coil was built by students so classes could learn together, help each other, and earn scholarships.</p>
         		<!-- call to action button -->
 
                 <a href="/product.php" id="productButtonXS" class="btn btn-default btn-lg"><strong>GET STARTED</strong></a>
@@ -222,7 +222,7 @@
 			<div class="row">
 				<div class="col-sm-6">
 					<img class="scholarship_desc_icon" src="images/scholarship_icon.png">
-					<p class="scholarship_desc">When students buy their textbooks via Coil, we donate money to their class scholarship, which is earned by the highest achievers in the class, whether it's a student or TA. Our algorithm rewards the students that are participating, engaging, and most importantly helping their classamtes the most. These students usually end up being your next teaching assistant. <br /><br />  </p>
+					<p class="scholarship_desc">When students buy their textbooks through Coil, we donate money to their class scholarship, which is earned by the highest achievers in the class, whether it's a student or teaching assistant. Our algorithm rewards the students that are participating, engaging, and helping their classamtes the most. These students usually end up being your next teaching assistant. <br /><br />  </p>
 				</div>
 
 				<div class="col-sm-6">
