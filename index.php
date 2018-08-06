@@ -33,8 +33,8 @@
 	        	
 	        	<div class="nav_btns_container">
 	                    <nav class="cl-effect-1">
-	                        <a href="http://www.coilapp.com/">Login</a>
-	                        <a href="http://www.coilapp.com/sign-up">Sign up</a>
+	                        <a href="http://www.campus.coilapp.com/">Login</a>
+	                        <a href="http://www.campus.coilapp.com/sign-up">Sign up</a>
 	                    </nav>
 	        	</div>
 	        </div> <!-- max_width_container -->
