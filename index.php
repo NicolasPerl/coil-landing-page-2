@@ -33,8 +33,8 @@
 	        	
 	        	<div class="nav_btns_container">
 	                    <nav class="cl-effect-1">
-	                        <a href="http://www.campus.coilapp.com/">Login</a>
-	                        <a href="http://www.campus.coilapp.com/sign-up">Sign up</a>
+	                        <a href="https://utaustin.coilapp.com">Login</a>
+	                        <a href="https://utaustin.coilapp.com/sign-up">Sign up</a>
 	                    </nav>
 	        	</div>
 	        </div> <!-- max_width_container -->
@@ -61,7 +61,7 @@
         		<p id="splashText">Coil was built by students so classes could learn together, help each other, and earn scholarships.</p>
         		<!-- call to action button -->
 
-                <a href="/product.php" id="productButtonXS" class="btn btn-default btn-lg"><strong>GET STARTED</strong></a>
+                <a href="https://utaustin.coilapp.com/sign-up" id="productButtonXS" class="btn btn-default btn-lg"><strong>GET STARTED</strong></a>
 
         	</div>
         </div> <!-- end row -->
@@ -276,7 +276,7 @@
 		<div class="max_width_container">
 			<div class="demo_input_container">
 				<h1>Implement Coil into your class for free</h1>
-				<a href="/product.php" id="productButton2" class="btn btn-default btn-lg"><strong>GET STARTED</strong></a>
+				<a href="https://utaustin.coilapp.com/sign-up" id="productButton2" class="btn btn-default btn-lg"><strong>GET STARTED</strong></a>
 				
 				<h3>Want to try a demo first?</h3>
 				<form name="web_form" id="web_form" method="post" action="process-form-data.php">
