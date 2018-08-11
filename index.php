@@ -33,8 +33,8 @@
 	        	
 	        	<div class="nav_btns_container">
 	                    <nav class="cl-effect-1">
-	                        <a href="https://utaustin.coilapp.com">Login</a>
-	                        <a href="https://utaustin.coilapp.com/sign-up">Sign up</a>
+	                        <a href="https://utaustin.coilapp.com">Login</a> 
+	                        <a href="https://utaustin.coilapp.com/sign-up">Sign up</a> 
 	                    </nav>
 	        	</div>
 	        </div> <!-- max_width_container -->
@@ -62,7 +62,7 @@
         		<!-- call to action button -->
 
                 <a href="https://utaustin.coilapp.com/sign-up" id="productButtonXS" class="btn btn-default btn-lg"><strong>GET STARTED</strong></a>
-
+                
         	</div>
         </div> <!-- end row -->
 
