@@ -178,7 +178,7 @@
 					</div>
 					<div class="col-sm-6">
 						<h3>Coils* bring classmates together to learn</h3>
-						<p class="carouselText">At Coil, we know that studying with classmates, especially in person, is the most effective way to learn. Create a coil - our word for study group - that classmates or educators can join. Whether it's to study for an upcoming test or to simply review material, a coil is where great minds come together to collaborate and educate each other.</p>
+						<p class="carouselText">At Coil, we know that studying with classmates, especially in person, is the most effective way to learn. Create a study group that classmates or educators can join. Whether it's to study for an upcoming test or to simply review material, a coil is where great minds come together to collaborate and educate each other.</p>
 					</div>
 				</div>
 		  </div>
@@ -221,8 +221,8 @@
 
 			<div class="row">
 				<div class="col-sm-6">
-					<img class="scholarship_desc_icon" src="images/scholarship_icon.png">
-					<p class="scholarship_desc">When students buy their textbooks through Coil, we donate money to their class scholarship, which is earned by the highest achievers in the class, whether it's a student or teaching assistant. Our algorithm rewards the students that are participating, engaging, and helping their classamtes the most. These students usually end up being your next teaching assistant. <br /><br />  </p>
+					<img class="scholarship_desc_icon" src="images/money.png">
+					<p class="scholarship_desc">When students buy their textbooks through Coil, we donate money to their class scholarship, which is earned by the highest achievers in the class, whether it's a student or teaching assistant. Our algorithm distributes Coil coins, which can be redeemed for scholarship dollars, to the students that are participating, engaging, and helping their classamtes the most. These students usually end up being your next teaching assistant. <br /><br />  </p>
 				</div>
 
 				<div class="col-sm-6">
