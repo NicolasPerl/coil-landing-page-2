@@ -177,8 +177,8 @@
 						<img class="d-block" src="images/create-studygroup-video.gif" alt="Create study groups">
 					</div>
 					<div class="col-sm-6">
-						<h3>Coils* bring classmates together to learn</h3>
-						<p class="carouselText">At Coil, we know that studying with classmates, especially in person, is the most effective way to learn. Create a study group that classmates or educators can join. Whether it's to study for an upcoming test or to simply review material, a coil is where great minds come together to collaborate and educate each other.</p>
+						<h3>Classmates learn better together</h3>
+						<p class="carouselText">At Coil, we know that studying with classmates, especially in person, is the most effective way to learn. We give you the ability to create a study group that classmates or educators can join. Whether it's to study for an upcoming test or to simply review material, this is where great minds come together to collaborate and educate each other.</p>
 					</div>
 				</div>
 		  </div>
