@@ -25,6 +25,7 @@
 	  window.dataLayer = window.dataLayer || [];
 	  function gtag(){dataLayer.push(arguments);}
 	  gtag('js', new Date());
+
 	  gtag('config', 'UA-90907253-4');
 	</script>
 	<!-- Google Tag Manager -->
@@ -41,6 +42,7 @@
 		<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KC48S28"
 		height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 		<!-- End Google Tag Manager (noscript) -->
+
 
 <!-- nav -->
         <div id="nav_row">
@@ -80,7 +82,10 @@
         		<p id="splashText">Coil was built by students so classes could learn together, help each other, and earn scholarships.</p>
         		<!-- call to action button -->
 
-                <a href="/collegePickerSignup.php" id="productButtonXS" class="btn btn-default btn-lg"><strong>GET STARTED</strong></a>
+
+        		<!-- if you change the text 'get started' change google analytics trigger -->
+                <a href="/collegePickerSignup.php" id="productButtonXS" class="btn btn-default btn-lg ctaAnalytics"><strong class="ctaAnalytics">GET STARTED</strong></a>
+
                 
         	</div>
         </div> <!-- end row -->
