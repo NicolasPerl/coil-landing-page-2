@@ -46,7 +46,7 @@
 					</div>
 
 					<div class="col-sm-4" id="column">
-						<a href="/comingSoon.php">
+						<a href="https://tamu.coilapp.com">
 							<div class="universityPod">
 								<img id="logos" src="/images/TAMU_logo.png">
 							</div>
