@@ -616,7 +616,7 @@
 
         <div class="smallsep heading"></div>
 
-        <h4>Come back Monday, August 27th to signup!</h4>
+        <h4></h4>
         <!-- <h4>Click below if you want Coil at your school this Fall</h4> -->
       </div>
  
