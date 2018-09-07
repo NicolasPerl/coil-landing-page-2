@@ -246,7 +246,7 @@
 			<div class="row">
 				<div class="col-sm-6">
 					<img class="scholarship_desc_icon" src="images/money.png">
-					<p class="scholarship_desc">Each class on coil has a scholarship, which is earned by the highest achievers in the class, whether it's a student or teaching assistant. Our algorithm distributes Coil coins, which can be redeemed for scholarship dollars, to the students that are participating, engaging, and helping their classamtes the most. These students usually end up being your next teaching assistant. <br /><br />  </p>
+					<p class="scholarship_desc">Each class on coil has a scholarship, which is earned by the highest achievers in the class, whether it's a student or teaching assistant. Our algorithm distributes Coil coins, which can be redeemed for scholarship dollars, to the students that are participating, engaging, and helping their classmates the most. These students usually end up being your next teaching assistant. <br /><br />  </p>
 				</div>
 				<!-- When students buy their textbooks through Coil, we donate money to their class scholarship, which is earned by the highest achievers in the class, whether it's a student or teaching assistant. Our algorithm distributes Coil coins, which can be redeemed for scholarship dollars, to the students that are participating, engaging, and helping their classamtes the most. These students usually end up being your next teaching assistant. -->
 
