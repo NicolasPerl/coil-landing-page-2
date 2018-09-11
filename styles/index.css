@@ -157,8 +157,116 @@ body {
 
 
 
+.fadedBackground {
+  width: 100%;
+  height: 200px;
+  background: #FF6161;
+  background: -moz-linear-gradient(-45deg, #1D3D5D 0%, #C05A24 100%);
+  background: -webkit-linear-gradient(-45deg, #1D3D5D 0%, #C05A24 100%);
+  background: linear-gradient(135deg, #1D3D5D 0%, #C05A24 100%);
+ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e55d87', endColorstr='#5fc3e4', GradientType=1 );
+}
+
+#column {
+  padding: 0px 50px;
+}
+
+#row {
+  margin-left: 0px;
+  margin-right: 0px;
+  padding: 14px 0px;
+}
+
+.universityHeader {
+    display: block;
+    width: 100%;
+    color: white;
+    text-align: center;
+    font-size: 27px;
+    margin-bottom: 5px;
+}
+.widthContainer {
+
+}
+
+.universityPod {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0px 4px 30px 1px #222;
+    min-height: 100px;
+    text-align: center;
+    padding: 21px;
+    min-width: 190px;
+    max-width: 200px;
+    display: block;
+    margin: auto;
+}
+
+.universityLogo {
+
+}
+
+#logos {
+  height: 75px;
+}
+
+@media(max-width: 450px) {
+
+  .fadedBackground {
+    width: 100%;
+    height: 350px;
+    background: #FF6161;
+    background: -moz-linear-gradient(-45deg, #1D3D5D 0%, #C05A24 100%);
+    background: -webkit-linear-gradient(-45deg, #1D3D5D 0%, #C05A24 100%);
+    background: linear-gradient(135deg, #1D3D5D 0%, #C05A24 100%);
+   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e55d87', endColorstr='#5fc3e4', GradientType=1 );
+  }
+
+  #column {
+    padding: 0px 50px;
+  }
+
+  #row {
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 14px 0px;
+  }
+
+  .universityHeader {
+      display: block;
+      width: 100%;
+      color: white;
+      text-align: center;
+      font-size: 21px;
+      margin-bottom: 5px;
+  }
+  .widthContainer {
+
+  }
+
+  .universityPod {
+      background-color: white;
+      border-radius: 8px;
+      box-shadow: 0px 4px 30px 1px #222;
+      min-height: 100px;
+      text-align: center;
+      padding: 21px;
+      min-width: 190px;
+      max-width: 200px;
+      display: block;
+      margin: auto;
+  }
+
+  .universityLogo {
+
+  }
+
+  #logos {
+    height: 75px;
+  }
 
 
+}
 
 
 

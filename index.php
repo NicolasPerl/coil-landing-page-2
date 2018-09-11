@@ -93,6 +93,30 @@
 
 
 
+<!-- colleges section -->
+
+		<div class="row fadedBackground" id="row">
+
+				<div class="universityHeader">
+					Loved by thousands of students at
+				</div>
+
+				<!-- <div class="widthContainer"> -->
+
+					<div class="col-sm-6" id="column">
+						<div class="universityPod">
+							<img id="logos" src="/images/TAMU_logo.png">
+						</div>
+					</div>
+
+					<div class="col-sm-6" id="column">
+						<div class="universityPod">
+							<img id="logos" src="/images/UT_logo.png">
+						</div>
+					</div>
+						
+				<!-- </div> -->
+		</div>
 
 
 
