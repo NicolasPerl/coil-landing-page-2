@@ -12,7 +12,7 @@
     <script src="lib/typed.min.js" type="text/javascript"></script>
     <script src="lib/modernizr.custom.js"></script>
     <!-- This page's style sheet -->
-    <link href="styles/index.css" rel="stylesheet">
+    <link href="styles/index.css?v1.0" rel="stylesheet">
     <!-- Mobile Friendly-->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!--favicon in tab-->
